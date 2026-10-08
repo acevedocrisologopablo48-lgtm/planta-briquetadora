@@ -1,9 +1,9 @@
-# PLANTA BRIQUETADORA · SESUVECA
+# PLANTA BRIQUETADORA — SESUVECA
 
-Configurador 3D de implantación con equipos a escala en milímetros, fajas modulares, soportes detallados, seis vistas, cotas vinculadas, historial y exportación JSON/PDF/DXF.
+Configurador CAD industrial publicado en GitHub Pages.
 
-La referencia inicial es R5. Las propuestas se guardan exclusivamente en el navegador; descargar JSON permite respaldarlas, trasladarlas o compartirlas. No se publican los borradores de los visitantes.
+Revisión R9: disposición compacta mediante módulos y pendientes revisadas, con cuerpos originales conservados. Instalación con accesos 63,329 m; cinco cintas principales 33,720 m. Referencias R4–R8 y propuestas locales permanecen disponibles. C03 nominal de origen 12000 mm; adaptación P de 10040 mm exteriores.
 
-Los soportes y anclajes son propuestas geométricas P, pendientes de cálculo estructural. Las interfaces R, especialmente extracción C05 y descarga del secador, requieren confirmación del fabricante. El modelo sirve para revisar alternativas de distribución y no es un plano de fabricación aprobado.
+Las propuestas se guardan en este navegador. Descarga JSON para respaldar o compartir. Las alternativas de aglomerante, caudales, reparto y recorrido del secador requieren definición externa.
 
-Este repositorio contiene la distribución compilada para GitHub Pages. El código fuente editable y los planos de referencia se entregan por separado al propietario del proyecto.
+Enlace: https://acevedocrisologopablo48-lgtm.github.io/planta-briquetadora/
