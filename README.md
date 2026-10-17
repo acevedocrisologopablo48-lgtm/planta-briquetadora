@@ -1,9 +1,7 @@
-# PLANTA BRIQUETADORA — SESUVECA
+# PLANTA BRIQUETADORA · SESUVECA
 
-Configurador CAD industrial publicado en GitHub Pages.
+Referencia actual R10: adaptador superior de prensa corregido, alimentación centrada con las caras reales de rodillos, boca nativa 240 × 344 mm, ficha de medidas vivas y agua medida configurable por cargas o continua.
 
-Revisión R9: disposición compacta mediante módulos y pendientes revisadas, con cuerpos originales conservados. Instalación con accesos 63,329 m; cinco cintas principales 33,720 m. Referencias R4–R8 y propuestas locales permanecen disponibles. C03 nominal de origen 12000 mm; adaptación P de 10040 mm exteriores.
+Se conservan R4–R9 y los borradores locales. Las propuestas se guardan exclusivamente en el navegador; exportar JSON permite respaldarlas. No se publican propuestas de visitantes.
 
-Las propuestas se guardan en este navegador. Descarga JSON para respaldar o compartir. Las alternativas de aglomerante, caudales, reparto y recorrido del secador requieren definición externa.
-
-Enlace: https://acevedocrisologopablo48-lgtm.github.io/planta-briquetadora/
+El centro de rodillos es una referencia geométrica del R03 conceptual; la altura de ejes sigue estimada. Cuello inferior, desprendimiento y resistencia de la briqueta, reparto, caudal, receta de agua y cálculo estructural permanecen pendientes. Las consignas no accionan equipos reales.
