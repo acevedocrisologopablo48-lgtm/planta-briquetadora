@@ -1,7 +1,5 @@
-# PLANTA BRIQUETADORA / R11
+# PLANTA BRIQUETADORA / R12
 
-Configurador 3D de SESUVECA. Referencia inicial R11: tolva principal modificada, colectora C05 con calces de 25 mm, recepción coordinada C03 y suministro de agua visible.
+Configurador 3D de SESUVECA. C05 elevada250 mm respecto de R11: banda1225, envolvente inferior de rodillos1332,75 mm R y holgura107,75 mm geométrica. Punto real de desprendimiento pendiente.
 
-Las revisiones R4 a R10 permanecen disponibles en Alternativas. Los proyectos se guardan en el navegador; exportar JSON permite trasladarlos.
-
-O: documentado; P: propuesta; R: referencial. La altura montada de tolva, los pasos con briquetas, el agua, la selección mecánica y las interfaces del secador requieren las validaciones indicadas en el configurador. No es un plano aprobado para fabricación.
+Nuevo pórtico, bastidor y collar P con comprobación geométrica de superficies; cálculo estructural y validación del producto pendientes. R4–R11 y los borradores se conservan en Alternativas.
