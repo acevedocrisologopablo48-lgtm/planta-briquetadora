@@ -1,7 +1,7 @@
-# PLANTA BRIQUETADORA · SESUVECA
+# PLANTA BRIQUETADORA / R11
 
-Referencia actual R10: adaptador superior de prensa corregido, alimentación centrada con las caras reales de rodillos, boca nativa 240 × 344 mm, ficha de medidas vivas y agua medida configurable por cargas o continua.
+Configurador 3D de SESUVECA. Referencia inicial R11: tolva principal modificada, colectora C05 con calces de 25 mm, recepción coordinada C03 y suministro de agua visible.
 
-Se conservan R4–R9 y los borradores locales. Las propuestas se guardan exclusivamente en el navegador; exportar JSON permite respaldarlas. No se publican propuestas de visitantes.
+Las revisiones R4 a R10 permanecen disponibles en Alternativas. Los proyectos se guardan en el navegador; exportar JSON permite trasladarlos.
 
-El centro de rodillos es una referencia geométrica del R03 conceptual; la altura de ejes sigue estimada. Cuello inferior, desprendimiento y resistencia de la briqueta, reparto, caudal, receta de agua y cálculo estructural permanecen pendientes. Las consignas no accionan equipos reales.
+O: documentado; P: propuesta; R: referencial. La altura montada de tolva, los pasos con briquetas, el agua, la selección mecánica y las interfaces del secador requieren las validaciones indicadas en el configurador. No es un plano aprobado para fabricación.
