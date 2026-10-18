@@ -1,7 +1,7 @@
 # PLANTA BRIQUETADORA · SESUVECA
 
-Configurador 3D paramétrico en milímetros. Referencia actual R15: seis niveles internos a 280 mm, chutas alternadas a 45°, recepción amortiguada de prensa y repartidor B500 por biela-manivela con barrido ±20°.
+R16: configurador con perfiles comerciales de bancada, placas base de 12 mm y anclajes propuestos, tabla de accionamientos y secuencia funcional de control. Conserva las geometrías y transferencias R15 y las revisiones anteriores.
 
-R4–R14 y los borradores anteriores se conservan. Las propuestas se guardan localmente en cada navegador; descargar JSON permite respaldarlas. Los datos geométricos propuestos P y las velocidades ilustrativas R no acreditan cálculo estructural, capacidad productiva ni fabricación aprobada.
+La carpeta técnica incluye lista de materiales y cortes, dibujos de conjunto, secciones y tolerancias propuestas. Las selecciones P no se presentan como cálculo resistente completo ni liberación para fabricación. Verificar estructura, uniones, concreto y selección comercial antes de ejecutar.
 
-Este repositorio contiene la publicación compilada para GitHub Pages. El propietario recibe por separado código fuente y planos editables.
+Las propuestas se guardan en cada navegador. Los documentos R16 descargables son de la referencia inicial; el botón de PDF exporta la propuesta abierta. La simulación es ilustrativa y no controla máquinas.
