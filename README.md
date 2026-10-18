@@ -1,7 +1,11 @@
-# PLANTA BRIQUETADORA · SESUVECA · R16
+# PLANTA BRIQUETADORA · R17
 
-Configurador3D en milímetros con referenciasR4–R16, propuestas locales, cotas y exportaciones. R16 incorpora perfiles comerciales y placas12, anclajesM20, tabla de18 motores, sensores y cascada funcional de arranque. BOM y carpeta técnica disponibles desde el panelR16.
+Configurador industrial SESUVECA. R17 incorpora refuerzos geométricos, despieces, BOM conciliada, transmisiones auxiliares, dosificación de diseño y esquema eléctrico funcional.
 
-La carpeta técnica está desarrollada para revisión de fabricación. No equivale a liberación de cálculo resistente, cimentación, anclajes, seguridad eléctrica o WPS. Las seleccionesP y animaciónR conservan su identificación.
+Emisión desarrollada para revisión de taller. No hay aprobación resistente, eléctrica o de fabricación emitida. Los componentes OEM se conservan; la alternativa15HP/i25 no sustituye la prensa original45kW/8rpm.
 
-Los borradores quedan en cada navegador; JSON permite respaldarlos. Código fuente editable y planos completos entregados por separado al propietario.
+Base de diseño:15t/h de carbón seco; agua3–5% y aglomerante2–4%. Son consignas adoptadas, no capacidad comprobada.
+
+Los borradores y revisiones R4–R16 se conservan. Descargas de referencia en r17/: BOM_R17.csv, DOSSIER_R17.pdf, TALLER_R17.dxf y UNIFILAR_R17.svg.
+
+Los datos de usuario se guardan en el navegador; descargarJSON sirve como respaldo.

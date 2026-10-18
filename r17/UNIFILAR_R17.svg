@@ -1,0 +1,338 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 841 594"><g font-family="Arial,sans-serif"><rect x="8" y="8" width="825" height="578" fill="white" stroke="#6c8999" stroke-width=".35"/>
+<text x="18" y="24" font-size="6" fill="#163a50">PLANTA BRIQUETADORA · R17 · E-01 UNIFILAR FUNCIONAL</text>
+<text x="18" y="34" font-size="3.5" fill="#163a50">3~ 380 V / 50 Hz · PE independiente · 24 VDC PELV para mando · representación de arquitectura P</text>
+<text x="18" y="43" font-size="3.2" fill="#a55d23">NO ENERGIZAR DESDE ESTE ESQUEMA: calibres, cortocircuito, selectividad, cables y puesta a tierra requieren proyecto eléctrico.</text>
+<rect x="18" y="52" width="392" height="26" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="24" y="62" font-size="3.7" fill="#163a50">RED → QF0: MCCB 3P marco 400 A P → barras L1 / L2 / L3</text>
+<text x="24" y="71" font-size="3.2" fill="#163a50">18 motores · 150.27 kW · I estimada 292.0 A</text>
+<text x="425" y="61" font-size="3.2" fill="#163a50">Estimación: PF 0,85 / η 0,92 / simultaneidad 1.</text>
+<text x="425" y="70" font-size="3.2" fill="#163a50">No incluye quemador, calefacción ni servicios ajenos a motores.</text>
+<path d="M20 88 L820 88" fill="none" stroke="#0c738c" stroke-width="1"/>
+<path d="M60 88 L60 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="20" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="23" y="109" font-size="3.8" fill="#163a50">M-C01</text>
+<text x="23" y="120" font-size="3.1" fill="#163a50">3 kW / 1470 rpm</text>
+<path d="M60 128 L60 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="20" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="23" y="147" font-size="3.2" fill="#163a50">SCPD según VFD</text>
+<text x="23" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M60 164 L60 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="20" y="172" width="80" height="28" fill="#e4f3f6" stroke="#6c8999" stroke-width=".35"/>
+<text x="23" y="183" font-size="3.2" fill="#163a50">VFD + STO externo</text>
+<text x="23" y="193" font-size="2.8" fill="#163a50">RUN / REF / FAULT</text>
+<path d="M60 200 L60 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="60" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="56" y="225" font-size="5" fill="#163a50">M</text>
+<text x="23" y="245" font-size="2.8" fill="#163a50">i total 56.000</text>
+<text x="23" y="254" font-size="2.8" fill="#163a50">n salida 26.25 rpm</text>
+<path d="M150 88 L150 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="110" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="113" y="109" font-size="3.8" fill="#163a50">M-C02</text>
+<text x="113" y="120" font-size="3.1" fill="#163a50">4 kW / 1470 rpm</text>
+<path d="M150 128 L150 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="110" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="113" y="147" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="113" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M150 164 L150 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="110" y="172" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="113" y="183" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="113" y="193" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M150 200 L150 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="150" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="146" y="225" font-size="5" fill="#163a50">M</text>
+<text x="113" y="245" font-size="2.8" fill="#163a50">i total 56.000</text>
+<text x="113" y="254" font-size="2.8" fill="#163a50">n salida 26.25 rpm</text>
+<path d="M240 88 L240 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="200" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="203" y="109" font-size="3.8" fill="#163a50">M-C05</text>
+<text x="203" y="120" font-size="3.1" fill="#163a50">1.1 kW / 1450 rpm</text>
+<path d="M240 128 L240 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="200" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="203" y="147" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="203" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M240 164 L240 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="200" y="172" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="203" y="183" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="203" y="193" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M240 200 L240 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="240" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="236" y="225" font-size="5" fill="#163a50">M</text>
+<text x="203" y="245" font-size="2.8" fill="#163a50">i total 50.000</text>
+<text x="203" y="254" font-size="2.8" fill="#163a50">n salida 29.00 rpm</text>
+<path d="M330 88 L330 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="290" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="293" y="109" font-size="3.8" fill="#163a50">M-C03</text>
+<text x="293" y="120" font-size="3.1" fill="#163a50">3 kW / 1470 rpm</text>
+<path d="M330 128 L330 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="290" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="293" y="147" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="293" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M330 164 L330 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="290" y="172" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="293" y="183" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="293" y="193" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M330 200 L330 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="330" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="326" y="225" font-size="5" fill="#163a50">M</text>
+<text x="293" y="245" font-size="2.8" fill="#163a50">i total 60.000</text>
+<text x="293" y="254" font-size="2.8" fill="#163a50">n salida 24.50 rpm</text>
+<path d="M420 88 L420 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="380" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="383" y="109" font-size="3.8" fill="#163a50">M-C04</text>
+<text x="383" y="120" font-size="3.1" fill="#163a50">1.5 kW / 1450 rpm</text>
+<path d="M420 128 L420 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="380" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="383" y="147" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="383" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M420 164 L420 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="380" y="172" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="383" y="183" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="383" y="193" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M420 200 L420 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="420" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="416" y="225" font-size="5" fill="#163a50">M</text>
+<text x="383" y="245" font-size="2.8" fill="#163a50">i total 46.000</text>
+<text x="383" y="254" font-size="2.8" fill="#163a50">n salida 31.52 rpm</text>
+<path d="M510 88 L510 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="470" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="473" y="109" font-size="3.8" fill="#163a50">M-PRENSA</text>
+<text x="473" y="120" font-size="3.1" fill="#163a50">45 kW / 1475 rpm</text>
+<path d="M510 128 L510 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="470" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="473" y="147" font-size="3.2" fill="#163a50">SCPD según VFD</text>
+<text x="473" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M510 164 L510 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="470" y="172" width="80" height="28" fill="#e4f3f6" stroke="#6c8999" stroke-width=".35"/>
+<text x="473" y="183" font-size="3.2" fill="#163a50">VFD + STO externo</text>
+<text x="473" y="193" font-size="2.8" fill="#163a50">RUN / REF / FAULT</text>
+<path d="M510 200 L510 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="510" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="506" y="225" font-size="5" fill="#163a50">M</text>
+<text x="473" y="245" font-size="2.8" fill="#163a50">i total 184.375</text>
+<text x="473" y="254" font-size="2.8" fill="#163a50">n salida 8.00 rpm</text>
+<path d="M600 88 L600 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="560" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="563" y="109" font-size="3.8" fill="#163a50">M-MEZCLA</text>
+<text x="563" y="120" font-size="3.1" fill="#163a50">22 kW / 1475 rpm</text>
+<path d="M600 128 L600 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="560" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="563" y="147" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="563" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M600 164 L600 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="560" y="172" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="563" y="183" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="563" y="193" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M600 200 L600 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="600" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="596" y="225" font-size="5" fill="#163a50">M</text>
+<text x="563" y="245" font-size="2.8" fill="#163a50">i total 73.750</text>
+<text x="563" y="254" font-size="2.8" fill="#163a50">n salida 20.00 rpm</text>
+<path d="M690 88 L690 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="650" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="653" y="109" font-size="3.8" fill="#163a50">M-DOS</text>
+<text x="653" y="120" font-size="3.1" fill="#163a50">1.1 kW / 1450 rpm</text>
+<path d="M690 128 L690 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="650" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="653" y="147" font-size="3.2" fill="#163a50">SCPD según VFD</text>
+<text x="653" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M690 164 L690 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="650" y="172" width="80" height="28" fill="#e4f3f6" stroke="#6c8999" stroke-width=".35"/>
+<text x="653" y="183" font-size="3.2" fill="#163a50">VFD + STO externo</text>
+<text x="653" y="193" font-size="2.8" fill="#163a50">RUN / REF / FAULT</text>
+<path d="M690 200 L690 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="690" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="686" y="225" font-size="5" fill="#163a50">M</text>
+<text x="653" y="245" font-size="2.8" fill="#163a50">i total 50.000</text>
+<text x="653" y="254" font-size="2.8" fill="#163a50">n salida 29.00 rpm</text>
+<path d="M780 88 L780 98" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="740" y="98" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="743" y="109" font-size="3.8" fill="#163a50">M-SEC-1</text>
+<text x="743" y="120" font-size="3.1" fill="#163a50">2.2 kW / 1450 rpm</text>
+<path d="M780 128 L780 136" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="740" y="136" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="743" y="147" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="743" y="157" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M780 164 L780 172" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="740" y="172" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="743" y="183" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="743" y="193" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M780 200 L780 212" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="780" cy="224" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="776" y="225" font-size="5" fill="#163a50">M</text>
+<text x="743" y="245" font-size="2.8" fill="#163a50">i total 73.750</text>
+<text x="743" y="254" font-size="2.8" fill="#163a50">n salida 19.66 rpm</text>
+<path d="M20 268 L820 268" fill="none" stroke="#0c738c" stroke-width="1"/>
+<path d="M60 268 L60 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="20" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="23" y="289" font-size="3.8" fill="#163a50">M-SEC-2</text>
+<text x="23" y="300" font-size="3.1" fill="#163a50">2.2 kW / 1450 rpm</text>
+<path d="M60 308 L60 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="20" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="23" y="327" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="23" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M60 344 L60 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="20" y="352" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="23" y="363" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="23" y="373" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M60 380 L60 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="60" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="56" y="405" font-size="5" fill="#163a50">M</text>
+<text x="23" y="425" font-size="2.8" fill="#163a50">i total 73.750</text>
+<text x="23" y="434" font-size="2.8" fill="#163a50">n salida 19.66 rpm</text>
+<path d="M150 268 L150 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="110" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="113" y="289" font-size="3.8" fill="#163a50">M-SEC-3</text>
+<text x="113" y="300" font-size="3.1" fill="#163a50">2.2 kW / 1450 rpm</text>
+<path d="M150 308 L150 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="110" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="113" y="327" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="113" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M150 344 L150 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="110" y="352" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="113" y="363" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="113" y="373" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M150 380 L150 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="150" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="146" y="405" font-size="5" fill="#163a50">M</text>
+<text x="113" y="425" font-size="2.8" fill="#163a50">i total 73.750</text>
+<text x="113" y="434" font-size="2.8" fill="#163a50">n salida 19.66 rpm</text>
+<path d="M240 268 L240 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="200" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="203" y="289" font-size="3.8" fill="#163a50">M-C06</text>
+<text x="203" y="300" font-size="3.1" fill="#163a50">1.5 kW / 1450 rpm</text>
+<path d="M240 308 L240 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="200" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="203" y="327" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="203" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M240 344 L240 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="200" y="352" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="203" y="363" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="203" y="373" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M240 380 L240 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="240" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="236" y="405" font-size="5" fill="#163a50">M</text>
+<text x="203" y="425" font-size="2.8" fill="#163a50">i total 46.000</text>
+<text x="203" y="434" font-size="2.8" fill="#163a50">n salida 31.52 rpm</text>
+<path d="M330 268 L330 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="290" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="293" y="289" font-size="3.8" fill="#163a50">M-TR-B</text>
+<text x="293" y="300" font-size="3.1" fill="#163a50">1.1 kW / 1450 rpm</text>
+<path d="M330 308 L330 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="290" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="293" y="327" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="293" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M330 344 L330 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="290" y="352" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="293" y="363" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="293" y="373" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M330 380 L330 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="330" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="326" y="405" font-size="5" fill="#163a50">M</text>
+<text x="293" y="425" font-size="2.8" fill="#163a50">i total 50.000</text>
+<text x="293" y="434" font-size="2.8" fill="#163a50">n salida 29.00 rpm</text>
+<path d="M420 268 L420 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="380" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="383" y="289" font-size="3.8" fill="#163a50">M-TR-O</text>
+<text x="383" y="300" font-size="3.1" fill="#163a50">0.37 kW / 1380 rpm</text>
+<path d="M420 308 L420 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="380" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="383" y="327" font-size="3.2" fill="#163a50">SCPD según VFD</text>
+<text x="383" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M420 344 L420 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="380" y="352" width="80" height="28" fill="#e4f3f6" stroke="#6c8999" stroke-width=".35"/>
+<text x="383" y="363" font-size="3.2" fill="#163a50">VFD + STO externo</text>
+<text x="383" y="373" font-size="2.8" fill="#163a50">RUN / REF / FAULT</text>
+<path d="M420 380 L420 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="420" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="416" y="405" font-size="5" fill="#163a50">M</text>
+<text x="383" y="425" font-size="2.8" fill="#163a50">i total 368.000</text>
+<text x="383" y="434" font-size="2.8" fill="#163a50">n salida 3.75 rpm</text>
+<path d="M510 268 L510 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="470" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="473" y="289" font-size="3.8" fill="#163a50">M-VENT-1</text>
+<text x="473" y="300" font-size="3.1" fill="#163a50">15 kW / 1470 rpm</text>
+<path d="M510 308 L510 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="470" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="473" y="327" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="473" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M510 344 L510 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="470" y="352" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="473" y="363" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="473" y="373" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M510 380 L510 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="510" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="506" y="405" font-size="5" fill="#163a50">M</text>
+<text x="473" y="425" font-size="2.8" fill="#163a50">i total 1.000</text>
+<text x="473" y="434" font-size="2.8" fill="#163a50">n salida 1470.00 rpm</text>
+<path d="M600 268 L600 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="560" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="563" y="289" font-size="3.8" fill="#163a50">M-VENT-2</text>
+<text x="563" y="300" font-size="3.1" fill="#163a50">15 kW / 1470 rpm</text>
+<path d="M600 308 L600 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="560" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="563" y="327" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="563" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M600 344 L600 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="560" y="352" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="563" y="363" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="563" y="373" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M600 380 L600 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="600" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="596" y="405" font-size="5" fill="#163a50">M</text>
+<text x="563" y="425" font-size="2.8" fill="#163a50">i total 1.000</text>
+<text x="563" y="434" font-size="2.8" fill="#163a50">n salida 1470.00 rpm</text>
+<path d="M690 268 L690 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="650" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="653" y="289" font-size="3.8" fill="#163a50">M-VENT-3</text>
+<text x="653" y="300" font-size="3.1" fill="#163a50">15 kW / 1470 rpm</text>
+<path d="M690 308 L690 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="650" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="653" y="327" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="653" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M690 344 L690 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="650" y="352" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="653" y="363" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="653" y="373" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M690 380 L690 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="690" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="686" y="405" font-size="5" fill="#163a50">M</text>
+<text x="653" y="425" font-size="2.8" fill="#163a50">i total 1.000</text>
+<text x="653" y="434" font-size="2.8" fill="#163a50">n salida 1470.00 rpm</text>
+<path d="M780 268 L780 278" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="740" y="278" width="80" height="30" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="743" y="289" font-size="3.8" fill="#163a50">M-VENT-4</text>
+<text x="743" y="300" font-size="3.1" fill="#163a50">15 kW / 1470 rpm</text>
+<path d="M780 308 L780 316" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="740" y="316" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="743" y="327" font-size="3.2" fill="#163a50">QF / guardamotor</text>
+<text x="743" y="337" font-size="2.8" fill="#163a50">Ajuste según placa</text>
+<path d="M780 344 L780 352" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<rect x="740" y="352" width="80" height="28" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="743" y="363" font-size="3.2" fill="#163a50">KM / contactor AC-3</text>
+<text x="743" y="373" font-size="2.8" fill="#163a50">Bobina 24 VDC</text>
+<path d="M780 380 L780 392" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<circle cx="780" cy="404" r="11" fill="white" stroke="#486b80" stroke-width=".5"/>
+<text x="776" y="405" font-size="5" fill="#163a50">M</text>
+<text x="743" y="425" font-size="2.8" fill="#163a50">i total 1.000</text>
+<text x="743" y="434" font-size="2.8" fill="#163a50">n salida 1470.00 rpm</text>
+<rect x="18" y="450" width="396" height="103" fill="#fff6ed" stroke="#bd773d" stroke-width=".35"/>
+<text x="24" y="461" font-size="3.8" fill="#163a50">CIRCUITO DE SEGURIDAD INDEPENDIENTE DEL PLC</text>
+<text x="24" y="472" font-size="3.1" fill="#163a50">Emergencia / tirones / guardas → 2 canales NC → SR01 3SK1</text>
+<text x="24" y="483" font-size="3.1" fill="#163a50">SR01 → STO VFD y contactores de corte con contactos EDM.</text>
+<text x="24" y="494" font-size="3.1" fill="#163a50">Reset manual supervisado. Rearme NO produce arranque.</text>
+<text x="24" y="505" font-size="3.1" fill="#163a50">Combustible: corte y control de llama dedicados al quemador.</text>
+<text x="24" y="516" font-size="3.1" fill="#163a50">LSH/LSL son proceso: nivel alto detiene C02 y aguas arriba.</text>
+<text x="24" y="527" font-size="3.1" fill="#163a50">S7-1200 estándar solo recibe diagnóstico SAFETY_OK.</text>
+<text x="24" y="538" font-size="3.1" fill="#163a50">No se declara PL / SIL alcanzado por este diagrama.</text>
+<rect x="424" y="450" width="396" height="103" fill="#f5f8fa" stroke="#6c8999" stroke-width=".35"/>
+<text x="430" y="461" font-size="3.8" fill="#163a50">SECUENCIA Y E/S DE MANDO</text>
+<text x="430" y="472" font-size="3.1" fill="#163a50">Secador → C03 → C05 → Prensa → C02 → Mezcla → C01</text>
+<text x="430" y="483" font-size="3.1" fill="#163a50">Cada etapa exige giro/READY del receptor; no solo temporizador.</text>
+<text x="430" y="494" font-size="3.1" fill="#163a50">CPU1214C + 3×SM1223 + 1×SM1231 + 2×SM1232.</text>
+<text x="430" y="505" font-size="3.1" fill="#163a50">E/S usadas: 48 DI / 27 DO / 4 AI / 4 AO.</text>
+<text x="430" y="516" font-size="3.1" fill="#163a50">VFD: C01, prensa, oscilador y dosificador de aglomerante.</text>
+<text x="430" y="527" font-size="3.1" fill="#163a50">Agua NC y aglomerante solo con mezcla y flujo real de carbón.</text>
+<text x="430" y="538" font-size="3.1" fill="#163a50">Bornes y direcciones: IO_R17.csv; lógica: CONTROL_FUNCIONAL_R17.scl.</text>
+<path d="M18 560 L820 560" fill="none" stroke="#486b80" stroke-width="0.35"/>
+<text x="18" y="570" font-size="3.2" fill="#163a50">Documento P · especificación funcional · unidades eléctricas indicadas · REV R17 · hoja E-01 / A1</text>
+<text x="18" y="578" font-size="3.2" fill="#a55d23">Conservar motor de prensa R03: 45 kW. Alternativa solicitada 15 HP / i25 no se considera sustitución equivalente.</text></g></svg>
