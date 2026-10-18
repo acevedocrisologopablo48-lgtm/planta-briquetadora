@@ -1,7 +1,7 @@
-# PLANTA BRIQUETADORA · SESUVECA
+# PLANTA BRIQUETADORA · SESUVECA · R16
 
-R16: configurador con perfiles comerciales de bancada, placas base de 12 mm y anclajes propuestos, tabla de accionamientos y secuencia funcional de control. Conserva las geometrías y transferencias R15 y las revisiones anteriores.
+Configurador3D en milímetros con referenciasR4–R16, propuestas locales, cotas y exportaciones. R16 incorpora perfiles comerciales y placas12, anclajesM20, tabla de18 motores, sensores y cascada funcional de arranque. BOM y carpeta técnica disponibles desde el panelR16.
 
-La carpeta técnica incluye lista de materiales y cortes, dibujos de conjunto, secciones y tolerancias propuestas. Las selecciones P no se presentan como cálculo resistente completo ni liberación para fabricación. Verificar estructura, uniones, concreto y selección comercial antes de ejecutar.
+La carpeta técnica está desarrollada para revisión de fabricación. No equivale a liberación de cálculo resistente, cimentación, anclajes, seguridad eléctrica o WPS. Las seleccionesP y animaciónR conservan su identificación.
 
-Las propuestas se guardan en cada navegador. Los documentos R16 descargables son de la referencia inicial; el botón de PDF exporta la propuesta abierta. La simulación es ilustrativa y no controla máquinas.
+Los borradores quedan en cada navegador; JSON permite respaldarlos. Código fuente editable y planos completos entregados por separado al propietario.
