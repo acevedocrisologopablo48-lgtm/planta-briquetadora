@@ -1,0 +1,529 @@
+{
+  "units": "mm",
+  "R17": {
+    "sum": 40580,
+    "auxiliaryBeltSum": 0,
+    "final": 68168.85045650337,
+    "length": 68568.85045650337,
+    "width": 6500,
+    "height": 6079.514996979283,
+    "bounds": {
+      "min": [
+        23.199999999999818,
+        -2500,
+        0
+      ],
+      "max": [
+        68568.85045650337,
+        4000,
+        6079.514996979283
+      ]
+    },
+    "installationLength": 70568.85045650337,
+    "installationWidth": 7850,
+    "serviceHeight": 6079.514996979283,
+    "serviceBounds": {
+      "min": [
+        -1000,
+        -3500,
+        0
+      ],
+      "max": [
+        69568.85045650337,
+        4350,
+        6079.514996979283
+      ]
+    }
+  },
+  "R18": {
+    "sum": 35680,
+    "auxiliaryBeltSum": 0,
+    "final": 58117.11584926732,
+    "length": 58855.11584926732,
+    "width": 6500,
+    "height": 4600,
+    "bounds": {
+      "min": [
+        112.69999999999982,
+        -2500,
+        0
+      ],
+      "max": [
+        58855.11584926732,
+        4000,
+        4600
+      ]
+    },
+    "installationLength": 61117.11584926732,
+    "installationWidth": 7850,
+    "serviceHeight": 4600,
+    "serviceBounds": {
+      "min": [
+        -1000,
+        -3500,
+        0
+      ],
+      "max": [
+        60117.11584926732,
+        4350,
+        4600
+      ]
+    }
+  },
+  "equipment": [
+    {
+      "id": "tolva",
+      "xR17": 0,
+      "xR18": 0,
+      "deltaX": 0,
+      "yR17": 0,
+      "yR18": 0,
+      "baseR17": 900,
+      "baseR18": 0,
+      "deltaBase": -900,
+      "minZ": 0,
+      "maxZ": 4300
+    },
+    {
+      "id": "dosificador",
+      "xR17": 12644.589509525129,
+      "xR18": 12419.52856466806,
+      "deltaX": -225.06094485706853,
+      "yR17": 2900,
+      "yR18": 2900,
+      "baseR17": 2000,
+      "baseR18": 2000,
+      "deltaBase": 0,
+      "minZ": 0,
+      "maxZ": 4600
+    },
+    {
+      "id": "mezcladora",
+      "xR17": 10794.589509525129,
+      "xR18": 10569.52856466806,
+      "deltaX": -225.06094485706853,
+      "yR17": 0,
+      "yR18": 0,
+      "baseR17": 1100,
+      "baseR18": 1100,
+      "deltaBase": 0,
+      "minZ": 0,
+      "maxZ": 3000
+    },
+    {
+      "id": "briquetadora",
+      "xR17": 24853.247519309214,
+      "xR18": 24628.186574452146,
+      "deltaX": -225.06094485706853,
+      "yR17": -495,
+      "yR18": -495,
+      "baseR17": 0,
+      "baseR18": 0,
+      "deltaBase": 0,
+      "minZ": 0,
+      "maxZ": 2667.25
+    },
+    {
+      "id": "secador",
+      "xR17": 43418.850456503365,
+      "xR18": 37717.11584926732,
+      "deltaX": -5701.734607236045,
+      "yR17": 0,
+      "yR18": 0,
+      "baseR17": 2200,
+      "baseR18": 0,
+      "deltaBase": -2200,
+      "minZ": 0,
+      "maxZ": 3840
+    }
+  ],
+  "belts": [
+    {
+      "id": "C01",
+      "lengthR17": 8515,
+      "lengthR18": 9495,
+      "deltaLength": 980,
+      "pitchR17": 18.062101292552693,
+      "pitchR18": 18.673470235511598,
+      "yawR17": 0,
+      "yawR18": 0,
+      "tailR17": [
+        3074.2,
+        0,
+        850
+      ],
+      "tailR18": [
+        1949.358371,
+        0,
+        450
+      ],
+      "headR17": [
+        11169.589509525129,
+        0,
+        3490.0556223440576
+      ],
+      "headR18": [
+        10944.52856466806,
+        0,
+        3490.0556223440576
+      ],
+      "projectionR18": 8995.17019366806,
+      "riseR18": 3040.0556223440576,
+      "class": "P"
+    },
+    {
+      "id": "C02",
+      "lengthR17": 9495,
+      "lengthR18": 9495,
+      "deltaLength": 0,
+      "pitchR17": 16.99363580932046,
+      "pitchR18": 16.99363580932046,
+      "yawR17": 0,
+      "yawR18": 0,
+      "tailR17": [
+        16502.82556255149,
+        0,
+        420
+      ],
+      "tailR18": [
+        16277.764617694422,
+        0,
+        420
+      ],
+      "headR17": [
+        25583.24751930921,
+        0,
+        3195.0607357735903
+      ],
+      "headR18": [
+        25358.186574452142,
+        0,
+        3195.0607357735903
+      ],
+      "projectionR18": 9080.421956757722,
+      "riseR18": 2775.0607357735903,
+      "class": "P"
+    },
+    {
+      "id": "C05",
+      "lengthR17": 2500,
+      "lengthR18": 2500,
+      "deltaLength": 0,
+      "pitchR17": 0,
+      "pitchR18": 0,
+      "yawR17": 0,
+      "yawR18": 0,
+      "tailR17": [
+        25353.247519309214,
+        0,
+        1182
+      ],
+      "tailR18": [
+        25128.186574452146,
+        0,
+        1182
+      ],
+      "headR17": [
+        27853.247519309214,
+        0,
+        1182
+      ],
+      "headR18": [
+        27628.186574452146,
+        0,
+        1182
+      ],
+      "projectionR18": 2500,
+      "riseR18": 0,
+      "class": "P"
+    },
+    {
+      "id": "C03",
+      "lengthR17": 15720,
+      "lengthR18": 9840,
+      "deltaLength": -5880,
+      "pitchR17": 17.970312797034193,
+      "pitchR18": 15.623149086608171,
+      "yawR17": 0,
+      "yawR18": 0,
+      "tailR17": [
+        27665.72703696322,
+        0,
+        850
+      ],
+      "tailR18": [
+        27440.666092106152,
+        0,
+        850
+      ],
+      "headR17": [
+        42618.850456503365,
+        0,
+        5700
+      ],
+      "headR18": [
+        36917.11584926732,
+        0,
+        3500
+      ],
+      "projectionR18": 9476.44975716117,
+      "riseR18": 2650,
+      "class": "P"
+    },
+    {
+      "id": "C04",
+      "lengthR17": 4350,
+      "lengthR18": 4350,
+      "deltaLength": 0,
+      "pitchR17": 0,
+      "pitchR18": 0,
+      "yawR17": 0,
+      "yawR18": 90,
+      "tailR17": [
+        63818.850456503365,
+        0,
+        500
+      ],
+      "tailR18": [
+        58117.11584926732,
+        -1750,
+        500
+      ],
+      "headR17": [
+        68168.85045650337,
+        0,
+        500
+      ],
+      "headR18": [
+        58117.11584926732,
+        2600,
+        500
+      ],
+      "projectionR18": 4350,
+      "riseR18": 0,
+      "class": "R"
+    }
+  ],
+  "transfers": [
+    {
+      "id": "tolva-C01",
+      "label": "Carbón · compuerta / alimentador C01",
+      "from": [
+        2074.2,
+        0,
+        1600
+      ],
+      "to": [
+        2074.199999611361,
+        0,
+        783.4264167239605
+      ],
+      "horizontalMm": 3.886389094986953e-7,
+      "fallMm": 816.5735832760395,
+      "centerAngleDeg": 89.99999997273073,
+      "class": "P",
+      "kind": "chute",
+      "note": "Tolva fabricada sin pedestal. C01 alimenta bajo compuerta; campana 1200 a 450 mm, cama de impacto y faldones. Accionamiento sujeto a carga bajo tolva; no equivale automáticamente al servicio anterior."
+    },
+    {
+      "id": "C01-mix",
+      "label": "C01 / mezcladora",
+      "from": [
+        11214.52856466806,
+        0,
+        3255.0556223440576
+      ],
+      "to": [
+        11344.52856466806,
+        0,
+        3000
+      ],
+      "horizontalMm": 130,
+      "fallMm": 255.0556223440576,
+      "centerAngleDeg": 62.99239084499839,
+      "class": "R",
+      "kind": "chute",
+      "note": ""
+    },
+    {
+      "id": "adapter-mix",
+      "label": "Adaptador / boca de mezcladora",
+      "from": [
+        11344.52856466806,
+        0,
+        3000
+      ],
+      "to": [
+        11344.52856466806,
+        0,
+        2950
+      ],
+      "horizontalMm": 0,
+      "fallMm": 50,
+      "centerAngleDeg": 90,
+      "class": "R",
+      "kind": "chute",
+      "note": ""
+    },
+    {
+      "id": "mix-C02",
+      "label": "Mezcladora / C02",
+      "from": [
+        16469.52856466806,
+        0,
+        1085
+      ],
+      "to": [
+        16410.035627216133,
+        0,
+        671.4984309710867
+      ],
+      "horizontalMm": 59.49293745192699,
+      "fallMm": 413.5015690289133,
+      "centerAngleDeg": 81.81269907440267,
+      "class": "P",
+      "kind": "chute",
+      "note": "Chute P con registro y faldones; altura libre mayor de300mm."
+    },
+    {
+      "id": "C02-briq",
+      "label": "C02 / briquetadora",
+      "from": [
+        25628.186574452142,
+        0,
+        2960.0607357735903
+      ],
+      "to": [
+        25728.186574452146,
+        20,
+        2667.25
+      ],
+      "horizontalMm": 101.98039027185926,
+      "fallMm": 292.8107357735903,
+      "centerAngleDeg": 70.7977481685204,
+      "class": "P",
+      "kind": "chute",
+      "note": "Cuello575mm P con transición conformada400mm y aproximación abierta175mm, sensor y registro."
+    },
+    {
+      "id": "briq-C05",
+      "label": "Briquetadora / C05 · cassette próximo P",
+      "from": [
+        25932.802011835203,
+        20,
+        1278
+      ],
+      "to": [
+        25932.802011835203,
+        20,
+        1270
+      ],
+      "horizontalMm": 0,
+      "fallMm": 8,
+      "centerAngleDeg": 90,
+      "class": "P",
+      "kind": "chute",
+      "note": "P: tangente de desprendimiento15° adoptada; dos labios50° y canal común50°, goma10/UHMW8, salida8sobrebanda."
+    },
+    {
+      "id": "C05-C03",
+      "label": "C05 / C03 · transferencia transversal propuesta 500 mm",
+      "from": [
+        27628.186474452144,
+        0,
+        1270
+      ],
+      "to": [
+        27798.186574452146,
+        0,
+        1060.04377474937
+      ],
+      "horizontalMm": 170.0001000000011,
+      "fallMm": 209.95622525063004,
+      "centerAngleDeg": 51.00314793849059,
+      "class": "P",
+      "kind": "chute",
+      "note": "Cola C03 a +850 mm P y recepción 170 mm después de la cabeza C05; longitud y cabeza conservadas. Guías laterales abiertas, sin fondo ni placas transversales. Trayectoria, tamaño y resistencia de briqueta pendientes de ensayo."
+    },
+    {
+      "id": "dry-C04",
+      "label": "C06 / chuta2500 / colectora transversal C04",
+      "from": [
+        58082.11584926732,
+        0,
+        601
+      ],
+      "to": [
+        58082.11584926732,
+        0,
+        581
+      ],
+      "horizontalMm": 0,
+      "fallMm": 20,
+      "centerAngleDeg": 90,
+      "class": "P",
+      "kind": "chute",
+      "note": "Chuta45° ancha; material conserva posición transversal. C04 recibe u500–3000; no reducción a garganta200 ni foso."
+    },
+    {
+      "id": "dos-mix",
+      "label": "Aglomerante directo a mezcladora",
+      "from": [
+        12419.52856466806,
+        1900,
+        2675
+      ],
+      "to": [
+        12419.52856466806,
+        250,
+        2500
+      ],
+      "horizontalMm": 1650,
+      "fallMm": 175,
+      "centerAngleDeg": 6.054191894114834,
+      "class": "P",
+      "kind": "chute",
+      "note": ""
+    },
+    {
+      "id": "C03-traverse",
+      "label": "C03 / cola fija repartidor",
+      "from": [
+        37107.11584926732,
+        0,
+        3345
+      ],
+      "to": [
+        37217.11584926732,
+        0,
+        3276
+      ],
+      "horizontalMm": 110,
+      "fallMm": 69,
+      "centerAngleDeg": 32.0989272547852,
+      "class": "P",
+      "kind": "chute",
+      "note": ""
+    },
+    {
+      "id": "traverse-dry",
+      "label": "Repartidor oscilante / secador",
+      "from": [
+        40185.001994607526,
+        0,
+        3276
+      ],
+      "to": [
+        39767.11584926732,
+        0,
+        2850
+      ],
+      "horizontalMm": 417.886145340206,
+      "fallMm": 426,
+      "centerAngleDeg": 45.550874434030334,
+      "class": "P",
+      "kind": "chute",
+      "note": "P: cuello de acople con brida y registro al nivel1; repartidor±20°."
+    }
+  ]
+}
