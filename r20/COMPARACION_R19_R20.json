@@ -1,0 +1,51 @@
+{
+  "revision": "R20",
+  "changes": [
+    "Carcasa cerrada20000×2800×3000mm al piso; panel75mm",
+    "Panel liso: los rombos del video son película protectora",
+    "4 ventiladores laterales15kW y3 motorreductores2.2kW",
+    "Alimentador nominal12000×3000×500; entre ejes11800; pendiente12.97796264°",
+    "Entrada directa; se retira la torre oscilante",
+    "Interior6niveles y malla304; barras cada100mm",
+    "Calentador independiente3000×1500×2150 con2quemadores",
+    "C04 conserva anchoB500 y longitud4350; apoyos600mm P para librar la carcasa",
+    "Tolva/prensa/mezcladora/dosificador y ruta provisional conservados"
+  ],
+  "metrics": {
+    "sum": 37640,
+    "auxiliaryBeltSum": 0,
+    "final": 59239.25296180454,
+    "length": 59977.25296180454,
+    "width": 6273,
+    "height": 4600,
+    "bounds": {
+      "min": [
+        112.69999999999982,
+        -1970,
+        0
+      ],
+      "max": [
+        59977.25296180454,
+        4303,
+        4600
+      ]
+    },
+    "installationLength": 62239.25296180454,
+    "installationWidth": 8900,
+    "serviceHeight": 4600,
+    "serviceBounds": {
+      "min": [
+        -1000,
+        -3500,
+        0
+      ],
+      "max": [
+        61239.25296180454,
+        5400,
+        4600
+      ]
+    }
+  },
+  "source": "el secador.pdf + video(13).mp4",
+  "status": "Geometría reconstruida; no aprobación de fabricación"
+}
