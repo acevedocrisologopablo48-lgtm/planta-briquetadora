@@ -1,0 +1,90 @@
+{
+  "revision": "R22",
+  "previous": "R21",
+  "units": "mm",
+  "frame": {
+    "supportHeight": 1264,
+    "bodySeatHeight": 1320,
+    "passageWidth": 640,
+    "bandSurface": 1270,
+    "axisHeight": 1182,
+    "originalEnvelope": [
+      2250,
+      2020,
+      1264
+    ],
+    "localPassage": {
+      "min": [
+        400,
+        175,
+        1000
+      ],
+      "max": [
+        2250,
+        815,
+        1350
+      ]
+    },
+    "frameBounds": {
+      "min": [
+        24603.186574452146,
+        -1505,
+        0
+      ],
+      "max": [
+        26853.186574452146,
+        515,
+        1264
+      ]
+    },
+    "base": 0,
+    "axisActual": 1182,
+    "parts": [
+      "briquetadora:R22-native-frame-local-passage",
+      "briquetadora:R22-local-bearing-rail-65",
+      "briquetadora:R22-local-bearing-rail-815"
+    ],
+    "originalSource": "BR01_Prensa_motor60hp_R03.STEP / NAUO1 / original imported mesh",
+    "originalVolumeMm3": 218350920.74886662,
+    "adaptedVolumeMm3": 210886920.74886665,
+    "retainedBodyReliefMm": 56,
+    "status": "P: local passage and bearing rails; original exterior and height retained"
+  },
+  "C05": "Todas las piezas, alturas y posición conservadas",
+  "hopper": "Retirado travesaño de salida ausente según usuario; colaC01=600",
+  "metrics": {
+    "sum": 37640,
+    "auxiliaryBeltSum": 0,
+    "final": 59239.25296180454,
+    "length": 59977.25296180454,
+    "width": 6273,
+    "height": 4600,
+    "bounds": {
+      "min": [
+        112.69999999999982,
+        -1970,
+        0
+      ],
+      "max": [
+        59977.25296180454,
+        4303,
+        4600
+      ]
+    },
+    "installationLength": 62239.25296180454,
+    "installationWidth": 8900,
+    "serviceHeight": 4600,
+    "serviceBounds": {
+      "min": [
+        -1000,
+        -3500,
+        0
+      ],
+      "max": [
+        61239.25296180454,
+        5400,
+        4600
+      ]
+    }
+  }
+}
