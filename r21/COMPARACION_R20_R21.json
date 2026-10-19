@@ -1,0 +1,671 @@
+{
+  "revision": "R21",
+  "units": "mm",
+  "C01": {
+    "before": {
+      "id": "C01",
+      "name": "Alimentación regulada de tolva → mezcladora",
+      "tail": [
+        1949.358371,
+        0,
+        450
+      ],
+      "length": 9495,
+      "pitch": 18.673470235511598,
+      "yaw": 0,
+      "radius": 180,
+      "width": 500,
+      "outer": 900,
+      "depth": 350,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "reference45",
+      "headRadius": 180,
+      "tailRadius": 196.2,
+      "modules": 6,
+      "supportWidth": 900,
+      "headSupportWidth": 2000,
+      "supportStations": [
+        900,
+        3400,
+        5900,
+        8400
+      ]
+    },
+    "after": {
+      "id": "C01",
+      "name": "Alimentación regulada de tolva → mezcladora",
+      "tail": [
+        1945.1308142553546,
+        0,
+        600
+      ],
+      "length": 9495,
+      "pitch": 17.720661376462825,
+      "yaw": 0,
+      "radius": 180,
+      "width": 500,
+      "outer": 900,
+      "depth": 350,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "reference45",
+      "headRadius": 180,
+      "tailRadius": 196.2,
+      "modules": 6,
+      "supportWidth": 900,
+      "headSupportWidth": 2000,
+      "supportStations": [
+        900,
+        3400,
+        5900,
+        8400
+      ]
+    },
+    "headBefore": [
+      10944.52856466806,
+      0,
+      3490.0556223440576
+    ],
+    "headAfter": [
+      10989.6099866432,
+      0,
+      3490.0556223440576
+    ],
+    "lateralWallAngles": [
+      64.15743085754463,
+      60.79860960466697,
+      60.37859644822371,
+      64.05860734819001
+    ]
+  },
+  "transfers": [
+    {
+      "id": "tolva-C01",
+      "label": "Carbón · compuerta / alimentador C01",
+      "sourceOwner": "tolva",
+      "targetOwner": "C01",
+      "class": "P",
+      "source": [
+        2074.2,
+        0,
+        1600
+      ],
+      "target": [
+        2074.200000009566,
+        0,
+        853.1565247698829
+      ],
+      "sourceBasis": "Centro de boca del modelo",
+      "targetBasis": "Cara superior real de banda en estación receptora",
+      "runX": 9.56606527324766e-9,
+      "runY": 0,
+      "horizontalRun": 9.56606527324766e-9,
+      "centerFall": 746.8434752301171,
+      "angle": 89.99999999926612,
+      "minCornerFall": 677.5455839165679,
+      "drawnCornerFall": 677.5455839165679,
+      "sourceOpening": [
+        800,
+        1200
+      ],
+      "targetOpening": [
+        300,
+        450
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "Recepción centrada verticalmente bajo compuerta. Campana1200 a450mm con salida ajustada a la banda en artesa, acero18mm sobre ella y faldones flexibles; C01 cola600mm P. Regulación por compuerta y variador; capacidad no calculada."
+      ]
+    },
+    {
+      "id": "C01-mix",
+      "label": "C01 / mezcladora",
+      "sourceOwner": "C01",
+      "targetOwner": "mezcladora",
+      "class": "P",
+      "source": [
+        11259.6099866432,
+        0,
+        3255.0556223440576
+      ],
+      "target": [
+        11344.52856466806,
+        0,
+        3000
+      ],
+      "sourceBasis": "Boca de descarga/capota del modelo",
+      "targetBasis": "Centro de boca del modelo",
+      "runX": 84.91857802486084,
+      "runY": 0,
+      "horizontalRun": 84.91857802486084,
+      "centerFall": 255.0556223440576,
+      "angle": 71.58526365283973,
+      "minCornerFall": 255.0556223440576,
+      "drawnCornerFall": 255.0556223440576,
+      "sourceOpening": [
+        150,
+        300
+      ],
+      "targetOpening": [
+        300,
+        300
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "La fuente es la boca de descarga; la altura del eje o de la banda es otra referencia.",
+        "Cabeza de C01 desplazada45,08mm en X al reducir pendiente; cuello regenerado hacia adaptador existente sin mover mezcladora."
+      ]
+    },
+    {
+      "id": "adapter-mix",
+      "label": "Adaptador / boca de mezcladora",
+      "sourceOwner": "mezcladora",
+      "targetOwner": "mezcladora",
+      "class": "R",
+      "source": [
+        11344.52856466806,
+        0,
+        3000
+      ],
+      "target": [
+        11344.52856466806,
+        0,
+        2950
+      ],
+      "sourceBasis": "Centro de boca del modelo",
+      "targetBasis": "Centro de boca del modelo",
+      "runX": 0,
+      "runY": 0,
+      "horizontalRun": 0,
+      "centerFall": 50,
+      "angle": 90,
+      "minCornerFall": 50,
+      "drawnCornerFall": 50,
+      "sourceOpening": [
+        300,
+        300
+      ],
+      "targetOpening": [
+        300,
+        300
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": []
+    },
+    {
+      "id": "mix-C02",
+      "label": "Mezcladora / C02",
+      "sourceOwner": "mezcladora",
+      "targetOwner": "C02",
+      "class": "P",
+      "source": [
+        16469.52856466806,
+        0,
+        1085
+      ],
+      "target": [
+        16469.52856467022,
+        0,
+        689.5690945240688
+      ],
+      "sourceBasis": "Centro de boca del modelo",
+      "targetBasis": "Cara superior real de banda en estación receptora",
+      "runX": 2.1609594114124775e-9,
+      "runY": 0,
+      "horizontalRun": 2.1609594114124775e-9,
+      "centerFall": 395.43090547593124,
+      "angle": 89.99999999968689,
+      "minCornerFall": 325.0504132307922,
+      "drawnCornerFall": 325.0504132307922,
+      "sourceOpening": [
+        600,
+        300
+      ],
+      "targetOpening": [
+        300,
+        340
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "Recepción centrada bajo la descarga real, sin retroceso longitudinal. Chute con registro y faldones; se conserva la altura de colaC02 para reservar al menos300mm libres entre bordes."
+      ]
+    },
+    {
+      "id": "C02-briq",
+      "label": "C02 / briquetadora",
+      "sourceOwner": "C02",
+      "targetOwner": "briquetadora",
+      "class": "P",
+      "source": [
+        25628.186574452142,
+        0,
+        2960.0607357735903
+      ],
+      "target": [
+        25728.186574452146,
+        20,
+        2667.25
+      ],
+      "sourceBasis": "Boca de descarga/capota del modelo",
+      "targetBasis": "Centro de boca del modelo",
+      "runX": 100.00000000000364,
+      "runY": 20,
+      "horizontalRun": 101.98039027185926,
+      "centerFall": 292.8107357735903,
+      "angle": 70.7977481685204,
+      "minCornerFall": 292.8107357735903,
+      "drawnCornerFall": 292.8107357735903,
+      "sourceOpening": [
+        150,
+        600
+      ],
+      "targetOpening": [
+        600,
+        600
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "La fuente es la boca de descarga; la altura del eje o de la banda es otra referencia.",
+        "Centrar la boca con los rodillos no acredita reparto uniforme a lo ancho de su cara.",
+        "Cuello575mm P con transición conformada400mm y aproximación abierta175mm, sensor y registro."
+      ]
+    },
+    {
+      "id": "briq-C05",
+      "label": "Briquetadora / C05 · cassette próximo P",
+      "sourceOwner": "briquetadora",
+      "targetOwner": "C05",
+      "class": "P",
+      "source": [
+        25932.802011835203,
+        20,
+        1278
+      ],
+      "target": [
+        25932.802011835203,
+        20,
+        1270
+      ],
+      "sourceBasis": "Boca útil original de canaleta",
+      "targetBasis": "Cara superior real de C05 bajo canaleta",
+      "runX": 0,
+      "runY": 0,
+      "horizontalRun": 0,
+      "centerFall": 8,
+      "angle": 90,
+      "minCornerFall": 8,
+      "drawnCornerFall": 8,
+      "sourceOpening": [
+        80,
+        360
+      ],
+      "targetOpening": [
+        80,
+        360
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "La holgura del labio es distinta del desnivel boca–banda, de la envolvente inferior de los rodillos y del punto real de desprendimiento pendiente.",
+        "P: tangente de desprendimiento15° adoptada; dos labios50° y canal común50°, goma10/UHMW8, salida8sobrebanda."
+      ],
+      "lipClearance": 8
+    },
+    {
+      "id": "C05-C03",
+      "label": "C05 / recepción central del alimentador propio",
+      "sourceOwner": "C05",
+      "targetOwner": "C03",
+      "class": "P",
+      "source": [
+        27628.186574452146,
+        0,
+        1270
+      ],
+      "target": [
+        27858.186574452146,
+        0,
+        1055.0016497617435
+      ],
+      "sourceBasis": "Cara superior real de C05 en la tangencia de cabeza; eje de tambor separado",
+      "targetBasis": "Cara superior real de C03 bajo la guía revestida R19",
+      "runX": 230,
+      "runY": 0,
+      "horizontalRun": 230,
+      "centerFall": 214.99835023825653,
+      "angle": 43.06919323286712,
+      "minCornerFall": 190.29496040774802,
+      "drawnCornerFall": 190.29496040774802,
+      "sourceOpening": [
+        220,
+        500
+      ],
+      "targetOpening": [
+        220,
+        500
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "La cota banda a banda excluye el anclaje inferior de la capota; no predice trayectoria ni daño de briquetas.",
+        "Guía revestida de 480 mm. El desnivel banda a banda incluye el giro sobre tambor y el recorrido guiado; vuelos verticales P de entrada 59.7 mm y salida 15.4 mm. La holgura del labio se mide sobre su proyección en C03, antes del centro receptor."
+      ],
+      "lipClearance": 20,
+      "sourceAxis": [
+        27628.186574452146,
+        0,
+        1182
+      ],
+      "initialFreeVertical": 59.66970536179383,
+      "finalFreeVertical": 15.390737957577358
+    },
+    {
+      "id": "dry-C04",
+      "label": "C06 / chuta2500 / colectora transversal C04",
+      "sourceOwner": "secador",
+      "targetOwner": "C04",
+      "class": "P",
+      "source": [
+        59204.25296180454,
+        0,
+        601
+      ],
+      "target": [
+        59204.25296180454,
+        0,
+        581
+      ],
+      "sourceBasis": "Centro de boca del modelo",
+      "targetBasis": "Cara superior real de banda en estación receptora",
+      "runX": 0,
+      "runY": 0,
+      "horizontalRun": 0,
+      "centerFall": 20,
+      "angle": 90,
+      "minCornerFall": 20,
+      "drawnCornerFall": 20,
+      "sourceOpening": [
+        120,
+        2500
+      ],
+      "targetOpening": [
+        120,
+        2500
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "Posición real de salida del secador pendiente del fabricante.",
+        "Chuta45° ancha; material conserva posición transversal. C04 recibe u500–3000; no reducción a garganta200 ni foso."
+      ]
+    },
+    {
+      "id": "dos-mix",
+      "label": "Aglomerante directo a mezcladora",
+      "sourceOwner": "dosificador",
+      "targetOwner": "mezcladora",
+      "class": "P",
+      "source": [
+        12419.52856466806,
+        1900,
+        2675
+      ],
+      "target": [
+        12419.52856466806,
+        250,
+        2500
+      ],
+      "sourceBasis": "Centro de boca del modelo",
+      "targetBasis": "Centro de boca del modelo",
+      "runX": 0,
+      "runY": -1650,
+      "horizontalRun": 1650,
+      "centerFall": 175,
+      "angle": 6.054191894114834,
+      "minCornerFall": 175,
+      "drawnCornerFall": 175,
+      "sourceOpening": [
+        250,
+        250
+      ],
+      "targetOpening": [
+        250,
+        250
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": []
+    },
+    {
+      "id": "C05-C07",
+      "label": "C05 / recepción guiada C07",
+      "sourceOwner": "C05",
+      "targetOwner": "C07",
+      "class": "P",
+      "source": [
+        27628.186474452144,
+        0,
+        1270
+      ],
+      "target": [
+        27850.87176588272,
+        0,
+        950.5304898612866
+      ],
+      "sourceBasis": "Cara superior de C05 junto al tambor de cabeza",
+      "targetBasis": "Cara superior real de banda en estación receptora",
+      "runX": 222.68529143057458,
+      "runY": 0,
+      "horizontalRun": 222.68529143057458,
+      "centerFall": 319.4695101387134,
+      "angle": 55.12168736350593,
+      "minCornerFall": 307.400544621472,
+      "drawnCornerFall": 307.400544621472,
+      "sourceOpening": [
+        80,
+        480
+      ],
+      "targetOpening": [
+        300,
+        480
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "La cota banda a banda excluye el anclaje inferior de la capota; no predice trayectoria ni daño de briquetas.",
+        "Guía UHMW8/acero4. Giro de desprendimiento85° adoptado para demostración; distinguir desnivel total y vuelo libre."
+      ]
+    },
+    {
+      "id": "C07-buffer",
+      "label": "C07 / tolva pulmón de retiro continuo",
+      "sourceOwner": "C07",
+      "targetOwner": "tolva_provisional",
+      "class": "P",
+      "source": [
+        31948.083252187906,
+        0,
+        1200
+      ],
+      "target": [
+        32348.083252187906,
+        0,
+        830
+      ],
+      "sourceBasis": "Boca de descarga/capota del modelo",
+      "targetBasis": "Centro de boca del modelo",
+      "runX": 400,
+      "runY": 0,
+      "horizontalRun": 400,
+      "centerFall": 370,
+      "angle": 42.76882539196875,
+      "minCornerFall": 370,
+      "drawnCornerFall": 370,
+      "sourceOpening": [
+        480,
+        480
+      ],
+      "targetOpening": [
+        480,
+        480
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "La fuente es la boca de descarga; la altura del eje o de la banda es otra referencia.",
+        "Guía50° ajustable a cama+30mm. Fondo móvil y nivel alto; retiro continuo, sin afirmar resistencia ni capacidad productiva."
+      ]
+    },
+    {
+      "id": "C03-dry",
+      "label": "Alimentador de malla / acople directo nivel1",
+      "sourceOwner": "C03",
+      "targetOwner": "secador",
+      "class": "P",
+      "source": [
+        38915.447877058774,
+        0,
+        3603.2923905244093
+      ],
+      "target": [
+        39439.25296180454,
+        0,
+        2850
+      ],
+      "sourceBasis": "Cara superior de C03 en la tangencia de cabeza; no eje del tambor ni boca de capota",
+      "targetBasis": "Cara útil del nivel 1 del secador en la recepción de la guía R20",
+      "runX": 523.8050847457635,
+      "runY": 0,
+      "horizontalRun": 523.8050847457635,
+      "centerFall": 753.2923905244093,
+      "angle": 55.18701452638745,
+      "minCornerFall": 191.85169010068057,
+      "drawnCornerFall": 650,
+      "sourceOpening": [
+        2500,
+        2500
+      ],
+      "targetOpening": [
+        2500,
+        2500
+      ],
+      "outsideBand": false,
+      "status": "proposed",
+      "notes": [
+        "Guía directa de 2500 mm transversales. El desnivel banda a banda incluye tambor y guía; vuelos verticales P de entrada 69.2 mm y salida 40.0 mm. La abertura genérica y la cota del eje no representan la superficie de carga.",
+        "Interfaz de entrada y distribución interna pendientes del fabricante.",
+        "Acople directo transversal2500mm P/R desde alimentador propio; la guía, banda y cotas utilizan sus superficies reales. Sin repartidor oscilante ficticio."
+      ],
+      "lipClearance": 40,
+      "sourceAxis": [
+        38939.25296180454,
+        0,
+        3500
+      ],
+      "initialFreeVertical": 69.23850873125184,
+      "finalFreeVertical": 40
+    }
+  ],
+  "metrics": {
+    "sum": 37640,
+    "auxiliaryBeltSum": 0,
+    "final": 59239.25296180454,
+    "length": 59977.25296180454,
+    "width": 6273,
+    "height": 4600,
+    "bounds": {
+      "min": [
+        112.69999999999982,
+        -1970,
+        0
+      ],
+      "max": [
+        59977.25296180454,
+        4303,
+        4600
+      ]
+    },
+    "installationLength": 62239.25296180454,
+    "installationWidth": 8900,
+    "serviceHeight": 4600,
+    "serviceBounds": {
+      "min": [
+        -1000,
+        -3500,
+        0
+      ],
+      "max": [
+        61239.25296180454,
+        5400,
+        4600
+      ]
+    }
+  },
+  "fixedEquipment": [
+    {
+      "id": "tolva",
+      "name": "Tolva de carbón",
+      "x": 0,
+      "y": 0,
+      "base": 0,
+      "yaw": 0,
+      "width": 3450,
+      "structure": {
+        "width": 3796,
+        "depth": 3796,
+        "spacing": 3643,
+        "post": 153,
+        "beam": 153
+      }
+    },
+    {
+      "id": "briquetadora",
+      "name": "Briquetadora",
+      "x": 24628.186574452146,
+      "y": -495,
+      "base": 0,
+      "yaw": 0,
+      "width": 1970,
+      "structure": {
+        "width": 2020,
+        "depth": 2250,
+        "spacing": 3000,
+        "post": 100,
+        "beam": 100
+      }
+    },
+    {
+      "id": "secador",
+      "name": "Secador cerrado · ficha20 ×2,8 ×3m",
+      "x": 38839.25296180454,
+      "y": 0,
+      "base": 0,
+      "yaw": 0,
+      "width": 2800,
+      "structure": {
+        "width": 2800,
+        "depth": 20000,
+        "spacing": 2000,
+        "post": 100,
+        "beam": 60
+      }
+    }
+  ],
+  "status": "P: ajuste geométrico. No cálculo dinámico de flujo ni capacidad."
+}
