@@ -1,0 +1,697 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": "r24-3d-v1",
+  "name": "PLANTA BRIQUETADORA · R24",
+  "equipment": [
+    {
+      "id": "tolva",
+      "name": "Tolva de carbón",
+      "x": 1000,
+      "y": 0,
+      "base": 0,
+      "yaw": 0,
+      "width": 3450,
+      "structure": {
+        "width": 3796,
+        "depth": 3796,
+        "spacing": 3643,
+        "post": 153,
+        "beam": 153
+      }
+    },
+    {
+      "id": "dosificador",
+      "name": "Dosificador de aglomerante",
+      "x": 0,
+      "y": 0,
+      "base": 800,
+      "yaw": 90,
+      "width": 1700,
+      "structure": {
+        "width": 1900,
+        "depth": 1700,
+        "spacing": 3000,
+        "post": 100,
+        "beam": 100
+      }
+    },
+    {
+      "id": "mezcladora",
+      "name": "Mezcladora de doble eje",
+      "x": 9681.676493705436,
+      "y": 0,
+      "base": 1100,
+      "yaw": 0,
+      "width": 1300,
+      "structure": {
+        "width": 1500,
+        "depth": 6200,
+        "spacing": 3000,
+        "post": 100,
+        "beam": 100
+      }
+    },
+    {
+      "id": "briquetadora",
+      "name": "Briquetadora",
+      "x": 23623.36249694391,
+      "y": -495,
+      "base": 0,
+      "yaw": 0,
+      "width": 1970,
+      "structure": {
+        "width": 2020,
+        "depth": 2250,
+        "spacing": 3000,
+        "post": 100,
+        "beam": 100
+      }
+    },
+    {
+      "id": "secador",
+      "name": "Secador cerrado · ficha20 ×2,8 ×3m",
+      "x": 40334.42888429631,
+      "y": 0,
+      "base": 0,
+      "yaw": 0,
+      "width": 2800,
+      "structure": {
+        "width": 2800,
+        "depth": 20000,
+        "spacing": 2000,
+        "post": 100,
+        "beam": 60
+      }
+    },
+    {
+      "id": "tolva_provisional",
+      "name": "Tolva pulmón provisional · retiro continuo",
+      "x": 31123.25917467967,
+      "y": 0,
+      "base": 0,
+      "yaw": 0,
+      "width": 1608,
+      "structure": {
+        "width": 2200,
+        "depth": 2500,
+        "spacing": 1500,
+        "post": 80,
+        "beam": 80
+      }
+    },
+    {
+      "id": "bajante_movil",
+      "name": "Bajante móvil de descarga",
+      "x": 26723.36249694391,
+      "y": 20,
+      "yaw": 0,
+      "base": 0,
+      "width": 650,
+      "structure": {
+        "width": 650,
+        "depth": 540,
+        "spacing": 340,
+        "post": 40,
+        "beam": 40
+      }
+    }
+  ],
+  "belts": [
+    {
+      "id": "C01",
+      "name": "Aglomerante + carbón → mezcladora",
+      "tail": [
+        1000,
+        0,
+        400
+      ],
+      "length": 9495,
+      "pitch": 14.641168249112578,
+      "yaw": 0,
+      "radius": 180,
+      "width": 500,
+      "outer": 900,
+      "depth": 350,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "reference45",
+      "headRadius": 180,
+      "tailRadius": 196.2,
+      "modules": 6,
+      "supportWidth": 900,
+      "headSupportWidth": 2000,
+      "supportStations": [
+        900,
+        3400,
+        5900,
+        8400
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "Mezcla → briquetadora",
+      "tail": [
+        15389.912546731797,
+        0,
+        420
+      ],
+      "length": 9495,
+      "pitch": 17.340615590217336,
+      "yaw": 0,
+      "radius": 180,
+      "width": 500,
+      "outer": 900,
+      "depth": 250,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "reference45",
+      "headRadius": 180,
+      "tailRadius": 196.2,
+      "modules": 6,
+      "tailDepth": 140,
+      "supportWidth": 900,
+      "supportStations": [
+        900,
+        3600,
+        6300,
+        7995
+      ]
+    },
+    {
+      "id": "C05",
+      "name": "Colectora plana B400 · taller",
+      "tail": [
+        24123.36249694391,
+        20,
+        1241
+      ],
+      "length": 2500,
+      "pitch": 0,
+      "yaw": 0,
+      "radius": 50,
+      "width": 400,
+      "outer": 460,
+      "depth": 150,
+      "spacing": 2700,
+      "post": 40,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "nominalExterior": 2600,
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "pressCollector",
+      "baseLength": 2500,
+      "modules": 0,
+      "tailRadius": 50,
+      "headRadius": 50
+    },
+    {
+      "id": "C03",
+      "name": "Alimentador propio de malla · nominal12 ×3m",
+      "tail": [
+        28935.842014597918,
+        0,
+        850
+      ],
+      "length": 11800,
+      "pitch": 12.977962643656616,
+      "yaw": 0,
+      "radius": 100,
+      "width": 2500,
+      "outer": 3000,
+      "depth": 394,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 650,
+      "motorD": 330,
+      "class": "P",
+      "nominalExterior": 12000,
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "dryerInput",
+      "baseLength": 11800,
+      "modules": 0,
+      "tailRadius": 100,
+      "headRadius": 100,
+      "supportWidth": 3100,
+      "supportStations": [
+        350,
+        2700,
+        5400,
+        8100,
+        10500,
+        11700
+      ],
+      "tailDepth": 300
+    },
+    {
+      "id": "C04",
+      "name": "Colectora transversal de salida del secador",
+      "tail": [
+        60734.42888429631,
+        -1750,
+        500
+      ],
+      "length": 4350,
+      "pitch": 0,
+      "yaw": 90,
+      "radius": 75,
+      "width": 500,
+      "outer": 700,
+      "depth": 150,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 650,
+      "motorD": 330,
+      "class": "P",
+      "nominalExterior": 4500,
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "dryerOutput",
+      "baseLength": 4350,
+      "modules": 0,
+      "tailRadius": 75,
+      "headRadius": 75,
+      "supportWidth": 600
+    },
+    {
+      "id": "C07",
+      "name": "Briqueta fresca → pulmón provisional",
+      "tail": [
+        26607.36249694391,
+        0,
+        850
+      ],
+      "length": 4350,
+      "pitch": 4.614993817064546,
+      "yaw": 0,
+      "radius": 75,
+      "width": 500,
+      "outer": 700,
+      "depth": 220,
+      "tailDepth": 150,
+      "spacing": 1800,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "family": "dryerOutput",
+      "baseLength": 4350,
+      "modules": 0,
+      "headRadius": 75,
+      "tailRadius": 75,
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "supportWidth": 900,
+      "supportStations": [
+        550,
+        2100,
+        3650
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "dos-C01",
+      "label": "Aglomerante / primer tramo C01",
+      "from": {
+        "owner": "dosificador",
+        "feature": "outlet"
+      },
+      "to": {
+        "owner": "C01",
+        "feature": "station",
+        "local": [
+          466.0414858387103,
+          0,
+          201.4051512691811
+        ]
+      },
+      "width": 280,
+      "topWidth": 280,
+      "bottomWidth": 280,
+      "depth": 350,
+      "topDepth": 350,
+      "bottomDepth": 350,
+      "toOrientation": "beltSurface",
+      "kind": "chute",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Dosificador orientado sobre el primer tramo de C01; incorporación de aglomerante antes de la tolva de carbón, sin cinta auxiliar."
+    },
+    {
+      "id": "tolva-C01",
+      "label": "Carbón · compuerta / alimentador C01",
+      "from": {
+        "owner": "tolva",
+        "feature": "outlet",
+        "local": [
+          2074.2,
+          0,
+          1600
+        ]
+      },
+      "to": {
+        "owner": "C01",
+        "feature": "station",
+        "local": [
+          2195.660089617524,
+          0,
+          198.45413894020032
+        ]
+      },
+      "width": 300,
+      "depth": 450,
+      "topWidth": 800,
+      "topDepth": 1200,
+      "bottomWidth": 300,
+      "bottomDepth": 450,
+      "fromOrientation": "horizontal",
+      "toOrientation": "beltSurface",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Tolva desplazada1000mm hacia mezcladora, sin alterar altura. Carbón incorporado sobre la mismaC01 después del aglomerante; recepción sobre superficie real."
+    },
+    {
+      "id": "C01-mix",
+      "label": "C01 / mezcladora",
+      "from": {
+        "owner": "C01",
+        "feature": "discharge"
+      },
+      "to": {
+        "owner": "mezcladora",
+        "feature": "inlet"
+      },
+      "width": 300,
+      "class": "P",
+      "topWidth": 150,
+      "bottomWidth": 400,
+      "depth": 300,
+      "pendingReason": "Descarga directa sobre el cuerpo; sin tolva elevada ni adaptador duplicado."
+    },
+    {
+      "id": "mix-C02",
+      "label": "Mezcladora / C02",
+      "from": {
+        "owner": "mezcladora",
+        "feature": "outlet"
+      },
+      "to": {
+        "owner": "C02",
+        "feature": "station",
+        "local": [
+          263.88972698469036,
+          0,
+          201.7500552601348
+        ]
+      },
+      "width": 340,
+      "class": "P",
+      "topWidth": 600,
+      "bottomWidth": 300,
+      "depth": 340,
+      "toOrientation": "beltSurface",
+      "status": "proposed",
+      "pendingReason": "Recepción centrada bajo la descarga real, sin retroceso longitudinal. Chute con registro y faldones; se conserva la altura de colaC02 para reservar al menos300mm libres entre bordes.",
+      "topDepth": 300,
+      "bottomDepth": 340
+    },
+    {
+      "id": "C02-briq",
+      "label": "C02 / briquetadora",
+      "from": {
+        "owner": "C02",
+        "feature": "discharge"
+      },
+      "to": {
+        "owner": "briquetadora",
+        "feature": "inlet"
+      },
+      "width": 600,
+      "class": "P",
+      "topWidth": 150,
+      "bottomWidth": 600,
+      "depth": 550,
+      "status": "proposed",
+      "pendingReason": "Descarga centrada sobre tolva superior de prensa a2830mm."
+    },
+    {
+      "id": "briq-C05",
+      "label": "Briquetadora / colectora plana B400",
+      "from": {
+        "owner": "briquetadora",
+        "feature": "station",
+        "local": [
+          1284.4770462348024,
+          515,
+          1302
+        ]
+      },
+      "to": {
+        "owner": "C05",
+        "feature": "station",
+        "local": [
+          784.4770462348024,
+          0,
+          53
+        ]
+      },
+      "width": 80,
+      "class": "P",
+      "topWidth": 80,
+      "bottomWidth": 80,
+      "depth": 360,
+      "toOrientation": "beltSurface",
+      "status": "proposed",
+      "pendingReason": "P: tangente de desprendimiento15° adoptada; dos labios50° y canal común50°, goma10/UHMW8, salida8sobrebanda.",
+      "topDepth": 360,
+      "bottomDepth": 360
+    },
+    {
+      "id": "dry-C04",
+      "label": "C06 / chuta2500 / colectora transversal C04",
+      "from": {
+        "owner": "secador",
+        "feature": "outlet"
+      },
+      "to": {
+        "owner": "C04",
+        "feature": "station",
+        "local": [
+          1750,
+          35,
+          81
+        ]
+      },
+      "width": 120,
+      "class": "P",
+      "topWidth": 120,
+      "bottomWidth": 120,
+      "depth": 2500,
+      "toOrientation": "horizontal",
+      "status": "proposed",
+      "pendingReason": "Chuta45° ancha; material conserva posición transversal. C04 recibe u500–3000; no reducción a garganta200 ni foso.",
+      "topDepth": 2500,
+      "bottomDepth": 2500,
+      "fromOrientation": "horizontal"
+    },
+    {
+      "id": "C07-buffer",
+      "label": "C07 / tolva pulmón de retiro continuo",
+      "from": {
+        "owner": "C07",
+        "feature": "head"
+      },
+      "to": {
+        "owner": "tolva_provisional",
+        "feature": "inlet",
+        "local": [
+          220,
+          0,
+          830
+        ]
+      },
+      "width": 480,
+      "depth": 480,
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Guía50° ajustable a cama+30mm. Fondo móvil y nivel alto; retiro continuo, sin afirmar resistencia ni capacidad productiva."
+    },
+    {
+      "id": "C03-dry",
+      "label": "Alimentador de malla / acople directo nivel1",
+      "from": {
+        "owner": "C03",
+        "feature": "head"
+      },
+      "to": {
+        "owner": "secador",
+        "feature": "inlet"
+      },
+      "width": 200,
+      "topWidth": 200,
+      "bottomWidth": 200,
+      "depth": 2500,
+      "topDepth": 2500,
+      "bottomDepth": 2500,
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Acople directo transversal2500mm P/R desde alimentador propio; la guía, banda y cotas utilizan sus superficies reales. Sin repartidor oscilante ficticio."
+    },
+    {
+      "id": "C05-mobile",
+      "label": "Colectora B400 / bajante móvil",
+      "from": {
+        "owner": "C05",
+        "feature": "station",
+        "local": [
+          2545.8993464005753,
+          0,
+          26.500000000000007
+        ]
+      },
+      "to": {
+        "owner": "bajante_movil",
+        "feature": "inlet"
+      },
+      "width": 30,
+      "topWidth": 30,
+      "bottomWidth": 30,
+      "depth": 400,
+      "topDepth": 400,
+      "bottomDepth": 400,
+      "class": "P",
+      "kind": "chute",
+      "status": "proposed",
+      "pendingReason": "Descarga sobre carro móvil independiente; caída inicial67,5mm desde la superficie del tambor y deslizamiento45°. No existe enlace directo al secador."
+    }
+  ],
+  "dimensions": [],
+  "reserve": 72000,
+  "limit": 75000,
+  "referenceRevision": "r24-c01-compartida-bajante-movil-v1",
+  "serviceZones": [
+    {
+      "id": "pasillo-lateral-negativo",
+      "name": "Pasillo lateral propuesto1000mm",
+      "offset": [
+        -1000,
+        -3500,
+        0
+      ],
+      "size": [
+        62239.25296180454,
+        1000,
+        60
+      ],
+      "class": "P",
+      "pendingReason": "Paso libre propuesto; retirada de ejes, rodillos, ventiladores y motores no comprobada con fabricante."
+    },
+    {
+      "id": "pasillo-lateral-positivo",
+      "name": "Pasillo lateral propuesto1000mm",
+      "offset": [
+        -1000,
+        4400,
+        0
+      ],
+      "size": [
+        62239.25296180454,
+        1000,
+        60
+      ],
+      "class": "P",
+      "pendingReason": "Paso libre propuesto; carga de tolvas, acceso al calentador y apertura real de puertas pendientes."
+    },
+    {
+      "id": "acceso-inicial",
+      "name": "Reserva extremo inicial 1000 mm",
+      "offset": [
+        -1000,
+        -2500,
+        0
+      ],
+      "size": [
+        1000,
+        5850,
+        60
+      ],
+      "class": "P",
+      "pendingReason": "Método y espacio de carga de carbón pendientes; no equivale a una ruta de vehículo verificada."
+    },
+    {
+      "id": "acceso-final",
+      "name": "Reserva extremo final 1000 mm",
+      "offset": [
+        61734.42888429631,
+        -2500,
+        0
+      ],
+      "size": [
+        1000,
+        5850,
+        60
+      ],
+      "class": "P",
+      "pendingReason": "Recepción final de producto, almacenamiento y retirada del motor pendientes."
+    }
+  ],
+  "process": {
+    "binderForm": "undetermined",
+    "binderPreview": "solidBelt",
+    "coalTargetTph": 15,
+    "binderPercent": 3,
+    "dryerResidenceSeconds": null,
+    "dryerExitConfirmed": false,
+    "transferOpeningsConfirmed": false,
+    "structuralValidationConfirmed": false,
+    "maintenanceValidationConfirmed": false,
+    "manufacturerNotes": "Dosificador → C01 → tolva de carbón → misma C01 → mezcladora → C02 → prensa → colectora B400 → bajante móvil. Secador con alimentador propio físicamente independiente; no se representa alimentación automática desde prensa. Agua directamente a mezcladora. Alturas de tolva, prensa y secador conservadas.",
+    "designBasis": {
+      "coalBasis": "dry",
+      "coalTph": 15,
+      "waterPercent": 4,
+      "waterMinPercent": 3,
+      "waterMaxPercent": 5,
+      "binderMinPercent": 2,
+      "binderMaxPercent": 4,
+      "status": "P"
+    },
+    "water": {
+      "batchLitres": null,
+      "pulsesPerLitre": null,
+      "mode": "continuous",
+      "continuousLpm": 10,
+      "notes": "Base de diseño: carbón seco15t/h; agua4%=600L/h. Banda de receta3–5%=450–750L/h; no acredita producción."
+    },
+    "plantMode": "dryer",
+    "bufferFillMm": 250,
+    "bufferWithdrawal": "continuous"
+  },
+  "emission": {
+    "revision": "R24",
+    "status": "Alimentación compartida y secador independiente",
+    "approvedForFabrication": false,
+    "note": "Longitudes de C01 y C02 conservadas de R22. Reubicación de equipos y bajante móvil propuestas."
+  },
+  "installationConstraints": {
+    "fixedBaseMm": {
+      "tolva": 0,
+      "briquetadora": 0,
+      "secador": 0,
+      "bajante_movil": 0
+    }
+  }
+}
