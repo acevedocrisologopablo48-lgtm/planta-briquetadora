@@ -1,0 +1,72 @@
+{
+  "revision": "R28",
+  "base": "R27",
+  "preservedR27": true,
+  "front": {
+    "baseMm": 1100,
+    "totalNominalHeightMm": 3700,
+    "outlet": [
+      5100,
+      0,
+      1775
+    ],
+    "openHopperDirection": "-X",
+    "openEdgeHeightMm": 3300,
+    "hopperX": 0,
+    "doserX": 5100,
+    "receivingSurfaceMm": 1576.36275063162,
+    "verticalFallMm": 198.63724936838003,
+    "minimumCoalHoodWallDegrees": 63.21930532221364
+  },
+  "belts": [
+    {
+      "id": "C09",
+      "length": 1910.49731745428,
+      "pitch": 6.009005957494525,
+      "tail": [
+        27500,
+        -100,
+        400
+      ],
+      "head": [
+        27500,
+        1799.9999999999998,
+        600
+      ]
+    },
+    {
+      "id": "C10",
+      "length": 9055.109055113582,
+      "pitch": 13.084718671534098,
+      "tail": [
+        27700,
+        1950,
+        200
+      ],
+      "head": [
+        19000,
+        500.0000000000007,
+        2250
+      ]
+    }
+  ],
+  "drops": {
+    "screenToCollector": 468.4687197376255,
+    "collectorToC09": 74.72903685300037,
+    "C09ToC10": 334.2571232592636,
+    "C10ToC02": 635.7124873512398
+  },
+  "installationLength": 63734.42888429631,
+  "limits": {
+    "reserve": 72000,
+    "max": 75000
+  },
+  "observations": [],
+  "tracks": [
+    "anthracite",
+    "binder",
+    "fines"
+  ],
+  "blocked": [],
+  "parts": 8888
+}

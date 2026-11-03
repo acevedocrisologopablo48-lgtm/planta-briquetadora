@@ -1,0 +1,1029 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": "r28-3d-v1",
+  "name": "PLANTA BRIQUETADORA · R28",
+  "equipment": [
+    {
+      "id": "tolva",
+      "name": "Tolva de carbón",
+      "x": 0,
+      "y": 0,
+      "base": 0,
+      "yaw": 0,
+      "width": 3450,
+      "structure": {
+        "width": 3796,
+        "depth": 3796,
+        "spacing": 3643,
+        "post": 153,
+        "beam": 153
+      }
+    },
+    {
+      "id": "dosificador",
+      "name": "Dosificador de aglomerante",
+      "x": 5100,
+      "y": -1000,
+      "base": 1100,
+      "yaw": 180,
+      "width": 1700,
+      "structure": {
+        "width": 1900,
+        "depth": 1700,
+        "spacing": 3000,
+        "post": 100,
+        "beam": 100
+      }
+    },
+    {
+      "id": "mezcladora",
+      "name": "Mezcladora de doble eje",
+      "x": 9808.38148608052,
+      "y": 0,
+      "base": 1100,
+      "yaw": 0,
+      "width": 1300,
+      "structure": {
+        "width": 1500,
+        "depth": 6200,
+        "spacing": 3000,
+        "post": 100,
+        "beam": 100
+      }
+    },
+    {
+      "id": "briquetadora",
+      "name": "Briquetadora",
+      "x": 23750.067489318993,
+      "y": -495,
+      "base": 0,
+      "yaw": 0,
+      "width": 1970,
+      "structure": {
+        "width": 2020,
+        "depth": 2250,
+        "spacing": 3000,
+        "post": 100,
+        "beam": 100
+      }
+    },
+    {
+      "id": "secador",
+      "name": "Secador cerrado · ficha20 ×2,8 ×3m",
+      "x": 40461.13387667139,
+      "y": 0,
+      "base": 0,
+      "yaw": 0,
+      "width": 2800,
+      "structure": {
+        "width": 2800,
+        "depth": 20000,
+        "spacing": 2000,
+        "post": 100,
+        "beam": 60
+      }
+    },
+    {
+      "id": "tolva_provisional",
+      "name": "Tolva pulmón provisional · retiro continuo",
+      "x": 31249.964167054757,
+      "y": 0,
+      "base": 0,
+      "yaw": 0,
+      "width": 1608,
+      "structure": {
+        "width": 2200,
+        "depth": 2500,
+        "spacing": 1500,
+        "post": 80,
+        "beam": 80
+      }
+    },
+    {
+      "id": "bajante_movil",
+      "name": "Bajante móvil de descarga",
+      "x": 26850.067489318993,
+      "y": 20,
+      "yaw": 0,
+      "base": 0,
+      "width": 650,
+      "structure": {
+        "width": 650,
+        "depth": 1543.5081932574535,
+        "spacing": 1303.5081932574535,
+        "post": 40,
+        "beam": 40
+      }
+    }
+  ],
+  "belts": [
+    {
+      "id": "C01",
+      "name": "Aglomerante + carbón → mezcladora",
+      "tail": [
+        1050,
+        0,
+        240
+      ],
+      "length": 9495,
+      "pitch": 15.641393334672227,
+      "yaw": 0,
+      "radius": 180,
+      "width": 500,
+      "outer": 900,
+      "depth": 350,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "reference45",
+      "headRadius": 180,
+      "tailRadius": 196.2,
+      "modules": 6,
+      "supportWidth": 900,
+      "headSupportWidth": 2000,
+      "supportStations": [
+        900,
+        3400,
+        5900,
+        8400
+      ],
+      "tailDepth": 140
+    },
+    {
+      "id": "C02",
+      "name": "Mezcla → briquetadora",
+      "tail": [
+        15516.617539106881,
+        0,
+        420
+      ],
+      "length": 9495,
+      "pitch": 17.340615590217336,
+      "yaw": 0,
+      "radius": 180,
+      "width": 500,
+      "outer": 900,
+      "depth": 250,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "reference45",
+      "headRadius": 180,
+      "tailRadius": 196.2,
+      "modules": 6,
+      "tailDepth": 140,
+      "supportWidth": 900,
+      "supportStations": [
+        900,
+        3600,
+        6300,
+        7995
+      ]
+    },
+    {
+      "id": "C05",
+      "name": "Colectora plana B400 · taller",
+      "tail": [
+        24250.067489318993,
+        20,
+        1241
+      ],
+      "length": 2500,
+      "pitch": 0,
+      "yaw": 0,
+      "radius": 50,
+      "width": 400,
+      "outer": 460,
+      "depth": 150,
+      "spacing": 2700,
+      "post": 40,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "nominalExterior": 2600,
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "pressCollector",
+      "baseLength": 2500,
+      "modules": 0,
+      "tailRadius": 50,
+      "headRadius": 50
+    },
+    {
+      "id": "C03",
+      "name": "Alimentador propio de malla · nominal12 ×3m",
+      "tail": [
+        29062.547006973,
+        0,
+        850
+      ],
+      "length": 11800,
+      "pitch": 12.977962643656616,
+      "yaw": 0,
+      "radius": 100,
+      "width": 2500,
+      "outer": 3000,
+      "depth": 394,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 650,
+      "motorD": 330,
+      "class": "P",
+      "nominalExterior": 12000,
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "dryerInput",
+      "baseLength": 11800,
+      "modules": 0,
+      "tailRadius": 100,
+      "headRadius": 100,
+      "supportWidth": 3100,
+      "supportStations": [
+        350,
+        2700,
+        5400,
+        8100,
+        10500,
+        11700
+      ],
+      "tailDepth": 300
+    },
+    {
+      "id": "C04",
+      "name": "Recepción transversal horizontal B800 del secador",
+      "tail": [
+        61061.13387667139,
+        -1750,
+        500
+      ],
+      "length": 4350,
+      "pitch": 0,
+      "yaw": 90,
+      "radius": 75,
+      "width": 800,
+      "outer": 950,
+      "depth": 150,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 650,
+      "motorD": 330,
+      "class": "P",
+      "nominalExterior": 4500,
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "dryerOutput",
+      "baseLength": 4350,
+      "modules": 0,
+      "tailRadius": 75,
+      "headRadius": 75,
+      "supportWidth": 950
+    },
+    {
+      "id": "C07",
+      "name": "Briqueta fresca → pulmón provisional",
+      "tail": [
+        26734.067489318993,
+        0,
+        850
+      ],
+      "length": 4350,
+      "pitch": 4.614993817064546,
+      "yaw": 0,
+      "radius": 75,
+      "width": 500,
+      "outer": 700,
+      "depth": 220,
+      "tailDepth": 150,
+      "spacing": 1800,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
+      "class": "P",
+      "family": "dryerOutput",
+      "baseLength": 4350,
+      "modules": 0,
+      "headRadius": 75,
+      "tailRadius": 75,
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "supportWidth": 900,
+      "supportStations": [
+        550,
+        2100,
+        3650
+      ]
+    },
+    {
+      "id": "C08",
+      "name": "Salida elevada B800 /16° / superficie1600",
+      "tail": [
+        61061.13387667139,
+        2780,
+        380
+      ],
+      "length": 4143.624869871714,
+      "pitch": 16,
+      "yaw": 90,
+      "radius": 75,
+      "width": 800,
+      "outer": 950,
+      "depth": 150,
+      "spacing": 2700,
+      "post": 80,
+      "motorL": 650,
+      "motorD": 330,
+      "class": "P",
+      "modulePitch": 980,
+      "framePitch": 1200,
+      "family": "dryerOutput",
+      "baseLength": 4143.624869871714,
+      "modules": 0,
+      "tailRadius": 75,
+      "headRadius": 75,
+      "supportWidth": 950,
+      "supportStations": [
+        400,
+        1800,
+        3300
+      ]
+    },
+    {
+      "id": "C09",
+      "name": "Captación transversal de finos",
+      "tail": [
+        27500,
+        -100,
+        400
+      ],
+      "length": 1910.49731745428,
+      "pitch": 6.009005957494525,
+      "yaw": 90,
+      "radius": 50,
+      "headRadius": 50,
+      "tailRadius": 50,
+      "width": 400,
+      "outer": 550,
+      "depth": 120,
+      "spacing": 2000,
+      "post": 40,
+      "motorL": 170,
+      "motorD": 120,
+      "class": "P",
+      "family": "finesReturn",
+      "baseLength": 1910.49731745428,
+      "modules": 0,
+      "modulePitch": 980,
+      "framePitch": 1200
+    },
+    {
+      "id": "C10",
+      "name": "Retorno de finos a C02",
+      "tail": [
+        27700,
+        1950,
+        200
+      ],
+      "length": 9055.109055113582,
+      "pitch": 13.084718671534098,
+      "yaw": 189.4623222080256,
+      "radius": 50,
+      "headRadius": 50,
+      "tailRadius": 50,
+      "width": 300,
+      "outer": 450,
+      "depth": 120,
+      "spacing": 2000,
+      "post": 40,
+      "motorL": 170,
+      "motorD": 120,
+      "class": "P",
+      "family": "finesReturn",
+      "baseLength": 9055.109055113582,
+      "modules": 0,
+      "modulePitch": 980,
+      "framePitch": 1200
+    }
+  ],
+  "connections": [
+    {
+      "id": "dos-C01",
+      "label": "Aglomerante / primer tramo C01",
+      "from": {
+        "owner": "dosificador",
+        "feature": "outlet"
+      },
+      "to": {
+        "owner": "C01",
+        "feature": "station",
+        "local": [
+          4260.324766744924,
+          0,
+          194.93148318196836
+        ]
+      },
+      "width": 180,
+      "topWidth": 180,
+      "bottomWidth": 180,
+      "depth": 300,
+      "topDepth": 300,
+      "bottomDepth": 300,
+      "toOrientation": "beltSurface",
+      "kind": "chute",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Descarga propia directa sobre C01. Bancada lateral reducida."
+    },
+    {
+      "id": "tolva-C01",
+      "label": "Carbón · compuerta / alimentador C01",
+      "from": {
+        "owner": "tolva",
+        "feature": "outlet",
+        "local": [
+          2074.2,
+          0,
+          1600
+        ]
+      },
+      "to": {
+        "owner": "C01",
+        "feature": "station",
+        "local": [
+          1119.6646799955774,
+          0,
+          200.28996316009147
+        ]
+      },
+      "width": 300,
+      "depth": 450,
+      "topWidth": 800,
+      "topDepth": 1200,
+      "bottomWidth": 300,
+      "bottomDepth": 450,
+      "fromOrientation": "horizontal",
+      "toOrientation": "beltSurface",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Campana suave sin repisas con registro lateral y faldones cortos. Alturas fijas; ángulo mínimo calculado en visor. Dimensiones de adaptación P."
+    },
+    {
+      "id": "C01-mix",
+      "label": "C01 / mezcladora",
+      "from": {
+        "owner": "C01",
+        "feature": "discharge"
+      },
+      "to": {
+        "owner": "mezcladora",
+        "feature": "inlet"
+      },
+      "width": 300,
+      "class": "P",
+      "topWidth": 150,
+      "bottomWidth": 400,
+      "depth": 300,
+      "pendingReason": "Descarga directa sobre el cuerpo; sin tolva elevada ni adaptador duplicado."
+    },
+    {
+      "id": "mix-C02",
+      "label": "Mezcladora / C02",
+      "from": {
+        "owner": "mezcladora",
+        "feature": "outlet"
+      },
+      "to": {
+        "owner": "C02",
+        "feature": "station",
+        "local": [
+          263.88972698469036,
+          0,
+          201.7500552601348
+        ]
+      },
+      "width": 340,
+      "class": "P",
+      "topWidth": 600,
+      "bottomWidth": 300,
+      "depth": 340,
+      "toOrientation": "beltSurface",
+      "status": "proposed",
+      "pendingReason": "Recepción centrada bajo la descarga real, sin retroceso longitudinal. Chute con registro y faldones; se conserva la altura de colaC02 para reservar al menos300mm libres entre bordes.",
+      "topDepth": 300,
+      "bottomDepth": 340
+    },
+    {
+      "id": "C02-briq",
+      "label": "C02 / briquetadora",
+      "from": {
+        "owner": "C02",
+        "feature": "discharge"
+      },
+      "to": {
+        "owner": "briquetadora",
+        "feature": "inlet"
+      },
+      "width": 600,
+      "class": "P",
+      "topWidth": 150,
+      "bottomWidth": 600,
+      "depth": 550,
+      "status": "proposed",
+      "pendingReason": "Descarga centrada sobre tolva superior de prensa a2830mm."
+    },
+    {
+      "id": "briq-C05",
+      "label": "Briquetadora / colectora plana B400",
+      "from": {
+        "owner": "briquetadora",
+        "feature": "station",
+        "local": [
+          1284.4770462348024,
+          515,
+          1302
+        ]
+      },
+      "to": {
+        "owner": "C05",
+        "feature": "station",
+        "local": [
+          784.4770462348024,
+          0,
+          53
+        ]
+      },
+      "width": 80,
+      "class": "P",
+      "topWidth": 80,
+      "bottomWidth": 80,
+      "depth": 360,
+      "toOrientation": "beltSurface",
+      "status": "proposed",
+      "pendingReason": "P: tangente de desprendimiento15° adoptada; dos labios50° y canal común50°, goma10/UHMW8, salida8sobrebanda.",
+      "topDepth": 360,
+      "bottomDepth": 360
+    },
+    {
+      "id": "dry-C04",
+      "label": "C06 / chuta2500 / colectora transversal C04",
+      "from": {
+        "owner": "secador",
+        "feature": "outlet"
+      },
+      "to": {
+        "owner": "C04",
+        "feature": "station",
+        "local": [
+          1750,
+          235.0000000000001,
+          81
+        ]
+      },
+      "width": 120,
+      "class": "P",
+      "topWidth": 120,
+      "bottomWidth": 120,
+      "depth": 2500,
+      "toOrientation": "horizontal",
+      "status": "proposed",
+      "pendingReason": "Chuta45° ancha; material conserva posición transversal. C04 recibe u500–3000; no reducción a garganta200 ni foso.",
+      "topDepth": 2500,
+      "bottomDepth": 2500,
+      "fromOrientation": "horizontal"
+    },
+    {
+      "id": "C07-buffer",
+      "label": "C07 / tolva pulmón de retiro continuo",
+      "from": {
+        "owner": "C07",
+        "feature": "head"
+      },
+      "to": {
+        "owner": "tolva_provisional",
+        "feature": "inlet",
+        "local": [
+          220,
+          0,
+          830
+        ]
+      },
+      "width": 480,
+      "depth": 480,
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Guía50° ajustable a cama+30mm. Fondo móvil y nivel alto; retiro continuo, sin afirmar resistencia ni capacidad productiva."
+    },
+    {
+      "id": "C03-dry",
+      "label": "Alimentador de malla / acople directo nivel1",
+      "from": {
+        "owner": "C03",
+        "feature": "head"
+      },
+      "to": {
+        "owner": "secador",
+        "feature": "inlet"
+      },
+      "width": 200,
+      "topWidth": 200,
+      "bottomWidth": 200,
+      "depth": 2500,
+      "topDepth": 2500,
+      "bottomDepth": 2500,
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Acople directo transversal2500mm P/R desde alimentador propio; la guía, banda y cotas utilizan sus superficies reales. Sin repartidor oscilante ficticio."
+    },
+    {
+      "id": "C05-mobile",
+      "label": "Colectora B400 / bajante móvil",
+      "from": {
+        "owner": "C05",
+        "feature": "station",
+        "local": [
+          2545.8993464005753,
+          0,
+          26.500000000000007
+        ]
+      },
+      "to": {
+        "owner": "bajante_movil",
+        "feature": "inlet",
+        "local": [
+          -42,
+          0,
+          1230
+        ]
+      },
+      "width": 12,
+      "topWidth": 12,
+      "bottomWidth": 12,
+      "depth": 400,
+      "topDepth": 400,
+      "bottomDepth": 400,
+      "class": "P",
+      "kind": "chute",
+      "status": "proposed",
+      "pendingReason": "Nariz de recepción redondeada y regulable: captura a58mm delante del centro de tambor, cota1230mm. Trayectoria ilustrativa con ángulo adoptado60°; carro con topes de posición y frenos."
+    },
+    {
+      "id": "C04-C08",
+      "label": "Recepción horizontal / elevador16°",
+      "from": {
+        "owner": "C04",
+        "feature": "station",
+        "local": [
+          4420.1480577065395,
+          0,
+          40.5
+        ]
+      },
+      "to": {
+        "owner": "C08",
+        "feature": "station",
+        "local": [
+          106.45033111930746,
+          4.898587196589413e-15,
+          81.00000001365619
+        ]
+      },
+      "width": 40,
+      "topWidth": 40,
+      "bottomWidth": 40,
+      "depth": 700,
+      "topDepth": 700,
+      "bottomDepth": 700,
+      "toOrientation": "beltSurface",
+      "kind": "chute",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Dos tramos B800: recepción horizontal bajo la salida ancha y elevador16°. Transición revestida corta; superficies y componentes rígidos diferenciados."
+    },
+    {
+      "id": "mobile-tray",
+      "label": "Bajante / bandeja de retirada",
+      "from": {
+        "owner": "bajante_movil",
+        "feature": "outlet"
+      },
+      "to": {
+        "owner": "bajante_movil",
+        "feature": "station",
+        "local": [
+          1623.5081932574535,
+          0,
+          620
+        ]
+      },
+      "width": 40,
+      "topWidth": 40,
+      "bottomWidth": 40,
+      "depth": 350,
+      "topDepth": 350,
+      "bottomDepth": 350,
+      "kind": "chute",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Recepción próxima en bandeja baja; retirada por el lateral. No hay enlace automático ni elevación por gravedad hacia C03."
+    },
+    {
+      "id": "fines-screen-C09",
+      "label": "Panel ranurado / captación C09",
+      "from": {
+        "owner": "bajante_movil",
+        "feature": "station",
+        "local": [
+          650,
+          0,
+          540
+        ]
+      },
+      "to": {
+        "owner": "C09",
+        "feature": "station",
+        "local": [
+          120,
+          0,
+          53
+        ]
+      },
+      "width": 180,
+      "depth": 300,
+      "topWidth": 200,
+      "bottomWidth": 150,
+      "topDepth": 300,
+      "bottomDepth": 280,
+      "toOrientation": "beltSurface",
+      "kind": "chute",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Conexión de recuperación P, calculada sobre superficies reales. Acople desmontable y registro de limpieza."
+    },
+    {
+      "id": "fines-C09-C10",
+      "label": "C09 / retorno lateral C10",
+      "from": {
+        "owner": "C09",
+        "feature": "station",
+        "local": [
+          2046.4255785403718,
+          1.250898942395002e-13,
+          -73.47396921473074
+        ]
+      },
+      "to": {
+        "owner": "C10",
+        "feature": "station",
+        "local": [
+          200,
+          0,
+          53
+        ]
+      },
+      "width": 100,
+      "depth": 250,
+      "topWidth": 260,
+      "bottomWidth": 120,
+      "topDepth": 110,
+      "bottomDepth": 220,
+      "toOrientation": "beltSurface",
+      "kind": "chute",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Conexión de recuperación P, calculada sobre superficies reales. Acople desmontable y registro de limpieza."
+    },
+    {
+      "id": "fines-C10-C02",
+      "label": "Retorno / C02 hacia prensa",
+      "from": {
+        "owner": "C10",
+        "feature": "station",
+        "local": [
+          9178.036802016893,
+          0,
+          -83.8024275163068
+        ]
+      },
+      "to": {
+        "owner": "C02",
+        "feature": "station",
+        "local": [
+          3500,
+          0,
+          196.22872162867878
+        ]
+      },
+      "width": 180,
+      "depth": 250,
+      "topWidth": 80,
+      "bottomWidth": 160,
+      "topDepth": 250,
+      "bottomDepth": 220,
+      "toOrientation": "beltSurface",
+      "kind": "chute",
+      "class": "P",
+      "status": "proposed",
+      "pendingReason": "Conexión de recuperación P, calculada sobre superficies reales. Acople desmontable y registro de limpieza."
+    }
+  ],
+  "dimensions": [
+    {
+      "id": "C09-L",
+      "type": "aligned",
+      "a": {
+        "owner": "C09",
+        "feature": "tail"
+      },
+      "b": {
+        "owner": "C09",
+        "feature": "head"
+      }
+    },
+    {
+      "id": "C09-angle",
+      "type": "angle",
+      "a": {
+        "owner": "C09",
+        "feature": "tail"
+      },
+      "b": {
+        "owner": "C09",
+        "feature": "head"
+      }
+    },
+    {
+      "id": "C10-L",
+      "type": "aligned",
+      "a": {
+        "owner": "C10",
+        "feature": "tail"
+      },
+      "b": {
+        "owner": "C10",
+        "feature": "head"
+      }
+    },
+    {
+      "id": "C10-angle",
+      "type": "angle",
+      "a": {
+        "owner": "C10",
+        "feature": "tail"
+      },
+      "b": {
+        "owner": "C10",
+        "feature": "head"
+      }
+    },
+    {
+      "id": "doser-freefall",
+      "type": "Z",
+      "a": {
+        "owner": "dosificador",
+        "feature": "outlet"
+      },
+      "b": {
+        "owner": "C01",
+        "feature": "station",
+        "local": [
+          5298.285095809018,
+          0,
+          193.16088007676558
+        ]
+      }
+    }
+  ],
+  "reserve": 72000,
+  "limit": 75000,
+  "referenceRevision": "r28-alimentacion-baja-retorno-v1",
+  "serviceZones": [
+    {
+      "id": "pasillo-lateral-negativo",
+      "name": "Pasillo lateral propuesto1000mm",
+      "offset": [
+        -1000,
+        -3500,
+        0
+      ],
+      "size": [
+        62239.25296180454,
+        1000,
+        60
+      ],
+      "class": "P",
+      "pendingReason": "Paso libre propuesto; retirada de ejes, rodillos, ventiladores y motores no comprobada con fabricante."
+    },
+    {
+      "id": "pasillo-lateral-positivo",
+      "name": "Pasillo lateral propuesto1000mm",
+      "offset": [
+        -1000,
+        4400,
+        0
+      ],
+      "size": [
+        62239.25296180454,
+        1000,
+        60
+      ],
+      "class": "P",
+      "pendingReason": "Paso libre propuesto; carga de tolvas, acceso al calentador y apertura real de puertas pendientes."
+    },
+    {
+      "id": "acceso-inicial",
+      "name": "Reserva extremo inicial 1000 mm",
+      "offset": [
+        -1000,
+        -2500,
+        0
+      ],
+      "size": [
+        1000,
+        5850,
+        60
+      ],
+      "class": "P",
+      "pendingReason": "Método y espacio de carga de carbón pendientes; no equivale a una ruta de vehículo verificada."
+    },
+    {
+      "id": "acceso-final",
+      "name": "Reserva extremo final 1000 mm",
+      "offset": [
+        61734.42888429631,
+        -2500,
+        0
+      ],
+      "size": [
+        1000,
+        5850,
+        60
+      ],
+      "class": "P",
+      "pendingReason": "Recepción final de producto, almacenamiento y retirada del motor pendientes."
+    }
+  ],
+  "process": {
+    "binderForm": "undetermined",
+    "binderPreview": "solidBelt",
+    "coalTargetTph": 15,
+    "binderPercent": 3,
+    "dryerResidenceSeconds": null,
+    "dryerExitConfirmed": false,
+    "transferOpeningsConfirmed": false,
+    "structuralValidationConfirmed": false,
+    "maintenanceValidationConfirmed": false,
+    "manufacturerNotes": "R28 basada en R27. Tolva y dosificador adelantados 1000 mm; bancada dosificador 1100 mm, descarga propia directa a C01. Retorno con bastidor plegado, soportes arriostrados y transferencias sin torsión. Se conserva separación pasiva de 5 mm, receta sobre carbón nuevo, alturas fijas y cintas principales. Secador independiente.",
+    "designBasis": {
+      "coalBasis": "dry",
+      "coalTph": 15,
+      "waterPercent": 4,
+      "waterMinPercent": 3,
+      "waterMaxPercent": 5,
+      "binderMinPercent": 2,
+      "binderMaxPercent": 4,
+      "status": "P"
+    },
+    "water": {
+      "batchLitres": null,
+      "pulsesPerLitre": null,
+      "mode": "continuous",
+      "continuousLpm": 10,
+      "notes": "Base de diseño: carbón seco15t/h; agua4%=600L/h. Banda de receta3–5%=450–750L/h; no acredita producción."
+    },
+    "plantMode": "dryer",
+    "bufferFillMm": 250,
+    "bufferWithdrawal": "continuous"
+  },
+  "emission": {
+    "revision": "R28",
+    "status": "Alimentación compacta y retorno de finos mejorado",
+    "approvedForFabrication": false,
+    "note": "Geometría de montaje propuesta. R27 y propuestas anteriores conservadas."
+  },
+  "installationConstraints": {
+    "fixedBaseMm": {
+      "tolva": 0,
+      "briquetadora": 0,
+      "secador": 0,
+      "bajante_movil": 0
+    }
+  },
+  "operation": {
+    "beltSpeedMps": 0.5,
+    "waterPercent": 4,
+    "withdrawalKgMin": null,
+    "startupStepSeconds": 2
+  },
+  "recycling": {
+    "enabled": true,
+    "slotWidthMm": 5,
+    "illustrativeFraction": 0.1
+  }
+}
