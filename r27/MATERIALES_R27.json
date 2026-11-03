@@ -1,0 +1,650 @@
+[
+  {
+    "pos": "01",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 4,
+    "descripcion": "Placa base",
+    "material": "ASTM A36",
+    "medidas_mm": "220.00 x 220.00 x 12.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "02",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 2,
+    "descripcion": "Columna SHS 100 x 100 x 5",
+    "material": "S275JRH",
+    "medidas_mm": "L 2388.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "03",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 2,
+    "descripcion": "Columna SHS 100 x 100 x 5",
+    "material": "S275JRH",
+    "medidas_mm": "L 1388.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "04",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 4,
+    "descripcion": "Viga SHS 100 x 100 x 5",
+    "material": "S275JRH",
+    "medidas_mm": "L 1700.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "05",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 2,
+    "descripcion": "Cartela triangular, chapa 10",
+    "material": "ASTM A36",
+    "medidas_mm": "250 x 1000 x 10",
+    "nota": "Triángulo según geometría: borde vertical250 y proyección1000. No usar envolvente como rectángulo de corte."
+  },
+  {
+    "pos": "06",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 2,
+    "descripcion": "Asiento RHS 60 x 40 x 4",
+    "material": "S275JRH",
+    "medidas_mm": "L 1350.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "07",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 2,
+    "descripcion": "Montante SHS 60 x 60 x 4",
+    "material": "S275JRH",
+    "medidas_mm": "L 340.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "08",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 2,
+    "descripcion": "Soporte de tablero, chapa 6",
+    "material": "ASTM A36",
+    "medidas_mm": "320.00 x 40.00 x 6.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "09",
+    "conjunto": "Dosificador / bancada",
+    "cantidad": 2,
+    "descripcion": "Soporte de tablero, chapa 6",
+    "material": "ASTM A36",
+    "medidas_mm": "210.00 x 40.00 x 6.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "10",
+    "conjunto": "Tolva / remate",
+    "cantidad": 1,
+    "descripcion": "Remate de borde abierto, pletina",
+    "material": "ASTM A36",
+    "medidas_mm": "3450.00 x 16.00 x 12.00",
+    "nota": "Cotas tomadas de la pieza representada; P."
+  },
+  {
+    "pos": "11",
+    "conjunto": "Dosificador / modificación",
+    "cantidad": 1,
+    "descripcion": "Adaptación de dos columnas delanteras y travesaños inferiores",
+    "material": "Estructura existente",
+    "medidas_mm": "Conservar partes superiores y pesaje",
+    "nota": "Retirar segmentos inferiores indicados en el conjunto. Reutilizar equipos rígidos; no comprar dosificador completo."
+  },
+  {
+    "pos": "12",
+    "conjunto": "Dosificador / tablero",
+    "cantidad": 1,
+    "descripcion": "Reubicación completa de tablero, pantalla y mandos",
+    "material": "Equipo existente",
+    "medidas_mm": "Dimensiones originales",
+    "nota": "Giro rígido y nueva posición exterior; no duplicar en compra."
+  },
+  {
+    "pos": "13",
+    "conjunto": "Bajante / separación",
+    "cantidad": 1,
+    "descripcion": "Panel ranurado desmontable",
+    "material": "Acero inoxidable 304",
+    "medidas_mm": "800 x 400 x 6",
+    "nota": "96 ranuras5 x150, extremosR2.5;24 columnas x4 tramos. Desbarbar y enrasar."
+  },
+  {
+    "pos": "14",
+    "conjunto": "Bajante / captación",
+    "cantidad": 1,
+    "descripcion": "Paño de captación inferior, chapa3",
+    "material": "ASTM A36",
+    "medidas_mm": "Lados 800.00 / 346.86 / 300.00 / 625.58 / e3",
+    "nota": "Paño trapezoidal según coordenadas del modelo; no tomar su caja envolvente como desarrollo."
+  },
+  {
+    "pos": "15",
+    "conjunto": "Bajante / captación",
+    "cantidad": 1,
+    "descripcion": "Paño de captación inferior, chapa3",
+    "material": "ASTM A36",
+    "medidas_mm": "Lados 376.00 / 346.86 / 200.00 / 346.86 / e3",
+    "nota": "Paño trapezoidal según coordenadas del modelo; no tomar su caja envolvente como desarrollo."
+  },
+  {
+    "pos": "16",
+    "conjunto": "Bajante / captación",
+    "cantidad": 1,
+    "descripcion": "Paño de captación inferior, chapa3",
+    "material": "ASTM A36",
+    "medidas_mm": "Lados 800.00 / 625.58 / 300.00 / 346.86 / e3",
+    "nota": "Paño trapezoidal según coordenadas del modelo; no tomar su caja envolvente como desarrollo."
+  },
+  {
+    "pos": "17",
+    "conjunto": "Bajante / captación",
+    "cantidad": 1,
+    "descripcion": "Paño extremo con registro de limpieza",
+    "material": "ASTM A36",
+    "medidas_mm": "Anchos376 /200, altura inclinada 619.36 / e3",
+    "nota": "Registro útil160 x120 según corte real; no utilizar triangulación como contorno."
+  },
+  {
+    "pos": "18",
+    "conjunto": "Bajante / captación",
+    "cantidad": 1,
+    "descripcion": "Tapa desmontable del registro",
+    "material": "ASTM A36",
+    "medidas_mm": "184.00 x 144.00 x 3.00",
+    "nota": "Incluye cuatro fijaciones desmontables y junta perimetral."
+  },
+  {
+    "pos": "19",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "800.00 x 12.00 x 12.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "20",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "800.00 x 12.00 x 12.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "21",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "376.00 x 12.00 x 12.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "22",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "376.00 x 12.00 x 12.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "23",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "376.00 x 12.00 x 12.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "24",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "376.00 x 12.00 x 12.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "25",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "376.00 x 12.00 x 12.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "26",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "800.00 x 35.00 x 6.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "27",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "800.00 x 35.00 x 6.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "28",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "800.00 x 12.00 x 3.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "29",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Pletina de apoyo perimetral",
+    "material": "ASTM A36",
+    "medidas_mm": "800.00 x 12.00 x 3.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "30",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Presilla desmontable",
+    "material": "ASTM A36",
+    "medidas_mm": "30.00 x 16.00 x 8.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "31",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Presilla desmontable",
+    "material": "ASTM A36",
+    "medidas_mm": "30.00 x 16.00 x 8.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "32",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Presilla desmontable",
+    "material": "ASTM A36",
+    "medidas_mm": "30.00 x 16.00 x 8.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "33",
+    "conjunto": "Bajante / soporte panel",
+    "cantidad": 1,
+    "descripcion": "Presilla desmontable",
+    "material": "ASTM A36",
+    "medidas_mm": "30.00 x 16.00 x 8.00",
+    "nota": "Longitudes de arista y espesor desde la pieza. Ajustar ingletes al plano20°."
+  },
+  {
+    "pos": "34",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Banda continua plana, ancho 400",
+    "material": "Caucho / tejido",
+    "medidas_mm": "B400 x e3 / entre ejes 1910.50",
+    "nota": "Longitud geométrica neutra 4144.58; empalme y margen de tensado se definirán con proveedor."
+  },
+  {
+    "pos": "35",
+    "conjunto": "C09",
+    "cantidad": 2,
+    "descripcion": "Tambor Ø100",
+    "material": "Acero",
+    "medidas_mm": "Ø100 x 420",
+    "nota": "Dos componentes rígidos de dimensiones iguales."
+  },
+  {
+    "pos": "36",
+    "conjunto": "C09",
+    "cantidad": 2,
+    "descripcion": "Eje de tambor Ø25",
+    "material": "SAE1045",
+    "medidas_mm": "Ø25 x 610",
+    "nota": "Ajustes, chaveteros y extremos según accionamiento seleccionado."
+  },
+  {
+    "pos": "37",
+    "conjunto": "C09",
+    "cantidad": 4,
+    "descripcion": "Chumacera para eje Ø25",
+    "material": "Serie comercial UCP205",
+    "medidas_mm": "D25",
+    "nota": "Familia de compra propuesta; concordar perforaciones antes de mecanizar."
+  },
+  {
+    "pos": "38",
+    "conjunto": "C09",
+    "cantidad": 2,
+    "descripcion": "Tensor de husillo de cola",
+    "material": "Acero",
+    "medidas_mm": "M10 / longitud120",
+    "nota": "Carrera representada en conjunto; tuerca y soporte incluidos."
+  },
+  {
+    "pos": "39",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Larguero plegado, alma y alas",
+    "material": "Chapa de acero",
+    "medidas_mm": "L 2050.50 / alma4 x106 / alas25 x6",
+    "nota": "Secciones representadas por paños independientes. Unificar a perfil plegado antes de fabricar."
+  },
+  {
+    "pos": "40",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Larguero plegado, alma y alas",
+    "material": "Chapa de acero",
+    "medidas_mm": "L 2050.50 / alma4 x106 / alas25 x6",
+    "nota": "Secciones representadas por paños independientes. Unificar a perfil plegado antes de fabricar."
+  },
+  {
+    "pos": "41",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Cama deslizante",
+    "material": "Chapa galvanizada",
+    "medidas_mm": "L 1770.50 x 400 x3",
+    "nota": "Soporte continuo bajo la rama portante."
+  },
+  {
+    "pos": "42",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 323.11",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "43",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 323.11",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "44",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 434.12",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "45",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 434.12",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "46",
+    "conjunto": "C09",
+    "cantidad": 4,
+    "descripcion": "Placa base",
+    "material": "ASTM A36",
+    "medidas_mm": "130 x130 x12",
+    "nota": "Perforaciones y anclajes por definir según piso."
+  },
+  {
+    "pos": "47",
+    "conjunto": "C09",
+    "cantidad": 3,
+    "descripcion": "Rodillo de retorno Ø34",
+    "material": "Acero",
+    "medidas_mm": "Ø34 x 415",
+    "nota": "EjeØ12, colgantes y alojamientos en conjunto."
+  },
+  {
+    "pos": "48",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Motorreductor de cabeza con acoplamiento",
+    "material": "Conjunto comercial",
+    "medidas_mm": "Envolvente geométrica original",
+    "nota": "Potencia, relación y referencia comercial pendientes; no atribuir potencia a la malla ilustrativa."
+  },
+  {
+    "pos": "49",
+    "conjunto": "C09",
+    "cantidad": 1,
+    "descripcion": "Plataforma de accionamiento y guardas",
+    "material": "Acero",
+    "medidas_mm": "Según conjunto",
+    "nota": "Incluye ménsulas, base de motor y resguardos laterales."
+  },
+  {
+    "pos": "50",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Banda continua plana, ancho 300",
+    "material": "Caucho / tejido",
+    "medidas_mm": "B300 x e3 / entre ejes 9167.47",
+    "nota": "Longitud geométrica neutra 18658.52; empalme y margen de tensado se definirán con proveedor."
+  },
+  {
+    "pos": "51",
+    "conjunto": "C10",
+    "cantidad": 2,
+    "descripcion": "Tambor Ø100",
+    "material": "Acero",
+    "medidas_mm": "Ø100 x 320",
+    "nota": "Dos componentes rígidos de dimensiones iguales."
+  },
+  {
+    "pos": "52",
+    "conjunto": "C10",
+    "cantidad": 2,
+    "descripcion": "Eje de tambor Ø25",
+    "material": "SAE1045",
+    "medidas_mm": "Ø25 x 510",
+    "nota": "Ajustes, chaveteros y extremos según accionamiento seleccionado."
+  },
+  {
+    "pos": "53",
+    "conjunto": "C10",
+    "cantidad": 4,
+    "descripcion": "Chumacera para eje Ø25",
+    "material": "Serie comercial UCP205",
+    "medidas_mm": "D25",
+    "nota": "Familia de compra propuesta; concordar perforaciones antes de mecanizar."
+  },
+  {
+    "pos": "54",
+    "conjunto": "C10",
+    "cantidad": 2,
+    "descripcion": "Tensor de husillo de cola",
+    "material": "Acero",
+    "medidas_mm": "M10 / longitud120",
+    "nota": "Carrera representada en conjunto; tuerca y soporte incluidos."
+  },
+  {
+    "pos": "55",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Larguero plegado, alma y alas",
+    "material": "Chapa de acero",
+    "medidas_mm": "L 9307.47 / alma4 x106 / alas25 x6",
+    "nota": "Secciones representadas por paños independientes. Unificar a perfil plegado antes de fabricar."
+  },
+  {
+    "pos": "56",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Larguero plegado, alma y alas",
+    "material": "Chapa de acero",
+    "medidas_mm": "L 9307.47 / alma4 x106 / alas25 x6",
+    "nota": "Secciones representadas por paños independientes. Unificar a perfil plegado antes de fabricar."
+  },
+  {
+    "pos": "57",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Cama deslizante",
+    "material": "Chapa galvanizada",
+    "medidas_mm": "L 9027.47 x 300 x3",
+    "nota": "Soporte continuo bajo la rama portante."
+  },
+  {
+    "pos": "58",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 215.42",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "59",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 215.42",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "60",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 842.64",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "61",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 842.64",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "62",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 1551.67",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "63",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 1551.67",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "64",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 2088.21",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "65",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Pata vertical SHS40 x40 x3",
+    "material": "S275JRH",
+    "medidas_mm": "L máx 2088.21",
+    "nota": "Corte superior inclinado según bastidor."
+  },
+  {
+    "pos": "66",
+    "conjunto": "C10",
+    "cantidad": 8,
+    "descripcion": "Placa base",
+    "material": "ASTM A36",
+    "medidas_mm": "130 x130 x12",
+    "nota": "Perforaciones y anclajes por definir según piso."
+  },
+  {
+    "pos": "67",
+    "conjunto": "C10",
+    "cantidad": 11,
+    "descripcion": "Rodillo de retorno Ø34",
+    "material": "Acero",
+    "medidas_mm": "Ø34 x 315",
+    "nota": "EjeØ12, colgantes y alojamientos en conjunto."
+  },
+  {
+    "pos": "68",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Motorreductor de cabeza con acoplamiento",
+    "material": "Conjunto comercial",
+    "medidas_mm": "Envolvente geométrica original",
+    "nota": "Potencia, relación y referencia comercial pendientes; no atribuir potencia a la malla ilustrativa."
+  },
+  {
+    "pos": "69",
+    "conjunto": "C10",
+    "cantidad": 1,
+    "descripcion": "Plataforma de accionamiento y guardas",
+    "material": "Acero",
+    "medidas_mm": "Según conjunto",
+    "nota": "Incluye ménsulas, base de motor y resguardos laterales."
+  },
+  {
+    "pos": "70",
+    "conjunto": "screen-C09",
+    "cantidad": 4,
+    "descripcion": "Paños de chuta cerrada, chapa2",
+    "material": "Chapa galvanizada",
+    "medidas_mm": "Aristas tomadas del modelo",
+    "nota": "Cada paño según geometría; remate inferior separado8mm de la banda."
+  },
+  {
+    "pos": "71",
+    "conjunto": "C09-C10",
+    "cantidad": 4,
+    "descripcion": "Paños de chuta cerrada, chapa2",
+    "material": "Chapa galvanizada",
+    "medidas_mm": "Aristas tomadas del modelo",
+    "nota": "Cada paño según geometría; remate inferior separado8mm de la banda."
+  },
+  {
+    "pos": "72",
+    "conjunto": "C10-C02",
+    "cantidad": 4,
+    "descripcion": "Paños de chuta cerrada, chapa2",
+    "material": "Chapa galvanizada",
+    "medidas_mm": "Aristas tomadas del modelo",
+    "nota": "Cada paño según geometría; remate inferior separado8mm de la banda."
+  }
+]
