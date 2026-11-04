@@ -1,0 +1,71 @@
+{
+  "revision": "R29",
+  "name": "Propuesta optimizada · R29",
+  "R28Preserved": true,
+  "equipmentPreserved": true,
+  "mainBeltsPreserved": true,
+  "parts": 9059,
+  "envelopeMm": 61924.13387667139,
+  "withAccessesMm": 63734.42888429631,
+  "dropsMm": {
+    "screenToCollector": 468.4687197376255,
+    "collectorToC09": 80.79947500613076,
+    "C09ToC10": 253.27378880154635,
+    "C10ToC11": 243.0391862440033,
+    "C10ToC02": 380.5458544012672,
+    "C11ToC02": 380.5458544012672
+  },
+  "belts": [
+    {
+      "id": "C09",
+      "length": 2743.5743110038047,
+      "pitch": 2.9249779491563666,
+      "tail": [
+        27500.067489318993,
+        140,
+        400
+      ],
+      "head": [
+        27500.067489318993,
+        -2600.0000000000005,
+        540
+      ]
+    },
+    {
+      "id": "C10",
+      "length": 9312.964082396109,
+      "pitch": 12.842443248403779,
+      "tail": [
+        27900,
+        -2680,
+        170
+      ],
+      "head": [
+        18820,
+        -2679.999999999999,
+        2240
+      ]
+    },
+    {
+      "id": "C11",
+      "length": 3240,
+      "pitch": 0,
+      "tail": [
+        18720,
+        -3300,
+        1980
+      ],
+      "head": [
+        18720,
+        -60,
+        1980
+      ]
+    }
+  ],
+  "simulationTracks": [
+    "anthracite",
+    "binder",
+    "fines"
+  ],
+  "blocked": []
+}
