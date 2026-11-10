@@ -12,6 +12,8 @@ for file in root.rglob('*'):
         cad.append({'archivo':str(rel).replace(chr(92),'/'),'url':'https://raw.githubusercontent.com/acevedocrisologopablo48-lgtm/planta-briquetadora/main/'+str(rel).replace(chr(92),'/')})
         continue
     if rel.parts[0]=='assets' and file.name not in assets:continue
+    if len(rel.parts)==1 and file.match('catalogo-equipos*.json') and file.name!='catalogo-equipos-r30.json':
+        continue  # The viewer loads archived revisions from the public repository on demand.
     files.append((file,rel))
 for file,rel in files:
     dest=target/rel
@@ -20,9 +22,7 @@ for file,rel in files:
         with file.open('rb') as original, dest.with_suffix('.json.gz').open('wb') as compressed:
             with GzipFile(filename='',mode='wb',fileobj=compressed,compresslevel=5,mtime=0) as archive:
                 copyfileobj(original,archive)
-        # Retain the plain catalog used by cached R30–R34 builds.
-        if file.name!='catalogo-equipos-r30.json':
-            continue
+        # Retain the plain current catalog for cached builds and fallback clients.
     copy2(file,dest)
 (target/'archivos-cad.json').write_text(json.dumps(cad,ensure_ascii=False,indent=2),encoding='utf-8')
 size=sum(file.stat().st_size for file in target.rglob('*') if file.is_file())
