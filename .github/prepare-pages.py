@@ -1,5 +1,6 @@
 from pathlib import Path
-from shutil import copy2
+from shutil import copy2, copyfileobj
+from gzip import GzipFile
 import json
 root=Path.cwd();target=root/'_site';assets=set(json.loads((root/'.github/pages-assets.json').read_text()))
 files=[];cad=[]
@@ -12,9 +13,18 @@ for file in root.rglob('*'):
         continue
     if rel.parts[0]=='assets' and file.name not in assets:continue
     files.append((file,rel))
-size=sum(f.stat().st_size for f,_ in files)
-assert size<950_000_000,('Artefacto excede el margen de publicacion',size)
 for file,rel in files:
-    dest=target/rel;dest.parent.mkdir(parents=True,exist_ok=True);copy2(file,dest)
+    dest=target/rel
+    dest.parent.mkdir(parents=True,exist_ok=True)
+    if len(rel.parts)==1 and file.match('catalogo-equipos*.json'):
+        with file.open('rb') as original, dest.with_suffix('.json.gz').open('wb') as compressed:
+            with GzipFile(filename='',mode='wb',fileobj=compressed,compresslevel=5,mtime=0) as archive:
+                copyfileobj(original,archive)
+        # Retain the plain catalog used by cached R30–R34 builds.
+        if file.name!='catalogo-equipos-r30.json':
+            continue
+    copy2(file,dest)
 (target/'archivos-cad.json').write_text(json.dumps(cad,ensure_ascii=False,indent=2),encoding='utf-8')
+size=sum(file.stat().st_size for file in target.rglob('*') if file.is_file())
+assert size<500_000_000,('Artefacto excede el margen de publicacion',size)
 print('Pages:',len(files),'archivos,',round(size/1e6,1),'MB. Originales CAD conservados en repositorio.')
