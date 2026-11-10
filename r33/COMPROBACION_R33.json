@@ -1,0 +1,181 @@
+{
+  "dxfUnits": "mm",
+  "nativeDimensions": 53,
+  "ezdxfErrors": 0,
+  "ezdxfFixes": 0,
+  "AutoCAD": "No ejecutado en esta entrega",
+  "geometry": {
+    "revision": "R33",
+    "fixedMachines": true,
+    "belts": [
+      {
+        "id": "C01",
+        "tail": [
+          1050,
+          0,
+          240
+        ],
+        "head": [
+          10158.931056935275,
+          0,
+          2920.0000000000005
+        ],
+        "length": 9495,
+        "pitch": 16.39476575971993
+      },
+      {
+        "id": "C02",
+        "tail": [
+          15516.617539106881,
+          0,
+          420
+        ],
+        "head": [
+          24580.067489318997,
+          0,
+          3250
+        ],
+        "length": 9495,
+        "pitch": 17.340615590217336
+      },
+      {
+        "id": "C05",
+        "tail": [
+          24250.067489318993,
+          20,
+          1241
+        ],
+        "head": [
+          26750.067489318993,
+          20,
+          1241
+        ],
+        "length": 2500,
+        "pitch": 0
+      },
+      {
+        "id": "C03",
+        "tail": [
+          27400.067489318993,
+          20,
+          561
+        ],
+        "head": [
+          41051.12525738987,
+          20,
+          3179.8970603656367
+        ],
+        "length": 13900,
+        "pitch": 10.86
+      },
+      {
+        "id": "C04",
+        "tail": [
+          61061.13387667139,
+          0,
+          400
+        ],
+        "head": [
+          65217.0949150069,
+          0,
+          1512.278855031362
+        ],
+        "length": 4302.229236513628,
+        "pitch": 14.983179812564643
+      },
+      {
+        "id": "C06",
+        "tail": [
+          27050.067489318993,
+          20,
+          291
+        ],
+        "head": [
+          26550.067489318993,
+          -1330,
+          541
+        ],
+        "length": 1461.1639196202457,
+        "pitch": 9.851576697485848
+      },
+      {
+        "id": "C07",
+        "tail": [
+          26550.067489318993,
+          -1330,
+          291
+        ],
+        "head": [
+          19990.49061326419,
+          -180.00000000000045,
+          2470.27837765852
+        ],
+        "length": 7007.125162304639,
+        "pitch": 18.120042765911943
+      }
+    ],
+    "columns": 42,
+    "plates": 42,
+    "frames": [
+      {
+        "id": "C01",
+        "frames": 4
+      },
+      {
+        "id": "C02",
+        "frames": 4
+      },
+      {
+        "id": "C05",
+        "frames": 2
+      },
+      {
+        "id": "C03",
+        "frames": 4
+      },
+      {
+        "id": "C04",
+        "frames": 2
+      },
+      {
+        "id": "C06",
+        "frames": 2
+      },
+      {
+        "id": "C07",
+        "frames": 3
+      }
+    ],
+    "bars": 12,
+    "observations": [
+      {
+        "id": "r33-running-belt-crossing",
+        "owners": [
+          "C07",
+          "C02"
+        ],
+        "level": "error",
+        "text": "C07 atraviesa la banda de C02 con las coordenadas prescritas. Cruce en X/Y/Z 20779.7 / -141.8 / 2273.8 mm. No es una transferencia libre."
+      },
+      {
+        "id": "apoyos-C02-C07",
+        "owners": [
+          "C02",
+          "C07"
+        ],
+        "level": "warning",
+        "text": "C02 / C07: cruce de estructura (larguero_inf_-1_4 / R33-belt-carry)."
+      },
+      {
+        "id": "cruce-briquetadora-C07",
+        "owners": [
+          "briquetadora",
+          "C07"
+        ],
+        "level": "warning",
+        "text": "briquetadora / C07: cruce en R22-native-frame-local-passage y R33-belt-carry. Comprobación preliminar de piezas reconstruidas R."
+      }
+    ],
+    "installationMm": 67492.09491500689
+  }
+}
