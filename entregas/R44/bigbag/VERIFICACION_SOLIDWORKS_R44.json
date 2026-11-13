@@ -1,0 +1,209 @@
+{
+  "software": "SolidWorks 34.3.2",
+  "nativeBodyCounts": {
+    "BB01": 33,
+    "BB02": 448,
+    "AM01": 223
+  },
+  "measurements": [
+    {
+      "part": "BB01:2",
+      "other": "BB01:1",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        4100.0,
+        -3745.0,
+        12.0
+      ],
+      "surfacePointBmm": [
+        4100.0,
+        -3745.0,
+        12.0
+      ]
+    },
+    {
+      "part": "BB01:2",
+      "other": "BB01:9",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        4100.0,
+        -3745.0,
+        6399.999999999999
+      ],
+      "surfacePointBmm": [
+        4100.0,
+        -3745.0,
+        6399.999999999999
+      ]
+    },
+    {
+      "part": "BB01:4",
+      "other": "BB01:3",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        4054.9999999999995,
+        600.0,
+        12.0
+      ],
+      "surfacePointBmm": [
+        4054.9999999999995,
+        600.0,
+        12.0
+      ]
+    },
+    {
+      "part": "BB01:4",
+      "other": "BB01:12",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        4145.0,
+        600.0,
+        6400.0
+      ],
+      "surfacePointBmm": [
+        4145.0,
+        600.0,
+        6400.0
+      ]
+    },
+    {
+      "part": "BB01:6",
+      "other": "BB01:5",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        6000.0,
+        -3745.0,
+        12.0
+      ],
+      "surfacePointBmm": [
+        6000.0,
+        -3745.0,
+        12.0
+      ]
+    },
+    {
+      "part": "BB01:6",
+      "other": "BB01:9",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        6000.0,
+        -3745.0,
+        6399.999999999999
+      ],
+      "surfacePointBmm": [
+        6000.0,
+        -3745.0,
+        6399.999999999999
+      ]
+    },
+    {
+      "part": "BB01:8",
+      "other": "BB01:7",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        5955.0,
+        600.0,
+        12.0
+      ],
+      "surfacePointBmm": [
+        5955.0,
+        600.0,
+        12.0
+      ]
+    },
+    {
+      "part": "BB01:8",
+      "other": "BB01:12",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        5955.0,
+        600.0,
+        6400.0
+      ],
+      "surfacePointBmm": [
+        5955.0,
+        600.0,
+        6400.0
+      ]
+    },
+    {
+      "part": "BB01:9",
+      "other": "BB01:2",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        4100.0,
+        -3745.0,
+        6399.999999999999
+      ],
+      "surfacePointBmm": [
+        4100.0,
+        -3745.0,
+        6399.999999999999
+      ]
+    },
+    {
+      "part": "BB01:9",
+      "other": "BB01:6",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        6000.0,
+        -3745.0,
+        6399.999999999999
+      ],
+      "surfacePointBmm": [
+        6000.0,
+        -3745.0,
+        6399.999999999999
+      ]
+    },
+    {
+      "part": "BB01:12",
+      "other": "BB01:4",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        4100.0,
+        554.9999999999999,
+        6399.999999999999
+      ],
+      "surfacePointBmm": [
+        4100.0,
+        554.9999999999999,
+        6399.999999999999
+      ]
+    },
+    {
+      "part": "BB01:12",
+      "other": "BB01:8",
+      "distanceMm": 0.0,
+      "method": "SolidWorks IFace2.GetClosestPointOn",
+      "surfacePointAmm": [
+        5955.0,
+        600.0,
+        6400.0
+      ],
+      "surfacePointBmm": [
+        5955.0,
+        600.0,
+        6400.0
+      ]
+    }
+  ],
+  "clashes": [],
+  "noCrossedStairSolids": true,
+  "allMeasuredContactsWithinHalfMm": true,
+  "specificNativeBrepChecks": {
+    "endConnections": true,
+    "treadBothEnds": true
+  }
+}

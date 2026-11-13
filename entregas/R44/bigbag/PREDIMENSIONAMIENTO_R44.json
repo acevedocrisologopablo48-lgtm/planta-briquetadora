@@ -1,0 +1,226 @@
+{
+  "revision": "R44",
+  "base": "R43 con accesos",
+  "status": "Predimensionamiento del modelo 3D; sin emisión de fabricación",
+  "approvedForFabrication": false,
+  "twoDimensionalIssued": false,
+  "calculationIterations": 2,
+  "sourceModules": "C:\\Users\\Usuario\\Documents\\BRIQUETADORA\\configurador-planta\\outputs\\qa-r44-bigbag\\native-modules.json",
+  "sourceModulesSha256": "b379366fcf7da062753e99dd82dba359ffa2f8a287586ee7189d880b769fcc84",
+  "moduleSolidCounts": {
+    "BB01": 33,
+    "BB02": 448,
+    "BB03": 14
+  },
+  "profileLengthsM": {
+    "Angulo L 50x50x6": 10.26,
+    "IPE 100": 4.668,
+    "IPE 200": 16.5,
+    "Pletina 50x6": 35.8132,
+    "SHS 100x100x5": 29.152,
+    "Tubo redondo 42.4x2.6": 63.6486,
+    "UPN 100": 31.2435
+  },
+  "designLoad": {
+    "productMassKg": 1000,
+    "accessoryAllowanceKg": 100,
+    "dynamicFactor": 1.25,
+    "gravityMS2": 9.81,
+    "verticalForceN": 13488.75
+  },
+  "geometry": {
+    "columnCentresXY": [
+      [
+        4100,
+        -3700
+      ],
+      [
+        4100,
+        600
+      ],
+      [
+        6000,
+        -3700
+      ],
+      [
+        6000,
+        600
+      ]
+    ],
+    "columnZMm": [
+      12,
+      6400
+    ],
+    "columns": "SHS100x100x5",
+    "columnLengthMm": 6388,
+    "mainBeam": "IPE200",
+    "mainBeamSpanMm": 4300,
+    "mainBeamAxisZMm": 6700,
+    "mainBeamAxisXMm": 5500,
+    "loadStationYmm": -2800,
+    "dischargeStationYmm": -1000,
+    "cantilever": false,
+    "topCrossbeams": {
+      "section": "IPE200",
+      "quantity": 2,
+      "lengthMm": 1900,
+      "axisZMm": 6500
+    },
+    "intermediateSideRails": {
+      "section": "IPE200",
+      "quantity": 2,
+      "lengthMm": 4200,
+      "axisZMm": 3370
+    },
+    "basePlates": {
+      "quantity": 4,
+      "sizeMm": [
+        300,
+        200,
+        12
+      ],
+      "holesPerPlate": 4,
+      "holeDiameterMm": 18,
+      "anchorProposal": "M16",
+      "holePatternMm": [
+        220,
+        120
+      ]
+    },
+    "stairTreadBearers": {
+      "section": "UPN100",
+      "quantity": 19,
+      "lengthMm": 1010
+    },
+    "trolleyEndStops": {
+      "quantity": 4,
+      "plateSizeMm": [
+        12,
+        50,
+        70
+      ]
+    },
+    "commercialSpreaderRepresentation": "Cruz de dos barras y anilla; envolvente de implantacion del equipo comprado",
+    "braceSeatPlates": {
+      "quantity": 2,
+      "sizeMm": [
+        100,
+        250,
+        6
+      ],
+      "function": "Asiento geometrico de cartela a viga inferior"
+    },
+    "upperStairTreadSideSeats": {
+      "section": "L50x50x6",
+      "quantity": 38,
+      "lengthMm": 270,
+      "bearingTop": "Z del peldaño - 30 mm",
+      "function": "Dos apoyos en extremos de cada barrote portante de rejilla"
+    },
+    "lowerAccessChange": {
+      "source": "AM01 R43 copiado a R44; originales R43 intactos",
+      "flight": {
+        "axis": "x",
+        "direction": -1,
+        "entry": [
+          8730,
+          -1270
+        ],
+        "width": 900,
+        "going": 260,
+        "tread": 270,
+        "risers": 7,
+        "height": 1200,
+        "rise": 171.42857142857142,
+        "run": 1560,
+        "slope": 33.39848846798724
+      },
+      "orientationChangeDeg": 90,
+      "upperFlightDirection": [
+        0,
+        1,
+        0
+      ],
+      "lowerFlightDirection": [
+        -1,
+        0,
+        0
+      ],
+      "stairsPerpendicular": true,
+      "addedSideSeats": {
+        "section": "L50x50x6",
+        "quantity": 12,
+        "lengthMm": 270,
+        "totalLengthM": 3.24
+      },
+      "originalR43PartsUnchanged": 20,
+      "unmodifiedR44OriginalParts": 19,
+      "modifiedR44ExistingPart": "AM01 Acceso al dosificador.SLDPRT"
+    }
+  },
+  "mainBeamCheck": {
+    "model": "Viga simplemente apoyada; carga puntual móvil y peso propio; deformación relativa a apoyos",
+    "elasticModulusMPa": 200000,
+    "secondMomentStrongMm4": 19430000,
+    "elasticSectionModulusMm3": 194300,
+    "selfMassKgPerM": 22.4,
+    "uniformSelfWeightNPerMm": 0.219744,
+    "assumedYieldMPa": 250,
+    "maximumMomentNmm": 15008289.57,
+    "maximumBendingStressMPa": 77.2428696346,
+    "yieldMargin": 3.2365446957,
+    "maximumRelativeDeflectionMm": 6.0012644707,
+    "spanToDeflection": 716.5156644937,
+    "referenceDeflectionL600Mm": 7.166666666666667,
+    "momentFormula": "M=P*L/4+q*L^2/8",
+    "deflectionFormula": "delta=P*L^3/(48*E*I)+5*q*L^4/(384*E*I)",
+    "reactionsIncludingSelfWeightN": [
+      {
+        "stationYmm": -2800,
+        "supportMinY": 11137.972855814,
+        "supportMaxY": 3295.676344186
+      },
+      {
+        "stationYmm": -1000,
+        "supportMinY": 5491.519367442,
+        "supportMaxY": 8942.129832558
+      }
+    ],
+    "verticalUpliftFromTheseLoadCases": false
+  },
+  "boughtEquipment": {
+    "hoist": "KITO CB015 1,5t, cadena de carga6m",
+    "trolley": "KITO TSP015 1,5t",
+    "spreader": "CMCO Tigrip TTB 2.0/1320",
+    "representation": "Envolventes de implantación; equipos comprados completos"
+  },
+  "scope": [
+    "Flexión global del carril bajo carga vertical",
+    "Perfiles y cantidades extraídos del modelo nativo",
+    "Las 20 piezas fuente R43 se conservan; solo se adapta la copia AM01 en R44 para el giro de escalera inferior",
+    "La comprobación IPE200 anterior se conserva sin redimensionamiento ni nuevas iteraciones"
+  ],
+  "exclusions": [
+    "No comprobación completa de uniones ni ala local bajo ruedas",
+    "No comprobación de anclajes o cimentación existente",
+    "No incluye fatiga ni certificación de equipo de elevación",
+    "Flecha de apoyos y pórticos no incluida en los 6,001mm del carril"
+  ],
+  "sources": [
+    {
+      "topic": "IPE200",
+      "url": "https://sections.arcelormittal.com/repository2/Sections/Sections_MB_ArcelorMittal_FR_EN_DE.pdf"
+    },
+    {
+      "topic": "Polipasto KITO CB015",
+      "url": "https://kito.net/files/downloads/cb/manuals/en/CB_M3Englisch.pdf"
+    },
+    {
+      "topic": "Carro KITO TSP015",
+      "url": "https://kito.co.in/wp-content/uploads/2022/08/Plain-troley-catalog.pdf"
+    }
+  ],
+  "modifiedExistingSolidCounts": {
+    "AM01": 223
+  }
+}

@@ -1,0 +1,4821 @@
+{
+  "toleranceMm": 0.5,
+  "method": "Native SolidWorks STEP B-rep, end windows and two side bearings per load bar",
+  "endpointChecks": [
+    {
+      "check": "Columna a placa/asiento",
+      "part": "BB01:2",
+      "point": [
+        4100.0,
+        -3700.0,
+        12
+      ],
+      "contacts": [
+        {
+          "id": "BB01:1",
+          "name": "Placa base 300x200x12 - 4 agujeros 18",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a placa/asiento",
+      "part": "BB01:2",
+      "point": [
+        4100.0,
+        -3700.0,
+        6400
+      ],
+      "contacts": [
+        {
+          "id": "BB01:9",
+          "name": "TravesaÃ±o superior",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:10",
+          "name": "Asiento superior 200x200x12",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a placa/asiento",
+      "part": "BB01:4",
+      "point": [
+        4100.0,
+        600.0,
+        12
+      ],
+      "contacts": [
+        {
+          "id": "BB01:3",
+          "name": "Placa base 300x200x12 - 4 agujeros 18",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a placa/asiento",
+      "part": "BB01:4",
+      "point": [
+        4100.0,
+        600.0,
+        6400
+      ],
+      "contacts": [
+        {
+          "id": "BB01:12",
+          "name": "TravesaÃ±o superior",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:13",
+          "name": "Asiento superior 200x200x12",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a placa/asiento",
+      "part": "BB01:6",
+      "point": [
+        6000.0,
+        -3700.0,
+        12
+      ],
+      "contacts": [
+        {
+          "id": "BB01:5",
+          "name": "Placa base 300x200x12 - 4 agujeros 18",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a placa/asiento",
+      "part": "BB01:6",
+      "point": [
+        6000.0,
+        -3700.0,
+        6400
+      ],
+      "contacts": [
+        {
+          "id": "BB01:9",
+          "name": "TravesaÃ±o superior",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:11",
+          "name": "Asiento superior 200x200x12",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a placa/asiento",
+      "part": "BB01:8",
+      "point": [
+        6000.0,
+        600.0,
+        12
+      ],
+      "contacts": [
+        {
+          "id": "BB01:7",
+          "name": "Placa base 300x200x12 - 4 agujeros 18",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a placa/asiento",
+      "part": "BB01:8",
+      "point": [
+        6000.0,
+        600.0,
+        6400
+      ],
+      "contacts": [
+        {
+          "id": "BB01:12",
+          "name": "TravesaÃ±o superior",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:14",
+          "name": "Asiento superior 200x200x12",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:9",
+      "point": [
+        4100,
+        -3700.0,
+        6500
+      ],
+      "contacts": [
+        {
+          "id": "BB01:2",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:10",
+          "name": "Asiento superior 200x200x12",
+          "distanceMm": 9.094947017729282e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:9",
+      "point": [
+        6000,
+        -3700.0,
+        6500
+      ],
+      "contacts": [
+        {
+          "id": "BB01:6",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:11",
+          "name": "Asiento superior 200x200x12",
+          "distanceMm": 9.094947017729282e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:12",
+      "point": [
+        4100,
+        600.0,
+        6500
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:13",
+          "name": "Asiento superior 200x200x12",
+          "distanceMm": 9.094947017729282e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:12",
+      "point": [
+        6000,
+        600.0,
+        6500
+      ],
+      "contacts": [
+        {
+          "id": "BB01:8",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:14",
+          "name": "Asiento superior 200x200x12",
+          "distanceMm": 9.094947017729282e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:15",
+      "point": [
+        5500,
+        -3700,
+        6700
+      ],
+      "contacts": [
+        {
+          "id": "BB01:9",
+          "name": "TravesaÃ±o superior",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:16",
+          "name": "Asiento del carril 200x220x12",
+          "distanceMm": 9.094947017729282e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:15",
+      "point": [
+        5500,
+        600,
+        6700
+      ],
+      "contacts": [
+        {
+          "id": "BB01:12",
+          "name": "TravesaÃ±o superior",
+          "distanceMm": 9.094947017729282e-13
+        },
+        {
+          "id": "BB01:17",
+          "name": "Asiento del carril 200x220x12",
+          "distanceMm": 9.094947017729282e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:18",
+      "point": [
+        4100.0,
+        -3650,
+        3370
+      ],
+      "contacts": [
+        {
+          "id": "BB01:2",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:18",
+      "point": [
+        4100.0,
+        550,
+        3370
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 3.410605131648481e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:19",
+      "point": [
+        6000.0,
+        -3650,
+        3370
+      ],
+      "contacts": [
+        {
+          "id": "BB01:6",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de viga a soporte",
+      "part": "BB01:19",
+      "point": [
+        6000.0,
+        550,
+        3370
+      ],
+      "contacts": [
+        {
+          "id": "BB01:8",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 3.410605131648481e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:22",
+      "point": [
+        4100,
+        -3700,
+        200
+      ],
+      "contacts": [
+        {
+          "id": "BB01:2",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:22",
+      "point": [
+        4100,
+        600,
+        3270
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 1.1368683772161603e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:23",
+      "point": [
+        4100,
+        600,
+        200
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:23",
+      "point": [
+        4100,
+        -3700,
+        3270
+      ],
+      "contacts": [
+        {
+          "id": "BB01:2",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:24",
+      "point": [
+        4100,
+        -3700,
+        3500
+      ],
+      "contacts": [
+        {
+          "id": "BB01:2",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:24",
+      "point": [
+        4100,
+        600,
+        6380
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 1.1368683772161603e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:25",
+      "point": [
+        4100,
+        600,
+        3500
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:25",
+      "point": [
+        4100,
+        -3700,
+        6380
+      ],
+      "contacts": [
+        {
+          "id": "BB01:2",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:26",
+      "point": [
+        4100,
+        600,
+        200
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:26",
+      "point": [
+        6000,
+        600,
+        3270
+      ],
+      "contacts": [
+        {
+          "id": "BB01:8",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:27",
+      "point": [
+        6000,
+        600,
+        200
+      ],
+      "contacts": [
+        {
+          "id": "BB01:8",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:27",
+      "point": [
+        4100,
+        600,
+        3270
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:28",
+      "point": [
+        4100,
+        600,
+        3500
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:28",
+      "point": [
+        6000,
+        600,
+        6380
+      ],
+      "contacts": [
+        {
+          "id": "BB01:8",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:29",
+      "point": [
+        6000,
+        600,
+        3500
+      ],
+      "contacts": [
+        {
+          "id": "BB01:8",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Extremo de arriostre a bastidor",
+      "part": "BB01:29",
+      "point": [
+        4100,
+        600,
+        6380
+      ],
+      "contacts": [
+        {
+          "id": "BB01:4",
+          "name": "Columna independiente del pesaje",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Cartela a asiento/mensula",
+      "part": "BB02:413",
+      "point": [
+        6056,
+        -1900.0,
+        3270
+      ],
+      "contacts": [
+        {
+          "id": "BB02:411",
+          "name": "Placa de union frontal 200x120x6",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Cartela a asiento/mensula",
+      "part": "BB02:413",
+      "point": [
+        6430,
+        -1900.0,
+        3370
+      ],
+      "contacts": [
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Cartela a asiento/mensula",
+      "part": "BB02:416",
+      "point": [
+        6056,
+        -640.0,
+        3270
+      ],
+      "contacts": [
+        {
+          "id": "BB02:414",
+          "name": "Placa de union frontal 200x120x6",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Cartela a asiento/mensula",
+      "part": "BB02:416",
+      "point": [
+        6430,
+        -640.0,
+        3370
+      ],
+      "contacts": [
+        {
+          "id": "BB02:415",
+          "name": "Mensula del descanso",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:80",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:96",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:112",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:128",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:144",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:160",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:176",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:192",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:208",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:224",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:240",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:256",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:272",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:288",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:304",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:320",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:336",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:352",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:368",
+      "contacts": [
+        "BB02:59",
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:417",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:418",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:419",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:420",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:421",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:422",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:423",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:424",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:425",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:426",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:427",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:428",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:429",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:430",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:431",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:432",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:433",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:434",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:435",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:436",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:437",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:438",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:439",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:440",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:441",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:442",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:443",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:444",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:445",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:446",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:447",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:448",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:449",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:450",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:451",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:452",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:453",
+      "contacts": [
+        "BB02:59"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "BB02:454",
+      "contacts": [
+        "BB02:62"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:90",
+      "contacts": [
+        "AM01:69",
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:106",
+      "contacts": [
+        "AM01:69",
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:122",
+      "contacts": [
+        "AM01:69",
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:138",
+      "contacts": [
+        "AM01:69",
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:154",
+      "contacts": [
+        "AM01:69",
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:170",
+      "contacts": [
+        "AM01:69",
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:212",
+      "contacts": [
+        "AM01:69"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:213",
+      "contacts": [
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:214",
+      "contacts": [
+        "AM01:69"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:215",
+      "contacts": [
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:216",
+      "contacts": [
+        "AM01:69"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:217",
+      "contacts": [
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:218",
+      "contacts": [
+        "AM01:69"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:219",
+      "contacts": [
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:220",
+      "contacts": [
+        "AM01:69"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:221",
+      "contacts": [
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:222",
+      "contacts": [
+        "AM01:69"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Apoyo de peldaÃ±o a zanca",
+      "part": "AM01:223",
+      "contacts": [
+        "AM01:72"
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:369",
+      "point": [
+        6100.0,
+        -1910.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:5",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:7",
+          "name": "Piso de acceso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:8",
+          "name": "Piso de acceso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:51",
+          "name": "Piso de acceso transversal 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:370",
+      "point": [
+        6100.0,
+        -630.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:5",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:50",
+          "name": "Piso de acceso portante 44",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:51",
+          "name": "Piso de acceso transversal 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:415",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:374",
+      "point": [
+        7140.0,
+        -1910.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:6",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:7",
+          "name": "Piso de acceso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:8",
+          "name": "Piso de acceso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:58",
+          "name": "Piso de acceso transversal 8",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:375",
+      "point": [
+        7140.0,
+        -630.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:6",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:50",
+          "name": "Piso de acceso portante 44",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:58",
+          "name": "Piso de acceso transversal 8",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:415",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:379",
+      "point": [
+        6100.0,
+        -630.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:5",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:50",
+          "name": "Piso de acceso portante 44",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:51",
+          "name": "Piso de acceso transversal 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:415",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:380",
+      "point": [
+        7140.0,
+        -630.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:6",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:50",
+          "name": "Piso de acceso portante 44",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:58",
+          "name": "Piso de acceso transversal 8",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:415",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:384",
+      "point": [
+        6100.0,
+        -1910.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:5",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:7",
+          "name": "Piso de acceso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:8",
+          "name": "Piso de acceso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:51",
+          "name": "Piso de acceso transversal 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:385",
+      "point": [
+        6145.0,
+        -1910.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:5",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:7",
+          "name": "Piso de acceso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:8",
+          "name": "Piso de acceso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:389",
+      "point": [
+        7095.0,
+        -1910.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:6",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:7",
+          "name": "Piso de acceso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:8",
+          "name": "Piso de acceso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:390",
+      "point": [
+        7140.0,
+        -1910.0,
+        3470.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:6",
+          "name": "Larguero del descanso",
+          "distanceMm": 4.547473508864641e-13
+        },
+        {
+          "id": "BB02:7",
+          "name": "Piso de acceso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:8",
+          "name": "Piso de acceso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:58",
+          "name": "Piso de acceso transversal 8",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 4.547473508864641e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:394",
+      "point": [
+        6140.0,
+        -6880.0,
+        120.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:59",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:80",
+          "name": "Apoyo de peldaÃ±o",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:417",
+          "name": "Asiento lateral peldaÃ±o 1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:395",
+      "point": [
+        6140.0,
+        -5233.333333333333,
+        1228.3333333333335
+      ],
+      "contacts": [
+        {
+          "id": "BB02:59",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:396",
+      "point": [
+        6140.0,
+        -3586.6666666666665,
+        2336.666666666667
+      ],
+      "contacts": [
+        {
+          "id": "BB02:59",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:397",
+      "point": [
+        6140.0,
+        -1940.0,
+        3445.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:7",
+          "name": "Piso de acceso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:401",
+      "point": [
+        7100.0,
+        -6880.0,
+        120.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:62",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:80",
+          "name": "Apoyo de peldaÃ±o",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:418",
+          "name": "Asiento lateral peldaÃ±o 1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:402",
+      "point": [
+        7100.0,
+        -5233.333333333333,
+        1228.3333333333335
+      ],
+      "contacts": [
+        {
+          "id": "BB02:62",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:403",
+      "point": [
+        7100.0,
+        -3586.6666666666665,
+        2336.666666666667
+      ],
+      "contacts": [
+        {
+          "id": "BB02:62",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "BB02:404",
+      "point": [
+        7100.0,
+        -1940.0,
+        3445.0
+      ],
+      "contacts": [
+        {
+          "id": "BB02:7",
+          "name": "Piso de acceso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "BB02:412",
+          "name": "Mensula del descanso",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:171",
+      "point": [
+        6100.0,
+        -1910.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:1",
+          "name": "Larguero de descanso",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:17",
+          "name": "Piso de descanso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:18",
+          "name": "Piso de descanso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:61",
+          "name": "Piso de descanso transversal 1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:172",
+      "point": [
+        7140.0,
+        -1910.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:1",
+          "name": "Larguero de descanso",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:16",
+          "name": "Apoyo intermedio de rejilla",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:17",
+          "name": "Piso de descanso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:18",
+          "name": "Piso de descanso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:68",
+          "name": "Piso de descanso transversal 8",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:176",
+      "point": [
+        7140.0,
+        -1910.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:1",
+          "name": "Larguero de descanso",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:16",
+          "name": "Apoyo intermedio de rejilla",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:17",
+          "name": "Piso de descanso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:18",
+          "name": "Piso de descanso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:68",
+          "name": "Piso de descanso transversal 8",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:177",
+      "point": [
+        7140.0,
+        -1745.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:16",
+          "name": "Apoyo intermedio de rejilla",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:23",
+          "name": "Piso de descanso portante 7",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:68",
+          "name": "Piso de descanso transversal 8",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:181",
+      "point": [
+        7140.0,
+        -795.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:16",
+          "name": "Apoyo intermedio de rejilla",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:54",
+          "name": "Piso de descanso portante 38",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:55",
+          "name": "Piso de descanso portante 39",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:68",
+          "name": "Piso de descanso transversal 8",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:182",
+      "point": [
+        7140.0,
+        -630.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:2",
+          "name": "Larguero de descanso",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:16",
+          "name": "Apoyo intermedio de rejilla",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:60",
+          "name": "Piso de descanso portante 44",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:68",
+          "name": "Piso de descanso transversal 8",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:186",
+      "point": [
+        7140.0,
+        -630.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:2",
+          "name": "Larguero de descanso",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:16",
+          "name": "Apoyo intermedio de rejilla",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:60",
+          "name": "Piso de descanso portante 44",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:68",
+          "name": "Piso de descanso transversal 8",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:187",
+      "point": [
+        6100.0,
+        -630.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:2",
+          "name": "Larguero de descanso",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:60",
+          "name": "Piso de descanso portante 44",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:61",
+          "name": "Piso de descanso transversal 1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:191",
+      "point": [
+        6100.0,
+        -630.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:2",
+          "name": "Larguero de descanso",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:60",
+          "name": "Piso de descanso portante 44",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:61",
+          "name": "Piso de descanso transversal 1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:192",
+      "point": [
+        6100.0,
+        -1910.0,
+        1170.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:1",
+          "name": "Larguero de descanso",
+          "distanceMm": 2.2737367544323206e-13
+        },
+        {
+          "id": "AM01:17",
+          "name": "Piso de descanso portante 1",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:18",
+          "name": "Piso de descanso portante 2",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:61",
+          "name": "Piso de descanso transversal 1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:196",
+      "point": [
+        8730.0,
+        -1750.0,
+        116.42857142857142
+      ],
+      "contacts": [
+        {
+          "id": "AM01:69",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:90",
+          "name": "Apoyo de peldaÃ±o",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:212",
+          "name": "Asiento lateral peldaÃ±o 1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:197",
+      "point": [
+        7950.0,
+        -1750.0,
+        630.7142857142858
+      ],
+      "contacts": [
+        {
+          "id": "AM01:69",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:138",
+          "name": "Apoyo de peldaÃ±o",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:218",
+          "name": "Asiento lateral peldaÃ±o 4",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:198",
+      "point": [
+        7170.0,
+        -1750.0,
+        1145.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:23",
+          "name": "Piso de descanso portante 7",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:204",
+      "point": [
+        8730.0,
+        -790.0,
+        116.42857142857142
+      ],
+      "contacts": [
+        {
+          "id": "AM01:72",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:90",
+          "name": "Apoyo de peldaÃ±o",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:213",
+          "name": "Asiento lateral peldaÃ±o 1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:205",
+      "point": [
+        7950.0,
+        -790.0,
+        630.7142857142858
+      ],
+      "contacts": [
+        {
+          "id": "AM01:72",
+          "name": "Zanca de escalera",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:138",
+          "name": "Apoyo de peldaÃ±o",
+          "distanceMm": 0.0
+        },
+        {
+          "id": "AM01:219",
+          "name": "Asiento lateral peldaÃ±o 4",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Pie de poste de baranda a asiento",
+      "part": "AM01:206",
+      "point": [
+        7170.0,
+        -790.0,
+        1145.0
+      ],
+      "contacts": [
+        {
+          "id": "AM01:55",
+          "name": "Piso de descanso portante 39",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "treadChecks": [
+    {
+      "module": "BB02",
+      "bar": "BB02:65",
+      "name": "PeldaÃ±o 1 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:80",
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:66",
+      "name": "PeldaÃ±o 1 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:67",
+      "name": "PeldaÃ±o 1 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:68",
+      "name": "PeldaÃ±o 1 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:69",
+      "name": "PeldaÃ±o 1 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:70",
+      "name": "PeldaÃ±o 1 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:71",
+      "name": "PeldaÃ±o 1 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:72",
+      "name": "PeldaÃ±o 1 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:73",
+      "name": "PeldaÃ±o 1 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:417",
+        "BB02:418"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:81",
+      "name": "PeldaÃ±o 2 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:96",
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:82",
+      "name": "PeldaÃ±o 2 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:83",
+      "name": "PeldaÃ±o 2 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:84",
+      "name": "PeldaÃ±o 2 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:85",
+      "name": "PeldaÃ±o 2 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:86",
+      "name": "PeldaÃ±o 2 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:87",
+      "name": "PeldaÃ±o 2 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:88",
+      "name": "PeldaÃ±o 2 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:89",
+      "name": "PeldaÃ±o 2 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:419",
+        "BB02:420"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:97",
+      "name": "PeldaÃ±o 3 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:112",
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:98",
+      "name": "PeldaÃ±o 3 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:99",
+      "name": "PeldaÃ±o 3 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:100",
+      "name": "PeldaÃ±o 3 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:101",
+      "name": "PeldaÃ±o 3 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:102",
+      "name": "PeldaÃ±o 3 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:103",
+      "name": "PeldaÃ±o 3 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:104",
+      "name": "PeldaÃ±o 3 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:105",
+      "name": "PeldaÃ±o 3 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:421",
+        "BB02:422"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:113",
+      "name": "PeldaÃ±o 4 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:128",
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:114",
+      "name": "PeldaÃ±o 4 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:115",
+      "name": "PeldaÃ±o 4 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:116",
+      "name": "PeldaÃ±o 4 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:117",
+      "name": "PeldaÃ±o 4 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:118",
+      "name": "PeldaÃ±o 4 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:119",
+      "name": "PeldaÃ±o 4 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:120",
+      "name": "PeldaÃ±o 4 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:121",
+      "name": "PeldaÃ±o 4 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:423",
+        "BB02:424"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:129",
+      "name": "PeldaÃ±o 5 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:144",
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:130",
+      "name": "PeldaÃ±o 5 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:131",
+      "name": "PeldaÃ±o 5 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:132",
+      "name": "PeldaÃ±o 5 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:133",
+      "name": "PeldaÃ±o 5 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:134",
+      "name": "PeldaÃ±o 5 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:135",
+      "name": "PeldaÃ±o 5 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:136",
+      "name": "PeldaÃ±o 5 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:137",
+      "name": "PeldaÃ±o 5 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:425",
+        "BB02:426"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:145",
+      "name": "PeldaÃ±o 6 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:160",
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:146",
+      "name": "PeldaÃ±o 6 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:147",
+      "name": "PeldaÃ±o 6 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:148",
+      "name": "PeldaÃ±o 6 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:149",
+      "name": "PeldaÃ±o 6 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:150",
+      "name": "PeldaÃ±o 6 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:151",
+      "name": "PeldaÃ±o 6 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:152",
+      "name": "PeldaÃ±o 6 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:153",
+      "name": "PeldaÃ±o 6 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:427",
+        "BB02:428"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:161",
+      "name": "PeldaÃ±o 7 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:176",
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:162",
+      "name": "PeldaÃ±o 7 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:163",
+      "name": "PeldaÃ±o 7 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:164",
+      "name": "PeldaÃ±o 7 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:165",
+      "name": "PeldaÃ±o 7 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:166",
+      "name": "PeldaÃ±o 7 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:167",
+      "name": "PeldaÃ±o 7 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:168",
+      "name": "PeldaÃ±o 7 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:169",
+      "name": "PeldaÃ±o 7 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:429",
+        "BB02:430"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:177",
+      "name": "PeldaÃ±o 8 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:192",
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:178",
+      "name": "PeldaÃ±o 8 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:179",
+      "name": "PeldaÃ±o 8 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:180",
+      "name": "PeldaÃ±o 8 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:181",
+      "name": "PeldaÃ±o 8 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:182",
+      "name": "PeldaÃ±o 8 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:183",
+      "name": "PeldaÃ±o 8 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:184",
+      "name": "PeldaÃ±o 8 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:185",
+      "name": "PeldaÃ±o 8 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:431",
+        "BB02:432"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:193",
+      "name": "PeldaÃ±o 9 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:208",
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:194",
+      "name": "PeldaÃ±o 9 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:195",
+      "name": "PeldaÃ±o 9 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:196",
+      "name": "PeldaÃ±o 9 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:197",
+      "name": "PeldaÃ±o 9 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:198",
+      "name": "PeldaÃ±o 9 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:199",
+      "name": "PeldaÃ±o 9 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:200",
+      "name": "PeldaÃ±o 9 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:201",
+      "name": "PeldaÃ±o 9 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:433",
+        "BB02:434"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:209",
+      "name": "PeldaÃ±o 10 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:224",
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:210",
+      "name": "PeldaÃ±o 10 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:211",
+      "name": "PeldaÃ±o 10 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:212",
+      "name": "PeldaÃ±o 10 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:213",
+      "name": "PeldaÃ±o 10 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:214",
+      "name": "PeldaÃ±o 10 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:215",
+      "name": "PeldaÃ±o 10 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:216",
+      "name": "PeldaÃ±o 10 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:217",
+      "name": "PeldaÃ±o 10 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:435",
+        "BB02:436"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:225",
+      "name": "PeldaÃ±o 11 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:240",
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:226",
+      "name": "PeldaÃ±o 11 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:227",
+      "name": "PeldaÃ±o 11 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:228",
+      "name": "PeldaÃ±o 11 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:229",
+      "name": "PeldaÃ±o 11 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:230",
+      "name": "PeldaÃ±o 11 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:231",
+      "name": "PeldaÃ±o 11 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:232",
+      "name": "PeldaÃ±o 11 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:233",
+      "name": "PeldaÃ±o 11 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:437",
+        "BB02:438"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:241",
+      "name": "PeldaÃ±o 12 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:256",
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:242",
+      "name": "PeldaÃ±o 12 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:243",
+      "name": "PeldaÃ±o 12 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:244",
+      "name": "PeldaÃ±o 12 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:245",
+      "name": "PeldaÃ±o 12 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:246",
+      "name": "PeldaÃ±o 12 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:247",
+      "name": "PeldaÃ±o 12 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:248",
+      "name": "PeldaÃ±o 12 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:249",
+      "name": "PeldaÃ±o 12 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:439",
+        "BB02:440"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:257",
+      "name": "PeldaÃ±o 13 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:272",
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:258",
+      "name": "PeldaÃ±o 13 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:259",
+      "name": "PeldaÃ±o 13 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:260",
+      "name": "PeldaÃ±o 13 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:261",
+      "name": "PeldaÃ±o 13 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:262",
+      "name": "PeldaÃ±o 13 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:263",
+      "name": "PeldaÃ±o 13 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:264",
+      "name": "PeldaÃ±o 13 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:265",
+      "name": "PeldaÃ±o 13 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:441",
+        "BB02:442"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:273",
+      "name": "PeldaÃ±o 14 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:288",
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:274",
+      "name": "PeldaÃ±o 14 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:275",
+      "name": "PeldaÃ±o 14 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:276",
+      "name": "PeldaÃ±o 14 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:277",
+      "name": "PeldaÃ±o 14 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:278",
+      "name": "PeldaÃ±o 14 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:279",
+      "name": "PeldaÃ±o 14 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:280",
+      "name": "PeldaÃ±o 14 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:281",
+      "name": "PeldaÃ±o 14 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:443",
+        "BB02:444"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:289",
+      "name": "PeldaÃ±o 15 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:304",
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:290",
+      "name": "PeldaÃ±o 15 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:291",
+      "name": "PeldaÃ±o 15 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:292",
+      "name": "PeldaÃ±o 15 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:293",
+      "name": "PeldaÃ±o 15 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:294",
+      "name": "PeldaÃ±o 15 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:295",
+      "name": "PeldaÃ±o 15 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:296",
+      "name": "PeldaÃ±o 15 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:297",
+      "name": "PeldaÃ±o 15 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:445",
+        "BB02:446"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:305",
+      "name": "PeldaÃ±o 16 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:320",
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:306",
+      "name": "PeldaÃ±o 16 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:307",
+      "name": "PeldaÃ±o 16 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:308",
+      "name": "PeldaÃ±o 16 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:309",
+      "name": "PeldaÃ±o 16 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:310",
+      "name": "PeldaÃ±o 16 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:311",
+      "name": "PeldaÃ±o 16 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:312",
+      "name": "PeldaÃ±o 16 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:313",
+      "name": "PeldaÃ±o 16 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:447",
+        "BB02:448"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:321",
+      "name": "PeldaÃ±o 17 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:336",
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:322",
+      "name": "PeldaÃ±o 17 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:323",
+      "name": "PeldaÃ±o 17 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:324",
+      "name": "PeldaÃ±o 17 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:325",
+      "name": "PeldaÃ±o 17 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:326",
+      "name": "PeldaÃ±o 17 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:327",
+      "name": "PeldaÃ±o 17 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:328",
+      "name": "PeldaÃ±o 17 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:329",
+      "name": "PeldaÃ±o 17 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:449",
+        "BB02:450"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:337",
+      "name": "PeldaÃ±o 18 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:352",
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:338",
+      "name": "PeldaÃ±o 18 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:339",
+      "name": "PeldaÃ±o 18 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:340",
+      "name": "PeldaÃ±o 18 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:341",
+      "name": "PeldaÃ±o 18 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:342",
+      "name": "PeldaÃ±o 18 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:343",
+      "name": "PeldaÃ±o 18 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:344",
+      "name": "PeldaÃ±o 18 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:345",
+      "name": "PeldaÃ±o 18 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:451",
+        "BB02:452"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:353",
+      "name": "PeldaÃ±o 19 portante 1",
+      "supportCount": 3,
+      "supports": [
+        "BB02:368",
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:354",
+      "name": "PeldaÃ±o 19 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:355",
+      "name": "PeldaÃ±o 19 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:356",
+      "name": "PeldaÃ±o 19 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:357",
+      "name": "PeldaÃ±o 19 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:358",
+      "name": "PeldaÃ±o 19 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:359",
+      "name": "PeldaÃ±o 19 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:360",
+      "name": "PeldaÃ±o 19 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "BB02",
+      "bar": "BB02:361",
+      "name": "PeldaÃ±o 19 portante 9",
+      "supportCount": 2,
+      "supports": [
+        "BB02:453",
+        "BB02:454"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:75",
+      "name": "PeldaÃ±o 1 portante 1",
+      "supportCount": 2,
+      "supports": [
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:76",
+      "name": "PeldaÃ±o 1 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:77",
+      "name": "PeldaÃ±o 1 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:78",
+      "name": "PeldaÃ±o 1 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:79",
+      "name": "PeldaÃ±o 1 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:80",
+      "name": "PeldaÃ±o 1 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:81",
+      "name": "PeldaÃ±o 1 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:82",
+      "name": "PeldaÃ±o 1 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:83",
+      "name": "PeldaÃ±o 1 portante 9",
+      "supportCount": 3,
+      "supports": [
+        "AM01:90",
+        "AM01:212",
+        "AM01:213"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:91",
+      "name": "PeldaÃ±o 2 portante 1",
+      "supportCount": 2,
+      "supports": [
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:92",
+      "name": "PeldaÃ±o 2 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:93",
+      "name": "PeldaÃ±o 2 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:94",
+      "name": "PeldaÃ±o 2 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:95",
+      "name": "PeldaÃ±o 2 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:96",
+      "name": "PeldaÃ±o 2 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:97",
+      "name": "PeldaÃ±o 2 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:98",
+      "name": "PeldaÃ±o 2 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:99",
+      "name": "PeldaÃ±o 2 portante 9",
+      "supportCount": 3,
+      "supports": [
+        "AM01:106",
+        "AM01:214",
+        "AM01:215"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:107",
+      "name": "PeldaÃ±o 3 portante 1",
+      "supportCount": 2,
+      "supports": [
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:108",
+      "name": "PeldaÃ±o 3 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:109",
+      "name": "PeldaÃ±o 3 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:110",
+      "name": "PeldaÃ±o 3 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:111",
+      "name": "PeldaÃ±o 3 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:112",
+      "name": "PeldaÃ±o 3 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:113",
+      "name": "PeldaÃ±o 3 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:114",
+      "name": "PeldaÃ±o 3 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:115",
+      "name": "PeldaÃ±o 3 portante 9",
+      "supportCount": 3,
+      "supports": [
+        "AM01:122",
+        "AM01:216",
+        "AM01:217"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:123",
+      "name": "PeldaÃ±o 4 portante 1",
+      "supportCount": 2,
+      "supports": [
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:124",
+      "name": "PeldaÃ±o 4 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:125",
+      "name": "PeldaÃ±o 4 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:126",
+      "name": "PeldaÃ±o 4 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:127",
+      "name": "PeldaÃ±o 4 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:128",
+      "name": "PeldaÃ±o 4 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:129",
+      "name": "PeldaÃ±o 4 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:130",
+      "name": "PeldaÃ±o 4 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:131",
+      "name": "PeldaÃ±o 4 portante 9",
+      "supportCount": 3,
+      "supports": [
+        "AM01:138",
+        "AM01:218",
+        "AM01:219"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:139",
+      "name": "PeldaÃ±o 5 portante 1",
+      "supportCount": 2,
+      "supports": [
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:140",
+      "name": "PeldaÃ±o 5 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:141",
+      "name": "PeldaÃ±o 5 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:142",
+      "name": "PeldaÃ±o 5 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:143",
+      "name": "PeldaÃ±o 5 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:144",
+      "name": "PeldaÃ±o 5 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:145",
+      "name": "PeldaÃ±o 5 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:146",
+      "name": "PeldaÃ±o 5 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:147",
+      "name": "PeldaÃ±o 5 portante 9",
+      "supportCount": 3,
+      "supports": [
+        "AM01:154",
+        "AM01:220",
+        "AM01:221"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:155",
+      "name": "PeldaÃ±o 6 portante 1",
+      "supportCount": 2,
+      "supports": [
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:156",
+      "name": "PeldaÃ±o 6 portante 2",
+      "supportCount": 2,
+      "supports": [
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:157",
+      "name": "PeldaÃ±o 6 portante 3",
+      "supportCount": 2,
+      "supports": [
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:158",
+      "name": "PeldaÃ±o 6 portante 4",
+      "supportCount": 2,
+      "supports": [
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:159",
+      "name": "PeldaÃ±o 6 portante 5",
+      "supportCount": 2,
+      "supports": [
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:160",
+      "name": "PeldaÃ±o 6 portante 6",
+      "supportCount": 2,
+      "supports": [
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:161",
+      "name": "PeldaÃ±o 6 portante 7",
+      "supportCount": 2,
+      "supports": [
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:162",
+      "name": "PeldaÃ±o 6 portante 8",
+      "supportCount": 2,
+      "supports": [
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    },
+    {
+      "module": "AM01",
+      "bar": "AM01:163",
+      "name": "PeldaÃ±o 6 portante 9",
+      "supportCount": 3,
+      "supports": [
+        "AM01:170",
+        "AM01:222",
+        "AM01:223"
+      ],
+      "passed": true
+    }
+  ],
+  "allEndConnections": true,
+  "allTreadBarsTwoSupports": true,
+  "cantileverToPortalInterpenetrations": [
+    {
+      "part": "BB02:411",
+      "name": "Placa de union frontal 200x120x6",
+      "beam": "BB01:19",
+      "volumeMm3": 0.0
+    },
+    {
+      "part": "BB02:412",
+      "name": "Mensula del descanso",
+      "beam": "BB01:19",
+      "volumeMm3": 0.0
+    },
+    {
+      "part": "BB02:414",
+      "name": "Placa de union frontal 200x120x6",
+      "beam": "BB01:19",
+      "volumeMm3": 0.0
+    },
+    {
+      "part": "BB02:415",
+      "name": "Mensula del descanso",
+      "beam": "BB01:19",
+      "volumeMm3": 0.0
+    }
+  ],
+  "cantileverUnwantedOverlapRemoved": true
+}

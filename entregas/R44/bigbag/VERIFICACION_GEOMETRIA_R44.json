@@ -1,0 +1,2863 @@
+{
+  "nativeSolids": true,
+  "contactToleranceMm": 0.5,
+  "modules": [
+    {
+      "id": "BB01",
+      "solids": 33,
+      "floorPenetrations": [],
+      "candidates": 12,
+      "collisions": []
+    },
+    {
+      "id": "BB02",
+      "solids": 448,
+      "floorPenetrations": [],
+      "candidates": 0,
+      "collisions": []
+    },
+    {
+      "id": "BB03",
+      "solids": 14,
+      "floorPenetrations": [],
+      "candidates": 0,
+      "collisions": []
+    },
+    {
+      "id": "AM01",
+      "solids": 223,
+      "floorPenetrations": [],
+      "candidates": 0,
+      "collisions": []
+    }
+  ],
+  "connectedStructuralGroups": [
+    [
+      {
+        "id": "BB01:1",
+        "name": "Placa base 300x200x12 - 4 agujeros 18"
+      },
+      {
+        "id": "BB01:2",
+        "name": "Columna independiente del pesaje"
+      },
+      {
+        "id": "BB01:3",
+        "name": "Placa base 300x200x12 - 4 agujeros 18"
+      },
+      {
+        "id": "BB01:4",
+        "name": "Columna independiente del pesaje"
+      },
+      {
+        "id": "BB01:5",
+        "name": "Placa base 300x200x12 - 4 agujeros 18"
+      },
+      {
+        "id": "BB01:6",
+        "name": "Columna independiente del pesaje"
+      },
+      {
+        "id": "BB01:7",
+        "name": "Placa base 300x200x12 - 4 agujeros 18"
+      },
+      {
+        "id": "BB01:8",
+        "name": "Columna independiente del pesaje"
+      },
+      {
+        "id": "BB01:9",
+        "name": "Travesaño superior"
+      },
+      {
+        "id": "BB01:10",
+        "name": "Asiento superior 200x200x12"
+      },
+      {
+        "id": "BB01:11",
+        "name": "Asiento superior 200x200x12"
+      },
+      {
+        "id": "BB01:12",
+        "name": "Travesaño superior"
+      },
+      {
+        "id": "BB01:13",
+        "name": "Asiento superior 200x200x12"
+      },
+      {
+        "id": "BB01:14",
+        "name": "Asiento superior 200x200x12"
+      },
+      {
+        "id": "BB01:15",
+        "name": "Carril de carro manual - luz 4300"
+      },
+      {
+        "id": "BB01:16",
+        "name": "Asiento del carril 200x220x12"
+      },
+      {
+        "id": "BB01:17",
+        "name": "Asiento del carril 200x220x12"
+      },
+      {
+        "id": "BB01:18",
+        "name": "Larguero a media altura"
+      },
+      {
+        "id": "BB01:19",
+        "name": "Larguero a media altura"
+      },
+      {
+        "id": "BB01:20",
+        "name": "Travesaño de arriostramiento"
+      },
+      {
+        "id": "BB01:21",
+        "name": "Travesaño de arriostramiento"
+      },
+      {
+        "id": "BB01:22",
+        "name": "Arriostre lateral"
+      },
+      {
+        "id": "BB01:23",
+        "name": "Arriostre lateral"
+      },
+      {
+        "id": "BB01:24",
+        "name": "Arriostre lateral"
+      },
+      {
+        "id": "BB01:25",
+        "name": "Arriostre lateral"
+      },
+      {
+        "id": "BB01:26",
+        "name": "Arriostre posterior"
+      },
+      {
+        "id": "BB01:27",
+        "name": "Arriostre posterior"
+      },
+      {
+        "id": "BB01:28",
+        "name": "Arriostre posterior"
+      },
+      {
+        "id": "BB01:29",
+        "name": "Arriostre posterior"
+      },
+      {
+        "id": "BB01:30",
+        "name": "Tope de carro"
+      },
+      {
+        "id": "BB01:31",
+        "name": "Tope de carro"
+      },
+      {
+        "id": "BB01:32",
+        "name": "Tope de carro"
+      },
+      {
+        "id": "BB01:33",
+        "name": "Tope de carro"
+      },
+      {
+        "id": "BB02:5",
+        "name": "Larguero del descanso"
+      },
+      {
+        "id": "BB02:6",
+        "name": "Larguero del descanso"
+      },
+      {
+        "id": "BB02:7",
+        "name": "Piso de acceso portante 1"
+      },
+      {
+        "id": "BB02:8",
+        "name": "Piso de acceso portante 2"
+      },
+      {
+        "id": "BB02:9",
+        "name": "Piso de acceso portante 3"
+      },
+      {
+        "id": "BB02:10",
+        "name": "Piso de acceso portante 4"
+      },
+      {
+        "id": "BB02:11",
+        "name": "Piso de acceso portante 5"
+      },
+      {
+        "id": "BB02:12",
+        "name": "Piso de acceso portante 6"
+      },
+      {
+        "id": "BB02:13",
+        "name": "Piso de acceso portante 7"
+      },
+      {
+        "id": "BB02:14",
+        "name": "Piso de acceso portante 8"
+      },
+      {
+        "id": "BB02:15",
+        "name": "Piso de acceso portante 9"
+      },
+      {
+        "id": "BB02:16",
+        "name": "Piso de acceso portante 10"
+      },
+      {
+        "id": "BB02:17",
+        "name": "Piso de acceso portante 11"
+      },
+      {
+        "id": "BB02:18",
+        "name": "Piso de acceso portante 12"
+      },
+      {
+        "id": "BB02:19",
+        "name": "Piso de acceso portante 13"
+      },
+      {
+        "id": "BB02:20",
+        "name": "Piso de acceso portante 14"
+      },
+      {
+        "id": "BB02:21",
+        "name": "Piso de acceso portante 15"
+      },
+      {
+        "id": "BB02:22",
+        "name": "Piso de acceso portante 16"
+      },
+      {
+        "id": "BB02:23",
+        "name": "Piso de acceso portante 17"
+      },
+      {
+        "id": "BB02:24",
+        "name": "Piso de acceso portante 18"
+      },
+      {
+        "id": "BB02:25",
+        "name": "Piso de acceso portante 19"
+      },
+      {
+        "id": "BB02:26",
+        "name": "Piso de acceso portante 20"
+      },
+      {
+        "id": "BB02:27",
+        "name": "Piso de acceso portante 21"
+      },
+      {
+        "id": "BB02:28",
+        "name": "Piso de acceso portante 22"
+      },
+      {
+        "id": "BB02:29",
+        "name": "Piso de acceso portante 23"
+      },
+      {
+        "id": "BB02:30",
+        "name": "Piso de acceso portante 24"
+      },
+      {
+        "id": "BB02:31",
+        "name": "Piso de acceso portante 25"
+      },
+      {
+        "id": "BB02:32",
+        "name": "Piso de acceso portante 26"
+      },
+      {
+        "id": "BB02:33",
+        "name": "Piso de acceso portante 27"
+      },
+      {
+        "id": "BB02:34",
+        "name": "Piso de acceso portante 28"
+      },
+      {
+        "id": "BB02:35",
+        "name": "Piso de acceso portante 29"
+      },
+      {
+        "id": "BB02:36",
+        "name": "Piso de acceso portante 30"
+      },
+      {
+        "id": "BB02:37",
+        "name": "Piso de acceso portante 31"
+      },
+      {
+        "id": "BB02:38",
+        "name": "Piso de acceso portante 32"
+      },
+      {
+        "id": "BB02:39",
+        "name": "Piso de acceso portante 33"
+      },
+      {
+        "id": "BB02:40",
+        "name": "Piso de acceso portante 34"
+      },
+      {
+        "id": "BB02:41",
+        "name": "Piso de acceso portante 35"
+      },
+      {
+        "id": "BB02:42",
+        "name": "Piso de acceso portante 36"
+      },
+      {
+        "id": "BB02:43",
+        "name": "Piso de acceso portante 37"
+      },
+      {
+        "id": "BB02:44",
+        "name": "Piso de acceso portante 38"
+      },
+      {
+        "id": "BB02:45",
+        "name": "Piso de acceso portante 39"
+      },
+      {
+        "id": "BB02:46",
+        "name": "Piso de acceso portante 40"
+      },
+      {
+        "id": "BB02:47",
+        "name": "Piso de acceso portante 41"
+      },
+      {
+        "id": "BB02:48",
+        "name": "Piso de acceso portante 42"
+      },
+      {
+        "id": "BB02:49",
+        "name": "Piso de acceso portante 43"
+      },
+      {
+        "id": "BB02:50",
+        "name": "Piso de acceso portante 44"
+      },
+      {
+        "id": "BB02:51",
+        "name": "Piso de acceso transversal 1"
+      },
+      {
+        "id": "BB02:52",
+        "name": "Piso de acceso transversal 2"
+      },
+      {
+        "id": "BB02:53",
+        "name": "Piso de acceso transversal 3"
+      },
+      {
+        "id": "BB02:54",
+        "name": "Piso de acceso transversal 4"
+      },
+      {
+        "id": "BB02:55",
+        "name": "Piso de acceso transversal 5"
+      },
+      {
+        "id": "BB02:56",
+        "name": "Piso de acceso transversal 6"
+      },
+      {
+        "id": "BB02:57",
+        "name": "Piso de acceso transversal 7"
+      },
+      {
+        "id": "BB02:58",
+        "name": "Piso de acceso transversal 8"
+      },
+      {
+        "id": "BB02:59",
+        "name": "Zanca de escalera"
+      },
+      {
+        "id": "BB02:60",
+        "name": "Pie de escalera"
+      },
+      {
+        "id": "BB02:61",
+        "name": "Asiento de zanca"
+      },
+      {
+        "id": "BB02:62",
+        "name": "Zanca de escalera"
+      },
+      {
+        "id": "BB02:63",
+        "name": "Pie de escalera"
+      },
+      {
+        "id": "BB02:64",
+        "name": "Asiento de zanca"
+      },
+      {
+        "id": "BB02:65",
+        "name": "Peldaño 1 portante 1"
+      },
+      {
+        "id": "BB02:66",
+        "name": "Peldaño 1 portante 2"
+      },
+      {
+        "id": "BB02:67",
+        "name": "Peldaño 1 portante 3"
+      },
+      {
+        "id": "BB02:68",
+        "name": "Peldaño 1 portante 4"
+      },
+      {
+        "id": "BB02:69",
+        "name": "Peldaño 1 portante 5"
+      },
+      {
+        "id": "BB02:70",
+        "name": "Peldaño 1 portante 6"
+      },
+      {
+        "id": "BB02:71",
+        "name": "Peldaño 1 portante 7"
+      },
+      {
+        "id": "BB02:72",
+        "name": "Peldaño 1 portante 8"
+      },
+      {
+        "id": "BB02:73",
+        "name": "Peldaño 1 portante 9"
+      },
+      {
+        "id": "BB02:74",
+        "name": "Peldaño 1 transversal 1"
+      },
+      {
+        "id": "BB02:75",
+        "name": "Peldaño 1 transversal 2"
+      },
+      {
+        "id": "BB02:76",
+        "name": "Peldaño 1 transversal 3"
+      },
+      {
+        "id": "BB02:77",
+        "name": "Peldaño 1 transversal 4"
+      },
+      {
+        "id": "BB02:78",
+        "name": "Peldaño 1 transversal 5"
+      },
+      {
+        "id": "BB02:79",
+        "name": "Peldaño 1 transversal 6"
+      },
+      {
+        "id": "BB02:80",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:81",
+        "name": "Peldaño 2 portante 1"
+      },
+      {
+        "id": "BB02:82",
+        "name": "Peldaño 2 portante 2"
+      },
+      {
+        "id": "BB02:83",
+        "name": "Peldaño 2 portante 3"
+      },
+      {
+        "id": "BB02:84",
+        "name": "Peldaño 2 portante 4"
+      },
+      {
+        "id": "BB02:85",
+        "name": "Peldaño 2 portante 5"
+      },
+      {
+        "id": "BB02:86",
+        "name": "Peldaño 2 portante 6"
+      },
+      {
+        "id": "BB02:87",
+        "name": "Peldaño 2 portante 7"
+      },
+      {
+        "id": "BB02:88",
+        "name": "Peldaño 2 portante 8"
+      },
+      {
+        "id": "BB02:89",
+        "name": "Peldaño 2 portante 9"
+      },
+      {
+        "id": "BB02:90",
+        "name": "Peldaño 2 transversal 1"
+      },
+      {
+        "id": "BB02:91",
+        "name": "Peldaño 2 transversal 2"
+      },
+      {
+        "id": "BB02:92",
+        "name": "Peldaño 2 transversal 3"
+      },
+      {
+        "id": "BB02:93",
+        "name": "Peldaño 2 transversal 4"
+      },
+      {
+        "id": "BB02:94",
+        "name": "Peldaño 2 transversal 5"
+      },
+      {
+        "id": "BB02:95",
+        "name": "Peldaño 2 transversal 6"
+      },
+      {
+        "id": "BB02:96",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:97",
+        "name": "Peldaño 3 portante 1"
+      },
+      {
+        "id": "BB02:98",
+        "name": "Peldaño 3 portante 2"
+      },
+      {
+        "id": "BB02:99",
+        "name": "Peldaño 3 portante 3"
+      },
+      {
+        "id": "BB02:100",
+        "name": "Peldaño 3 portante 4"
+      },
+      {
+        "id": "BB02:101",
+        "name": "Peldaño 3 portante 5"
+      },
+      {
+        "id": "BB02:102",
+        "name": "Peldaño 3 portante 6"
+      },
+      {
+        "id": "BB02:103",
+        "name": "Peldaño 3 portante 7"
+      },
+      {
+        "id": "BB02:104",
+        "name": "Peldaño 3 portante 8"
+      },
+      {
+        "id": "BB02:105",
+        "name": "Peldaño 3 portante 9"
+      },
+      {
+        "id": "BB02:106",
+        "name": "Peldaño 3 transversal 1"
+      },
+      {
+        "id": "BB02:107",
+        "name": "Peldaño 3 transversal 2"
+      },
+      {
+        "id": "BB02:108",
+        "name": "Peldaño 3 transversal 3"
+      },
+      {
+        "id": "BB02:109",
+        "name": "Peldaño 3 transversal 4"
+      },
+      {
+        "id": "BB02:110",
+        "name": "Peldaño 3 transversal 5"
+      },
+      {
+        "id": "BB02:111",
+        "name": "Peldaño 3 transversal 6"
+      },
+      {
+        "id": "BB02:112",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:113",
+        "name": "Peldaño 4 portante 1"
+      },
+      {
+        "id": "BB02:114",
+        "name": "Peldaño 4 portante 2"
+      },
+      {
+        "id": "BB02:115",
+        "name": "Peldaño 4 portante 3"
+      },
+      {
+        "id": "BB02:116",
+        "name": "Peldaño 4 portante 4"
+      },
+      {
+        "id": "BB02:117",
+        "name": "Peldaño 4 portante 5"
+      },
+      {
+        "id": "BB02:118",
+        "name": "Peldaño 4 portante 6"
+      },
+      {
+        "id": "BB02:119",
+        "name": "Peldaño 4 portante 7"
+      },
+      {
+        "id": "BB02:120",
+        "name": "Peldaño 4 portante 8"
+      },
+      {
+        "id": "BB02:121",
+        "name": "Peldaño 4 portante 9"
+      },
+      {
+        "id": "BB02:122",
+        "name": "Peldaño 4 transversal 1"
+      },
+      {
+        "id": "BB02:123",
+        "name": "Peldaño 4 transversal 2"
+      },
+      {
+        "id": "BB02:124",
+        "name": "Peldaño 4 transversal 3"
+      },
+      {
+        "id": "BB02:125",
+        "name": "Peldaño 4 transversal 4"
+      },
+      {
+        "id": "BB02:126",
+        "name": "Peldaño 4 transversal 5"
+      },
+      {
+        "id": "BB02:127",
+        "name": "Peldaño 4 transversal 6"
+      },
+      {
+        "id": "BB02:128",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:129",
+        "name": "Peldaño 5 portante 1"
+      },
+      {
+        "id": "BB02:130",
+        "name": "Peldaño 5 portante 2"
+      },
+      {
+        "id": "BB02:131",
+        "name": "Peldaño 5 portante 3"
+      },
+      {
+        "id": "BB02:132",
+        "name": "Peldaño 5 portante 4"
+      },
+      {
+        "id": "BB02:133",
+        "name": "Peldaño 5 portante 5"
+      },
+      {
+        "id": "BB02:134",
+        "name": "Peldaño 5 portante 6"
+      },
+      {
+        "id": "BB02:135",
+        "name": "Peldaño 5 portante 7"
+      },
+      {
+        "id": "BB02:136",
+        "name": "Peldaño 5 portante 8"
+      },
+      {
+        "id": "BB02:137",
+        "name": "Peldaño 5 portante 9"
+      },
+      {
+        "id": "BB02:138",
+        "name": "Peldaño 5 transversal 1"
+      },
+      {
+        "id": "BB02:139",
+        "name": "Peldaño 5 transversal 2"
+      },
+      {
+        "id": "BB02:140",
+        "name": "Peldaño 5 transversal 3"
+      },
+      {
+        "id": "BB02:141",
+        "name": "Peldaño 5 transversal 4"
+      },
+      {
+        "id": "BB02:142",
+        "name": "Peldaño 5 transversal 5"
+      },
+      {
+        "id": "BB02:143",
+        "name": "Peldaño 5 transversal 6"
+      },
+      {
+        "id": "BB02:144",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:145",
+        "name": "Peldaño 6 portante 1"
+      },
+      {
+        "id": "BB02:146",
+        "name": "Peldaño 6 portante 2"
+      },
+      {
+        "id": "BB02:147",
+        "name": "Peldaño 6 portante 3"
+      },
+      {
+        "id": "BB02:148",
+        "name": "Peldaño 6 portante 4"
+      },
+      {
+        "id": "BB02:149",
+        "name": "Peldaño 6 portante 5"
+      },
+      {
+        "id": "BB02:150",
+        "name": "Peldaño 6 portante 6"
+      },
+      {
+        "id": "BB02:151",
+        "name": "Peldaño 6 portante 7"
+      },
+      {
+        "id": "BB02:152",
+        "name": "Peldaño 6 portante 8"
+      },
+      {
+        "id": "BB02:153",
+        "name": "Peldaño 6 portante 9"
+      },
+      {
+        "id": "BB02:154",
+        "name": "Peldaño 6 transversal 1"
+      },
+      {
+        "id": "BB02:155",
+        "name": "Peldaño 6 transversal 2"
+      },
+      {
+        "id": "BB02:156",
+        "name": "Peldaño 6 transversal 3"
+      },
+      {
+        "id": "BB02:157",
+        "name": "Peldaño 6 transversal 4"
+      },
+      {
+        "id": "BB02:158",
+        "name": "Peldaño 6 transversal 5"
+      },
+      {
+        "id": "BB02:159",
+        "name": "Peldaño 6 transversal 6"
+      },
+      {
+        "id": "BB02:160",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:161",
+        "name": "Peldaño 7 portante 1"
+      },
+      {
+        "id": "BB02:162",
+        "name": "Peldaño 7 portante 2"
+      },
+      {
+        "id": "BB02:163",
+        "name": "Peldaño 7 portante 3"
+      },
+      {
+        "id": "BB02:164",
+        "name": "Peldaño 7 portante 4"
+      },
+      {
+        "id": "BB02:165",
+        "name": "Peldaño 7 portante 5"
+      },
+      {
+        "id": "BB02:166",
+        "name": "Peldaño 7 portante 6"
+      },
+      {
+        "id": "BB02:167",
+        "name": "Peldaño 7 portante 7"
+      },
+      {
+        "id": "BB02:168",
+        "name": "Peldaño 7 portante 8"
+      },
+      {
+        "id": "BB02:169",
+        "name": "Peldaño 7 portante 9"
+      },
+      {
+        "id": "BB02:170",
+        "name": "Peldaño 7 transversal 1"
+      },
+      {
+        "id": "BB02:171",
+        "name": "Peldaño 7 transversal 2"
+      },
+      {
+        "id": "BB02:172",
+        "name": "Peldaño 7 transversal 3"
+      },
+      {
+        "id": "BB02:173",
+        "name": "Peldaño 7 transversal 4"
+      },
+      {
+        "id": "BB02:174",
+        "name": "Peldaño 7 transversal 5"
+      },
+      {
+        "id": "BB02:175",
+        "name": "Peldaño 7 transversal 6"
+      },
+      {
+        "id": "BB02:176",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:177",
+        "name": "Peldaño 8 portante 1"
+      },
+      {
+        "id": "BB02:178",
+        "name": "Peldaño 8 portante 2"
+      },
+      {
+        "id": "BB02:179",
+        "name": "Peldaño 8 portante 3"
+      },
+      {
+        "id": "BB02:180",
+        "name": "Peldaño 8 portante 4"
+      },
+      {
+        "id": "BB02:181",
+        "name": "Peldaño 8 portante 5"
+      },
+      {
+        "id": "BB02:182",
+        "name": "Peldaño 8 portante 6"
+      },
+      {
+        "id": "BB02:183",
+        "name": "Peldaño 8 portante 7"
+      },
+      {
+        "id": "BB02:184",
+        "name": "Peldaño 8 portante 8"
+      },
+      {
+        "id": "BB02:185",
+        "name": "Peldaño 8 portante 9"
+      },
+      {
+        "id": "BB02:186",
+        "name": "Peldaño 8 transversal 1"
+      },
+      {
+        "id": "BB02:187",
+        "name": "Peldaño 8 transversal 2"
+      },
+      {
+        "id": "BB02:188",
+        "name": "Peldaño 8 transversal 3"
+      },
+      {
+        "id": "BB02:189",
+        "name": "Peldaño 8 transversal 4"
+      },
+      {
+        "id": "BB02:190",
+        "name": "Peldaño 8 transversal 5"
+      },
+      {
+        "id": "BB02:191",
+        "name": "Peldaño 8 transversal 6"
+      },
+      {
+        "id": "BB02:192",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:193",
+        "name": "Peldaño 9 portante 1"
+      },
+      {
+        "id": "BB02:194",
+        "name": "Peldaño 9 portante 2"
+      },
+      {
+        "id": "BB02:195",
+        "name": "Peldaño 9 portante 3"
+      },
+      {
+        "id": "BB02:196",
+        "name": "Peldaño 9 portante 4"
+      },
+      {
+        "id": "BB02:197",
+        "name": "Peldaño 9 portante 5"
+      },
+      {
+        "id": "BB02:198",
+        "name": "Peldaño 9 portante 6"
+      },
+      {
+        "id": "BB02:199",
+        "name": "Peldaño 9 portante 7"
+      },
+      {
+        "id": "BB02:200",
+        "name": "Peldaño 9 portante 8"
+      },
+      {
+        "id": "BB02:201",
+        "name": "Peldaño 9 portante 9"
+      },
+      {
+        "id": "BB02:202",
+        "name": "Peldaño 9 transversal 1"
+      },
+      {
+        "id": "BB02:203",
+        "name": "Peldaño 9 transversal 2"
+      },
+      {
+        "id": "BB02:204",
+        "name": "Peldaño 9 transversal 3"
+      },
+      {
+        "id": "BB02:205",
+        "name": "Peldaño 9 transversal 4"
+      },
+      {
+        "id": "BB02:206",
+        "name": "Peldaño 9 transversal 5"
+      },
+      {
+        "id": "BB02:207",
+        "name": "Peldaño 9 transversal 6"
+      },
+      {
+        "id": "BB02:208",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:209",
+        "name": "Peldaño 10 portante 1"
+      },
+      {
+        "id": "BB02:210",
+        "name": "Peldaño 10 portante 2"
+      },
+      {
+        "id": "BB02:211",
+        "name": "Peldaño 10 portante 3"
+      },
+      {
+        "id": "BB02:212",
+        "name": "Peldaño 10 portante 4"
+      },
+      {
+        "id": "BB02:213",
+        "name": "Peldaño 10 portante 5"
+      },
+      {
+        "id": "BB02:214",
+        "name": "Peldaño 10 portante 6"
+      },
+      {
+        "id": "BB02:215",
+        "name": "Peldaño 10 portante 7"
+      },
+      {
+        "id": "BB02:216",
+        "name": "Peldaño 10 portante 8"
+      },
+      {
+        "id": "BB02:217",
+        "name": "Peldaño 10 portante 9"
+      },
+      {
+        "id": "BB02:218",
+        "name": "Peldaño 10 transversal 1"
+      },
+      {
+        "id": "BB02:219",
+        "name": "Peldaño 10 transversal 2"
+      },
+      {
+        "id": "BB02:220",
+        "name": "Peldaño 10 transversal 3"
+      },
+      {
+        "id": "BB02:221",
+        "name": "Peldaño 10 transversal 4"
+      },
+      {
+        "id": "BB02:222",
+        "name": "Peldaño 10 transversal 5"
+      },
+      {
+        "id": "BB02:223",
+        "name": "Peldaño 10 transversal 6"
+      },
+      {
+        "id": "BB02:224",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:225",
+        "name": "Peldaño 11 portante 1"
+      },
+      {
+        "id": "BB02:226",
+        "name": "Peldaño 11 portante 2"
+      },
+      {
+        "id": "BB02:227",
+        "name": "Peldaño 11 portante 3"
+      },
+      {
+        "id": "BB02:228",
+        "name": "Peldaño 11 portante 4"
+      },
+      {
+        "id": "BB02:229",
+        "name": "Peldaño 11 portante 5"
+      },
+      {
+        "id": "BB02:230",
+        "name": "Peldaño 11 portante 6"
+      },
+      {
+        "id": "BB02:231",
+        "name": "Peldaño 11 portante 7"
+      },
+      {
+        "id": "BB02:232",
+        "name": "Peldaño 11 portante 8"
+      },
+      {
+        "id": "BB02:233",
+        "name": "Peldaño 11 portante 9"
+      },
+      {
+        "id": "BB02:234",
+        "name": "Peldaño 11 transversal 1"
+      },
+      {
+        "id": "BB02:235",
+        "name": "Peldaño 11 transversal 2"
+      },
+      {
+        "id": "BB02:236",
+        "name": "Peldaño 11 transversal 3"
+      },
+      {
+        "id": "BB02:237",
+        "name": "Peldaño 11 transversal 4"
+      },
+      {
+        "id": "BB02:238",
+        "name": "Peldaño 11 transversal 5"
+      },
+      {
+        "id": "BB02:239",
+        "name": "Peldaño 11 transversal 6"
+      },
+      {
+        "id": "BB02:240",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:241",
+        "name": "Peldaño 12 portante 1"
+      },
+      {
+        "id": "BB02:242",
+        "name": "Peldaño 12 portante 2"
+      },
+      {
+        "id": "BB02:243",
+        "name": "Peldaño 12 portante 3"
+      },
+      {
+        "id": "BB02:244",
+        "name": "Peldaño 12 portante 4"
+      },
+      {
+        "id": "BB02:245",
+        "name": "Peldaño 12 portante 5"
+      },
+      {
+        "id": "BB02:246",
+        "name": "Peldaño 12 portante 6"
+      },
+      {
+        "id": "BB02:247",
+        "name": "Peldaño 12 portante 7"
+      },
+      {
+        "id": "BB02:248",
+        "name": "Peldaño 12 portante 8"
+      },
+      {
+        "id": "BB02:249",
+        "name": "Peldaño 12 portante 9"
+      },
+      {
+        "id": "BB02:250",
+        "name": "Peldaño 12 transversal 1"
+      },
+      {
+        "id": "BB02:251",
+        "name": "Peldaño 12 transversal 2"
+      },
+      {
+        "id": "BB02:252",
+        "name": "Peldaño 12 transversal 3"
+      },
+      {
+        "id": "BB02:253",
+        "name": "Peldaño 12 transversal 4"
+      },
+      {
+        "id": "BB02:254",
+        "name": "Peldaño 12 transversal 5"
+      },
+      {
+        "id": "BB02:255",
+        "name": "Peldaño 12 transversal 6"
+      },
+      {
+        "id": "BB02:256",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:257",
+        "name": "Peldaño 13 portante 1"
+      },
+      {
+        "id": "BB02:258",
+        "name": "Peldaño 13 portante 2"
+      },
+      {
+        "id": "BB02:259",
+        "name": "Peldaño 13 portante 3"
+      },
+      {
+        "id": "BB02:260",
+        "name": "Peldaño 13 portante 4"
+      },
+      {
+        "id": "BB02:261",
+        "name": "Peldaño 13 portante 5"
+      },
+      {
+        "id": "BB02:262",
+        "name": "Peldaño 13 portante 6"
+      },
+      {
+        "id": "BB02:263",
+        "name": "Peldaño 13 portante 7"
+      },
+      {
+        "id": "BB02:264",
+        "name": "Peldaño 13 portante 8"
+      },
+      {
+        "id": "BB02:265",
+        "name": "Peldaño 13 portante 9"
+      },
+      {
+        "id": "BB02:266",
+        "name": "Peldaño 13 transversal 1"
+      },
+      {
+        "id": "BB02:267",
+        "name": "Peldaño 13 transversal 2"
+      },
+      {
+        "id": "BB02:268",
+        "name": "Peldaño 13 transversal 3"
+      },
+      {
+        "id": "BB02:269",
+        "name": "Peldaño 13 transversal 4"
+      },
+      {
+        "id": "BB02:270",
+        "name": "Peldaño 13 transversal 5"
+      },
+      {
+        "id": "BB02:271",
+        "name": "Peldaño 13 transversal 6"
+      },
+      {
+        "id": "BB02:272",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:273",
+        "name": "Peldaño 14 portante 1"
+      },
+      {
+        "id": "BB02:274",
+        "name": "Peldaño 14 portante 2"
+      },
+      {
+        "id": "BB02:275",
+        "name": "Peldaño 14 portante 3"
+      },
+      {
+        "id": "BB02:276",
+        "name": "Peldaño 14 portante 4"
+      },
+      {
+        "id": "BB02:277",
+        "name": "Peldaño 14 portante 5"
+      },
+      {
+        "id": "BB02:278",
+        "name": "Peldaño 14 portante 6"
+      },
+      {
+        "id": "BB02:279",
+        "name": "Peldaño 14 portante 7"
+      },
+      {
+        "id": "BB02:280",
+        "name": "Peldaño 14 portante 8"
+      },
+      {
+        "id": "BB02:281",
+        "name": "Peldaño 14 portante 9"
+      },
+      {
+        "id": "BB02:282",
+        "name": "Peldaño 14 transversal 1"
+      },
+      {
+        "id": "BB02:283",
+        "name": "Peldaño 14 transversal 2"
+      },
+      {
+        "id": "BB02:284",
+        "name": "Peldaño 14 transversal 3"
+      },
+      {
+        "id": "BB02:285",
+        "name": "Peldaño 14 transversal 4"
+      },
+      {
+        "id": "BB02:286",
+        "name": "Peldaño 14 transversal 5"
+      },
+      {
+        "id": "BB02:287",
+        "name": "Peldaño 14 transversal 6"
+      },
+      {
+        "id": "BB02:288",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:289",
+        "name": "Peldaño 15 portante 1"
+      },
+      {
+        "id": "BB02:290",
+        "name": "Peldaño 15 portante 2"
+      },
+      {
+        "id": "BB02:291",
+        "name": "Peldaño 15 portante 3"
+      },
+      {
+        "id": "BB02:292",
+        "name": "Peldaño 15 portante 4"
+      },
+      {
+        "id": "BB02:293",
+        "name": "Peldaño 15 portante 5"
+      },
+      {
+        "id": "BB02:294",
+        "name": "Peldaño 15 portante 6"
+      },
+      {
+        "id": "BB02:295",
+        "name": "Peldaño 15 portante 7"
+      },
+      {
+        "id": "BB02:296",
+        "name": "Peldaño 15 portante 8"
+      },
+      {
+        "id": "BB02:297",
+        "name": "Peldaño 15 portante 9"
+      },
+      {
+        "id": "BB02:298",
+        "name": "Peldaño 15 transversal 1"
+      },
+      {
+        "id": "BB02:299",
+        "name": "Peldaño 15 transversal 2"
+      },
+      {
+        "id": "BB02:300",
+        "name": "Peldaño 15 transversal 3"
+      },
+      {
+        "id": "BB02:301",
+        "name": "Peldaño 15 transversal 4"
+      },
+      {
+        "id": "BB02:302",
+        "name": "Peldaño 15 transversal 5"
+      },
+      {
+        "id": "BB02:303",
+        "name": "Peldaño 15 transversal 6"
+      },
+      {
+        "id": "BB02:304",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:305",
+        "name": "Peldaño 16 portante 1"
+      },
+      {
+        "id": "BB02:306",
+        "name": "Peldaño 16 portante 2"
+      },
+      {
+        "id": "BB02:307",
+        "name": "Peldaño 16 portante 3"
+      },
+      {
+        "id": "BB02:308",
+        "name": "Peldaño 16 portante 4"
+      },
+      {
+        "id": "BB02:309",
+        "name": "Peldaño 16 portante 5"
+      },
+      {
+        "id": "BB02:310",
+        "name": "Peldaño 16 portante 6"
+      },
+      {
+        "id": "BB02:311",
+        "name": "Peldaño 16 portante 7"
+      },
+      {
+        "id": "BB02:312",
+        "name": "Peldaño 16 portante 8"
+      },
+      {
+        "id": "BB02:313",
+        "name": "Peldaño 16 portante 9"
+      },
+      {
+        "id": "BB02:314",
+        "name": "Peldaño 16 transversal 1"
+      },
+      {
+        "id": "BB02:315",
+        "name": "Peldaño 16 transversal 2"
+      },
+      {
+        "id": "BB02:316",
+        "name": "Peldaño 16 transversal 3"
+      },
+      {
+        "id": "BB02:317",
+        "name": "Peldaño 16 transversal 4"
+      },
+      {
+        "id": "BB02:318",
+        "name": "Peldaño 16 transversal 5"
+      },
+      {
+        "id": "BB02:319",
+        "name": "Peldaño 16 transversal 6"
+      },
+      {
+        "id": "BB02:320",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:321",
+        "name": "Peldaño 17 portante 1"
+      },
+      {
+        "id": "BB02:322",
+        "name": "Peldaño 17 portante 2"
+      },
+      {
+        "id": "BB02:323",
+        "name": "Peldaño 17 portante 3"
+      },
+      {
+        "id": "BB02:324",
+        "name": "Peldaño 17 portante 4"
+      },
+      {
+        "id": "BB02:325",
+        "name": "Peldaño 17 portante 5"
+      },
+      {
+        "id": "BB02:326",
+        "name": "Peldaño 17 portante 6"
+      },
+      {
+        "id": "BB02:327",
+        "name": "Peldaño 17 portante 7"
+      },
+      {
+        "id": "BB02:328",
+        "name": "Peldaño 17 portante 8"
+      },
+      {
+        "id": "BB02:329",
+        "name": "Peldaño 17 portante 9"
+      },
+      {
+        "id": "BB02:330",
+        "name": "Peldaño 17 transversal 1"
+      },
+      {
+        "id": "BB02:331",
+        "name": "Peldaño 17 transversal 2"
+      },
+      {
+        "id": "BB02:332",
+        "name": "Peldaño 17 transversal 3"
+      },
+      {
+        "id": "BB02:333",
+        "name": "Peldaño 17 transversal 4"
+      },
+      {
+        "id": "BB02:334",
+        "name": "Peldaño 17 transversal 5"
+      },
+      {
+        "id": "BB02:335",
+        "name": "Peldaño 17 transversal 6"
+      },
+      {
+        "id": "BB02:336",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:337",
+        "name": "Peldaño 18 portante 1"
+      },
+      {
+        "id": "BB02:338",
+        "name": "Peldaño 18 portante 2"
+      },
+      {
+        "id": "BB02:339",
+        "name": "Peldaño 18 portante 3"
+      },
+      {
+        "id": "BB02:340",
+        "name": "Peldaño 18 portante 4"
+      },
+      {
+        "id": "BB02:341",
+        "name": "Peldaño 18 portante 5"
+      },
+      {
+        "id": "BB02:342",
+        "name": "Peldaño 18 portante 6"
+      },
+      {
+        "id": "BB02:343",
+        "name": "Peldaño 18 portante 7"
+      },
+      {
+        "id": "BB02:344",
+        "name": "Peldaño 18 portante 8"
+      },
+      {
+        "id": "BB02:345",
+        "name": "Peldaño 18 portante 9"
+      },
+      {
+        "id": "BB02:346",
+        "name": "Peldaño 18 transversal 1"
+      },
+      {
+        "id": "BB02:347",
+        "name": "Peldaño 18 transversal 2"
+      },
+      {
+        "id": "BB02:348",
+        "name": "Peldaño 18 transversal 3"
+      },
+      {
+        "id": "BB02:349",
+        "name": "Peldaño 18 transversal 4"
+      },
+      {
+        "id": "BB02:350",
+        "name": "Peldaño 18 transversal 5"
+      },
+      {
+        "id": "BB02:351",
+        "name": "Peldaño 18 transversal 6"
+      },
+      {
+        "id": "BB02:352",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:353",
+        "name": "Peldaño 19 portante 1"
+      },
+      {
+        "id": "BB02:354",
+        "name": "Peldaño 19 portante 2"
+      },
+      {
+        "id": "BB02:355",
+        "name": "Peldaño 19 portante 3"
+      },
+      {
+        "id": "BB02:356",
+        "name": "Peldaño 19 portante 4"
+      },
+      {
+        "id": "BB02:357",
+        "name": "Peldaño 19 portante 5"
+      },
+      {
+        "id": "BB02:358",
+        "name": "Peldaño 19 portante 6"
+      },
+      {
+        "id": "BB02:359",
+        "name": "Peldaño 19 portante 7"
+      },
+      {
+        "id": "BB02:360",
+        "name": "Peldaño 19 portante 8"
+      },
+      {
+        "id": "BB02:361",
+        "name": "Peldaño 19 portante 9"
+      },
+      {
+        "id": "BB02:362",
+        "name": "Peldaño 19 transversal 1"
+      },
+      {
+        "id": "BB02:363",
+        "name": "Peldaño 19 transversal 2"
+      },
+      {
+        "id": "BB02:364",
+        "name": "Peldaño 19 transversal 3"
+      },
+      {
+        "id": "BB02:365",
+        "name": "Peldaño 19 transversal 4"
+      },
+      {
+        "id": "BB02:366",
+        "name": "Peldaño 19 transversal 5"
+      },
+      {
+        "id": "BB02:367",
+        "name": "Peldaño 19 transversal 6"
+      },
+      {
+        "id": "BB02:368",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "BB02:369",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:370",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:371",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:372",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:373",
+        "name": "Rodapie"
+      },
+      {
+        "id": "BB02:374",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:375",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:376",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:377",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:378",
+        "name": "Rodapie"
+      },
+      {
+        "id": "BB02:379",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:380",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:381",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:382",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:383",
+        "name": "Rodapie"
+      },
+      {
+        "id": "BB02:384",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:385",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:386",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:387",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:388",
+        "name": "Rodapie"
+      },
+      {
+        "id": "BB02:389",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:390",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "BB02:391",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:392",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "BB02:393",
+        "name": "Rodapie"
+      },
+      {
+        "id": "BB02:394",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "BB02:395",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "BB02:396",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "BB02:397",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "BB02:398",
+        "name": "Pasamanos continuo"
+      },
+      {
+        "id": "BB02:399",
+        "name": "Pasamanos continuo"
+      },
+      {
+        "id": "BB02:400",
+        "name": "Pasamanos continuo"
+      },
+      {
+        "id": "BB02:401",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "BB02:402",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "BB02:403",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "BB02:404",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "BB02:405",
+        "name": "Pasamanos continuo"
+      },
+      {
+        "id": "BB02:406",
+        "name": "Pasamanos continuo"
+      },
+      {
+        "id": "BB02:407",
+        "name": "Pasamanos continuo"
+      },
+      {
+        "id": "BB02:408",
+        "name": "Puerta autocierre comercial - envolvente"
+      },
+      {
+        "id": "BB02:411",
+        "name": "Placa de union frontal 200x120x6"
+      },
+      {
+        "id": "BB02:412",
+        "name": "Mensula del descanso"
+      },
+      {
+        "id": "BB02:413",
+        "name": "Cartela de mensula"
+      },
+      {
+        "id": "BB02:414",
+        "name": "Placa de union frontal 200x120x6"
+      },
+      {
+        "id": "BB02:415",
+        "name": "Mensula del descanso"
+      },
+      {
+        "id": "BB02:416",
+        "name": "Cartela de mensula"
+      },
+      {
+        "id": "BB02:417",
+        "name": "Asiento lateral peldaño 1"
+      },
+      {
+        "id": "BB02:418",
+        "name": "Asiento lateral peldaño 1"
+      },
+      {
+        "id": "BB02:419",
+        "name": "Asiento lateral peldaño 2"
+      },
+      {
+        "id": "BB02:420",
+        "name": "Asiento lateral peldaño 2"
+      },
+      {
+        "id": "BB02:421",
+        "name": "Asiento lateral peldaño 3"
+      },
+      {
+        "id": "BB02:422",
+        "name": "Asiento lateral peldaño 3"
+      },
+      {
+        "id": "BB02:423",
+        "name": "Asiento lateral peldaño 4"
+      },
+      {
+        "id": "BB02:424",
+        "name": "Asiento lateral peldaño 4"
+      },
+      {
+        "id": "BB02:425",
+        "name": "Asiento lateral peldaño 5"
+      },
+      {
+        "id": "BB02:426",
+        "name": "Asiento lateral peldaño 5"
+      },
+      {
+        "id": "BB02:427",
+        "name": "Asiento lateral peldaño 6"
+      },
+      {
+        "id": "BB02:428",
+        "name": "Asiento lateral peldaño 6"
+      },
+      {
+        "id": "BB02:429",
+        "name": "Asiento lateral peldaño 7"
+      },
+      {
+        "id": "BB02:430",
+        "name": "Asiento lateral peldaño 7"
+      },
+      {
+        "id": "BB02:431",
+        "name": "Asiento lateral peldaño 8"
+      },
+      {
+        "id": "BB02:432",
+        "name": "Asiento lateral peldaño 8"
+      },
+      {
+        "id": "BB02:433",
+        "name": "Asiento lateral peldaño 9"
+      },
+      {
+        "id": "BB02:434",
+        "name": "Asiento lateral peldaño 9"
+      },
+      {
+        "id": "BB02:435",
+        "name": "Asiento lateral peldaño 10"
+      },
+      {
+        "id": "BB02:436",
+        "name": "Asiento lateral peldaño 10"
+      },
+      {
+        "id": "BB02:437",
+        "name": "Asiento lateral peldaño 11"
+      },
+      {
+        "id": "BB02:438",
+        "name": "Asiento lateral peldaño 11"
+      },
+      {
+        "id": "BB02:439",
+        "name": "Asiento lateral peldaño 12"
+      },
+      {
+        "id": "BB02:440",
+        "name": "Asiento lateral peldaño 12"
+      },
+      {
+        "id": "BB02:441",
+        "name": "Asiento lateral peldaño 13"
+      },
+      {
+        "id": "BB02:442",
+        "name": "Asiento lateral peldaño 13"
+      },
+      {
+        "id": "BB02:443",
+        "name": "Asiento lateral peldaño 14"
+      },
+      {
+        "id": "BB02:444",
+        "name": "Asiento lateral peldaño 14"
+      },
+      {
+        "id": "BB02:445",
+        "name": "Asiento lateral peldaño 15"
+      },
+      {
+        "id": "BB02:446",
+        "name": "Asiento lateral peldaño 15"
+      },
+      {
+        "id": "BB02:447",
+        "name": "Asiento lateral peldaño 16"
+      },
+      {
+        "id": "BB02:448",
+        "name": "Asiento lateral peldaño 16"
+      },
+      {
+        "id": "BB02:449",
+        "name": "Asiento lateral peldaño 17"
+      },
+      {
+        "id": "BB02:450",
+        "name": "Asiento lateral peldaño 17"
+      },
+      {
+        "id": "BB02:451",
+        "name": "Asiento lateral peldaño 18"
+      },
+      {
+        "id": "BB02:452",
+        "name": "Asiento lateral peldaño 18"
+      },
+      {
+        "id": "BB02:453",
+        "name": "Asiento lateral peldaño 19"
+      },
+      {
+        "id": "BB02:454",
+        "name": "Asiento lateral peldaño 19"
+      }
+    ]
+  ],
+  "lowerAccessStructuralGroups": [
+    [
+      {
+        "id": "AM01:1",
+        "name": "Larguero de descanso"
+      },
+      {
+        "id": "AM01:2",
+        "name": "Larguero de descanso"
+      },
+      {
+        "id": "AM01:3",
+        "name": "Viga transversal"
+      },
+      {
+        "id": "AM01:4",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM01:5",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM01:6",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM01:7",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM01:8",
+        "name": "Viga transversal"
+      },
+      {
+        "id": "AM01:9",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM01:10",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM01:11",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM01:12",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM01:13",
+        "name": "Arriostre longitudinal"
+      },
+      {
+        "id": "AM01:14",
+        "name": "Arriostre transversal"
+      },
+      {
+        "id": "AM01:15",
+        "name": "Arriostre transversal"
+      },
+      {
+        "id": "AM01:16",
+        "name": "Apoyo intermedio de rejilla"
+      },
+      {
+        "id": "AM01:17",
+        "name": "Piso de descanso portante 1"
+      },
+      {
+        "id": "AM01:18",
+        "name": "Piso de descanso portante 2"
+      },
+      {
+        "id": "AM01:19",
+        "name": "Piso de descanso portante 3"
+      },
+      {
+        "id": "AM01:20",
+        "name": "Piso de descanso portante 4"
+      },
+      {
+        "id": "AM01:21",
+        "name": "Piso de descanso portante 5"
+      },
+      {
+        "id": "AM01:22",
+        "name": "Piso de descanso portante 6"
+      },
+      {
+        "id": "AM01:23",
+        "name": "Piso de descanso portante 7"
+      },
+      {
+        "id": "AM01:24",
+        "name": "Piso de descanso portante 8"
+      },
+      {
+        "id": "AM01:25",
+        "name": "Piso de descanso portante 9"
+      },
+      {
+        "id": "AM01:26",
+        "name": "Piso de descanso portante 10"
+      },
+      {
+        "id": "AM01:27",
+        "name": "Piso de descanso portante 11"
+      },
+      {
+        "id": "AM01:28",
+        "name": "Piso de descanso portante 12"
+      },
+      {
+        "id": "AM01:29",
+        "name": "Piso de descanso portante 13"
+      },
+      {
+        "id": "AM01:30",
+        "name": "Piso de descanso portante 14"
+      },
+      {
+        "id": "AM01:31",
+        "name": "Piso de descanso portante 15"
+      },
+      {
+        "id": "AM01:32",
+        "name": "Piso de descanso portante 16"
+      },
+      {
+        "id": "AM01:33",
+        "name": "Piso de descanso portante 17"
+      },
+      {
+        "id": "AM01:34",
+        "name": "Piso de descanso portante 18"
+      },
+      {
+        "id": "AM01:35",
+        "name": "Piso de descanso portante 19"
+      },
+      {
+        "id": "AM01:36",
+        "name": "Piso de descanso portante 20"
+      },
+      {
+        "id": "AM01:37",
+        "name": "Piso de descanso portante 21"
+      },
+      {
+        "id": "AM01:38",
+        "name": "Piso de descanso portante 22"
+      },
+      {
+        "id": "AM01:39",
+        "name": "Piso de descanso portante 23"
+      },
+      {
+        "id": "AM01:40",
+        "name": "Piso de descanso portante 24"
+      },
+      {
+        "id": "AM01:41",
+        "name": "Piso de descanso portante 25"
+      },
+      {
+        "id": "AM01:42",
+        "name": "Piso de descanso portante 26"
+      },
+      {
+        "id": "AM01:43",
+        "name": "Piso de descanso portante 27"
+      },
+      {
+        "id": "AM01:44",
+        "name": "Piso de descanso portante 28"
+      },
+      {
+        "id": "AM01:45",
+        "name": "Piso de descanso portante 29"
+      },
+      {
+        "id": "AM01:46",
+        "name": "Piso de descanso portante 30"
+      },
+      {
+        "id": "AM01:47",
+        "name": "Piso de descanso portante 31"
+      },
+      {
+        "id": "AM01:48",
+        "name": "Piso de descanso portante 32"
+      },
+      {
+        "id": "AM01:49",
+        "name": "Piso de descanso portante 33"
+      },
+      {
+        "id": "AM01:50",
+        "name": "Piso de descanso portante 34"
+      },
+      {
+        "id": "AM01:51",
+        "name": "Piso de descanso portante 35"
+      },
+      {
+        "id": "AM01:52",
+        "name": "Piso de descanso portante 36"
+      },
+      {
+        "id": "AM01:53",
+        "name": "Piso de descanso portante 37"
+      },
+      {
+        "id": "AM01:54",
+        "name": "Piso de descanso portante 38"
+      },
+      {
+        "id": "AM01:55",
+        "name": "Piso de descanso portante 39"
+      },
+      {
+        "id": "AM01:56",
+        "name": "Piso de descanso portante 40"
+      },
+      {
+        "id": "AM01:57",
+        "name": "Piso de descanso portante 41"
+      },
+      {
+        "id": "AM01:58",
+        "name": "Piso de descanso portante 42"
+      },
+      {
+        "id": "AM01:59",
+        "name": "Piso de descanso portante 43"
+      },
+      {
+        "id": "AM01:60",
+        "name": "Piso de descanso portante 44"
+      },
+      {
+        "id": "AM01:61",
+        "name": "Piso de descanso transversal 1"
+      },
+      {
+        "id": "AM01:62",
+        "name": "Piso de descanso transversal 2"
+      },
+      {
+        "id": "AM01:63",
+        "name": "Piso de descanso transversal 3"
+      },
+      {
+        "id": "AM01:64",
+        "name": "Piso de descanso transversal 4"
+      },
+      {
+        "id": "AM01:65",
+        "name": "Piso de descanso transversal 5"
+      },
+      {
+        "id": "AM01:66",
+        "name": "Piso de descanso transversal 6"
+      },
+      {
+        "id": "AM01:67",
+        "name": "Piso de descanso transversal 7"
+      },
+      {
+        "id": "AM01:68",
+        "name": "Piso de descanso transversal 8"
+      },
+      {
+        "id": "AM01:69",
+        "name": "Zanca de escalera"
+      },
+      {
+        "id": "AM01:70",
+        "name": "Placa de pie escalera"
+      },
+      {
+        "id": "AM01:71",
+        "name": "Pie de zanca"
+      },
+      {
+        "id": "AM01:72",
+        "name": "Zanca de escalera"
+      },
+      {
+        "id": "AM01:73",
+        "name": "Placa de pie escalera"
+      },
+      {
+        "id": "AM01:74",
+        "name": "Pie de zanca"
+      },
+      {
+        "id": "AM01:75",
+        "name": "Peldaño 1 portante 1"
+      },
+      {
+        "id": "AM01:76",
+        "name": "Peldaño 1 portante 2"
+      },
+      {
+        "id": "AM01:77",
+        "name": "Peldaño 1 portante 3"
+      },
+      {
+        "id": "AM01:78",
+        "name": "Peldaño 1 portante 4"
+      },
+      {
+        "id": "AM01:79",
+        "name": "Peldaño 1 portante 5"
+      },
+      {
+        "id": "AM01:80",
+        "name": "Peldaño 1 portante 6"
+      },
+      {
+        "id": "AM01:81",
+        "name": "Peldaño 1 portante 7"
+      },
+      {
+        "id": "AM01:82",
+        "name": "Peldaño 1 portante 8"
+      },
+      {
+        "id": "AM01:83",
+        "name": "Peldaño 1 portante 9"
+      },
+      {
+        "id": "AM01:84",
+        "name": "Peldaño 1 transversal 1"
+      },
+      {
+        "id": "AM01:85",
+        "name": "Peldaño 1 transversal 2"
+      },
+      {
+        "id": "AM01:86",
+        "name": "Peldaño 1 transversal 3"
+      },
+      {
+        "id": "AM01:87",
+        "name": "Peldaño 1 transversal 4"
+      },
+      {
+        "id": "AM01:88",
+        "name": "Peldaño 1 transversal 5"
+      },
+      {
+        "id": "AM01:89",
+        "name": "Peldaño 1 transversal 6"
+      },
+      {
+        "id": "AM01:90",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM01:91",
+        "name": "Peldaño 2 portante 1"
+      },
+      {
+        "id": "AM01:92",
+        "name": "Peldaño 2 portante 2"
+      },
+      {
+        "id": "AM01:93",
+        "name": "Peldaño 2 portante 3"
+      },
+      {
+        "id": "AM01:94",
+        "name": "Peldaño 2 portante 4"
+      },
+      {
+        "id": "AM01:95",
+        "name": "Peldaño 2 portante 5"
+      },
+      {
+        "id": "AM01:96",
+        "name": "Peldaño 2 portante 6"
+      },
+      {
+        "id": "AM01:97",
+        "name": "Peldaño 2 portante 7"
+      },
+      {
+        "id": "AM01:98",
+        "name": "Peldaño 2 portante 8"
+      },
+      {
+        "id": "AM01:99",
+        "name": "Peldaño 2 portante 9"
+      },
+      {
+        "id": "AM01:100",
+        "name": "Peldaño 2 transversal 1"
+      },
+      {
+        "id": "AM01:101",
+        "name": "Peldaño 2 transversal 2"
+      },
+      {
+        "id": "AM01:102",
+        "name": "Peldaño 2 transversal 3"
+      },
+      {
+        "id": "AM01:103",
+        "name": "Peldaño 2 transversal 4"
+      },
+      {
+        "id": "AM01:104",
+        "name": "Peldaño 2 transversal 5"
+      },
+      {
+        "id": "AM01:105",
+        "name": "Peldaño 2 transversal 6"
+      },
+      {
+        "id": "AM01:106",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM01:107",
+        "name": "Peldaño 3 portante 1"
+      },
+      {
+        "id": "AM01:108",
+        "name": "Peldaño 3 portante 2"
+      },
+      {
+        "id": "AM01:109",
+        "name": "Peldaño 3 portante 3"
+      },
+      {
+        "id": "AM01:110",
+        "name": "Peldaño 3 portante 4"
+      },
+      {
+        "id": "AM01:111",
+        "name": "Peldaño 3 portante 5"
+      },
+      {
+        "id": "AM01:112",
+        "name": "Peldaño 3 portante 6"
+      },
+      {
+        "id": "AM01:113",
+        "name": "Peldaño 3 portante 7"
+      },
+      {
+        "id": "AM01:114",
+        "name": "Peldaño 3 portante 8"
+      },
+      {
+        "id": "AM01:115",
+        "name": "Peldaño 3 portante 9"
+      },
+      {
+        "id": "AM01:116",
+        "name": "Peldaño 3 transversal 1"
+      },
+      {
+        "id": "AM01:117",
+        "name": "Peldaño 3 transversal 2"
+      },
+      {
+        "id": "AM01:118",
+        "name": "Peldaño 3 transversal 3"
+      },
+      {
+        "id": "AM01:119",
+        "name": "Peldaño 3 transversal 4"
+      },
+      {
+        "id": "AM01:120",
+        "name": "Peldaño 3 transversal 5"
+      },
+      {
+        "id": "AM01:121",
+        "name": "Peldaño 3 transversal 6"
+      },
+      {
+        "id": "AM01:122",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM01:123",
+        "name": "Peldaño 4 portante 1"
+      },
+      {
+        "id": "AM01:124",
+        "name": "Peldaño 4 portante 2"
+      },
+      {
+        "id": "AM01:125",
+        "name": "Peldaño 4 portante 3"
+      },
+      {
+        "id": "AM01:126",
+        "name": "Peldaño 4 portante 4"
+      },
+      {
+        "id": "AM01:127",
+        "name": "Peldaño 4 portante 5"
+      },
+      {
+        "id": "AM01:128",
+        "name": "Peldaño 4 portante 6"
+      },
+      {
+        "id": "AM01:129",
+        "name": "Peldaño 4 portante 7"
+      },
+      {
+        "id": "AM01:130",
+        "name": "Peldaño 4 portante 8"
+      },
+      {
+        "id": "AM01:131",
+        "name": "Peldaño 4 portante 9"
+      },
+      {
+        "id": "AM01:132",
+        "name": "Peldaño 4 transversal 1"
+      },
+      {
+        "id": "AM01:133",
+        "name": "Peldaño 4 transversal 2"
+      },
+      {
+        "id": "AM01:134",
+        "name": "Peldaño 4 transversal 3"
+      },
+      {
+        "id": "AM01:135",
+        "name": "Peldaño 4 transversal 4"
+      },
+      {
+        "id": "AM01:136",
+        "name": "Peldaño 4 transversal 5"
+      },
+      {
+        "id": "AM01:137",
+        "name": "Peldaño 4 transversal 6"
+      },
+      {
+        "id": "AM01:138",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM01:139",
+        "name": "Peldaño 5 portante 1"
+      },
+      {
+        "id": "AM01:140",
+        "name": "Peldaño 5 portante 2"
+      },
+      {
+        "id": "AM01:141",
+        "name": "Peldaño 5 portante 3"
+      },
+      {
+        "id": "AM01:142",
+        "name": "Peldaño 5 portante 4"
+      },
+      {
+        "id": "AM01:143",
+        "name": "Peldaño 5 portante 5"
+      },
+      {
+        "id": "AM01:144",
+        "name": "Peldaño 5 portante 6"
+      },
+      {
+        "id": "AM01:145",
+        "name": "Peldaño 5 portante 7"
+      },
+      {
+        "id": "AM01:146",
+        "name": "Peldaño 5 portante 8"
+      },
+      {
+        "id": "AM01:147",
+        "name": "Peldaño 5 portante 9"
+      },
+      {
+        "id": "AM01:148",
+        "name": "Peldaño 5 transversal 1"
+      },
+      {
+        "id": "AM01:149",
+        "name": "Peldaño 5 transversal 2"
+      },
+      {
+        "id": "AM01:150",
+        "name": "Peldaño 5 transversal 3"
+      },
+      {
+        "id": "AM01:151",
+        "name": "Peldaño 5 transversal 4"
+      },
+      {
+        "id": "AM01:152",
+        "name": "Peldaño 5 transversal 5"
+      },
+      {
+        "id": "AM01:153",
+        "name": "Peldaño 5 transversal 6"
+      },
+      {
+        "id": "AM01:154",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM01:155",
+        "name": "Peldaño 6 portante 1"
+      },
+      {
+        "id": "AM01:156",
+        "name": "Peldaño 6 portante 2"
+      },
+      {
+        "id": "AM01:157",
+        "name": "Peldaño 6 portante 3"
+      },
+      {
+        "id": "AM01:158",
+        "name": "Peldaño 6 portante 4"
+      },
+      {
+        "id": "AM01:159",
+        "name": "Peldaño 6 portante 5"
+      },
+      {
+        "id": "AM01:160",
+        "name": "Peldaño 6 portante 6"
+      },
+      {
+        "id": "AM01:161",
+        "name": "Peldaño 6 portante 7"
+      },
+      {
+        "id": "AM01:162",
+        "name": "Peldaño 6 portante 8"
+      },
+      {
+        "id": "AM01:163",
+        "name": "Peldaño 6 portante 9"
+      },
+      {
+        "id": "AM01:164",
+        "name": "Peldaño 6 transversal 1"
+      },
+      {
+        "id": "AM01:165",
+        "name": "Peldaño 6 transversal 2"
+      },
+      {
+        "id": "AM01:166",
+        "name": "Peldaño 6 transversal 3"
+      },
+      {
+        "id": "AM01:167",
+        "name": "Peldaño 6 transversal 4"
+      },
+      {
+        "id": "AM01:168",
+        "name": "Peldaño 6 transversal 5"
+      },
+      {
+        "id": "AM01:169",
+        "name": "Peldaño 6 transversal 6"
+      },
+      {
+        "id": "AM01:170",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM01:171",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:172",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:173",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:174",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:175",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM01:176",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:177",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:178",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:179",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:180",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM01:181",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:182",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:183",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:184",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:185",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM01:186",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:187",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:188",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:189",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:190",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM01:191",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:192",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM01:193",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:194",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM01:195",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM01:196",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM01:197",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM01:198",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM01:199",
+        "name": "Protección de escalera"
+      },
+      {
+        "id": "AM01:200",
+        "name": "Pasamanos de escalera"
+      },
+      {
+        "id": "AM01:201",
+        "name": "Protección de escalera"
+      },
+      {
+        "id": "AM01:202",
+        "name": "Enlace baranda a descanso"
+      },
+      {
+        "id": "AM01:203",
+        "name": "Enlace baranda a descanso"
+      },
+      {
+        "id": "AM01:204",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM01:205",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM01:206",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM01:207",
+        "name": "Protección de escalera"
+      },
+      {
+        "id": "AM01:208",
+        "name": "Pasamanos de escalera"
+      },
+      {
+        "id": "AM01:209",
+        "name": "Protección de escalera"
+      },
+      {
+        "id": "AM01:210",
+        "name": "Enlace baranda a descanso"
+      },
+      {
+        "id": "AM01:211",
+        "name": "Enlace baranda a descanso"
+      },
+      {
+        "id": "AM01:212",
+        "name": "Asiento lateral peldaño 1"
+      },
+      {
+        "id": "AM01:213",
+        "name": "Asiento lateral peldaño 1"
+      },
+      {
+        "id": "AM01:214",
+        "name": "Asiento lateral peldaño 2"
+      },
+      {
+        "id": "AM01:215",
+        "name": "Asiento lateral peldaño 2"
+      },
+      {
+        "id": "AM01:216",
+        "name": "Asiento lateral peldaño 3"
+      },
+      {
+        "id": "AM01:217",
+        "name": "Asiento lateral peldaño 3"
+      },
+      {
+        "id": "AM01:218",
+        "name": "Asiento lateral peldaño 4"
+      },
+      {
+        "id": "AM01:219",
+        "name": "Asiento lateral peldaño 4"
+      },
+      {
+        "id": "AM01:220",
+        "name": "Asiento lateral peldaño 5"
+      },
+      {
+        "id": "AM01:221",
+        "name": "Asiento lateral peldaño 5"
+      },
+      {
+        "id": "AM01:222",
+        "name": "Asiento lateral peldaño 6"
+      },
+      {
+        "id": "AM01:223",
+        "name": "Asiento lateral peldaño 6"
+      }
+    ]
+  ],
+  "newAgainstModifiedLowerClashes": [],
+  "stairsPerpendicular": true,
+  "existingNativeFilesUnchanged": true,
+  "unmodifiedR44FilesUnchanged": true,
+  "passedGeometry": true
+}

@@ -1,0 +1,39 @@
+﻿grupo,descripcion,cantidad,unidad,longitud_corte_mm,longitud_total_m,procedencia,observacion
+Perfiles y barras,Angulo L 50x50x6,38,tramos,270,10.26,BB02:417;BB02:418;BB02:419;BB02:420;BB02:421;BB02:422;BB02:423;BB02:424;BB02:425;BB02:426;BB02:427;BB02:428;BB02:429;BB02:430;BB02:431;BB02:432;BB02:433;BB02:434;BB02:435;BB02:436;BB02:437;BB02:438;BB02:439;BB02:440;BB02:441;BB02:442;BB02:443;BB02:444;BB02:445;BB02:446;BB02:447;BB02:448;BB02:449;BB02:450;BB02:451;BB02:452;BB02:453;BB02:454,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,IPE 100,2,tramos,1074.0,2.148,BB02:412;BB02:415,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,IPE 100,2,tramos,1260.0,2.52,BB02:5;BB02:6,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,IPE 200,2,tramos,1900.0,3.8,BB01:9;BB01:12,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,IPE 200,2,tramos,4200.0,8.4,BB01:18;BB01:19,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,IPE 200,1,tramos,4300.0,4.3,BB01:15,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Pletina 50x6,2,tramos,387.138,0.7743,BB02:413;BB02:416,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Pletina 50x6,2,tramos,3450.275,6.9006,BB01:28;BB01:29,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Pletina 50x6,2,tramos,3610.388,7.2208,BB01:26;BB01:27,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Pletina 50x6,2,tramos,5175.365,10.3507,BB01:24;BB01:25,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Pletina 50x6,2,tramos,5283.455,10.5669,BB01:22;BB01:23,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,SHS 100x100x5,2,tramos,1800.0,3.6,BB01:20;BB01:21,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,SHS 100x100x5,4,tramos,6388.0,25.552,BB01:2;BB01:4;BB01:6;BB01:8,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Tubo redondo 42.4x2.6,4,tramos,45.0,0.18,BB02:386;BB02:387;BB02:391;BB02:392,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Tubo redondo 42.4x2.6,2,tramos,1040.0,2.08,BB02:381;BB02:382,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Tubo redondo 42.4x2.6,10,tramos,1130.0,11.3,BB02:369;BB02:370;BB02:374;BB02:375;BB02:379;BB02:380;BB02:384;BB02:385;BB02:389;BB02:390,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Tubo redondo 42.4x2.6,8,tramos,1155.0,9.24,BB02:394;BB02:395;BB02:396;BB02:397;BB02:401;BB02:402;BB02:403;BB02:404,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Tubo redondo 42.4x2.6,4,tramos,1280.0,5.12,BB02:371;BB02:372;BB02:376;BB02:377,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,Tubo redondo 42.4x2.6,6,tramos,5954.765,35.7286,BB02:398;BB02:399;BB02:400;BB02:405;BB02:406;BB02:407,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,UPN 100,2,tramos,58.0,0.116,BB02:61;BB02:64,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,UPN 100,19,tramos,1010.0,19.19,BB02:80;BB02:96;BB02:112;BB02:128;BB02:144;BB02:160;BB02:176;BB02:192;BB02:208;BB02:224;BB02:240;BB02:256;BB02:272;BB02:288;BB02:304;BB02:320;BB02:336;BB02:352;BB02:368,Longitud axial del modelo; sin merma ni compensacion de corte
+Perfiles y barras,UPN 100,2,tramos,5968.76,11.9375,BB02:59;BB02:62,Longitud axial del modelo; sin merma ni compensacion de corte
+Planchas y placas,Placa base A36 300x200x12; 4 agujeros de diametro18; reticula220x120,4,ud,,,BB01,Geometría nativa; anclajes por separado
+Planchas y placas,Asiento superior A36 200x200x12,4,ud,,,BB01,
+Planchas y placas,Asiento de carril A36 200x220x12,2,ud,,,BB01,
+Planchas y placas,"Tope de carril, chapa A36 12x50x70",4,ud,,,BB01,Dimensiones del solido nativo final
+Planchas y placas,Placa pie de escalera 160x160x12,2,ud,,,BB02,
+Rejilla comercial,Panel de descanso 1076x1316; barra portante 30x3,1,ud,,,BB02,Contorno del piso del modelo; acabado antideslizante galvanizado propuesto
+Rejilla comercial,Peldaño de rejilla 900x270; barra portante 30x3,19,ud,,,BB02,Unidad ensamblada; no compra por cada barra modelada
+Protección perimetral,Rodapié; chapa según sólido nativo,5,ud,,,BB02,Dimensiones no individualizadas en exportación de módulos
+Equipo comprado,Puerta de autocierre para acceso; paso 950,1,ud,,,BB02,Envolvente de reserva; no modelo de fabricación del mecanismo
+Equipo comprado,"KITO TSP015; carro manual 1,5 t; ala 82–153 mm",1,ud,,,BB03,"Comprar conjunto completo; incluye eje, ruedas y fijaciones"
+Equipo comprado,"KITO CB015; polipasto manual 1,5 t; cadena de carga 6 m",1,ud,,,BB03,Cadena manual extendida para mando desde piso; solicitar como conjunto comercial
+Equipo comprado,CMCO Tigrip TTB 2.0/1320; cruceta comercial,1,ud,,,BB03,Compra certificada; proxy de implantacion de cruceta en cruz y anilla; no fabricar desde el proxy
+Insumo de operación,Big Bag 1000 kg; envolvente referencial 1100x1100x1400,1,ud,,,BB03,Dimensiones referenciales del saco; asas y manga forman parte del saco
+Anclajes propuestos,Anclaje M16 para placa de pórtico; arandela y tuerca incluidas,16,ud,,,4 placas BB01 x 4,Selección geométrica; longitud y capacidad no comprobadas para piso existente
+Planchas y placas,Placa de union de cartela A36 100x250x6,2,ud,,,BB02,Asiento geometrico de cartela a viga inferior; modelo final
+Acceso inferior - agregado,Angulo L 50x50x6; asiento lateral de peldaño,12,tramos,270,3.24,AM01:212;AM01:213;AM01:214;AM01:215;AM01:216;AM01:217;AM01:218;AM01:219;AM01:220;AM01:221;AM01:222;AM01:223,Dos apoyos laterales por peldaño; 6 peldaños. Escalera inferior girada 90 grados; resto de material existente reutilizado.

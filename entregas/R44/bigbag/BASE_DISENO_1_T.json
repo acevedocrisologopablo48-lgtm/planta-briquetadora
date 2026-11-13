@@ -1,0 +1,69 @@
+{
+  "revision": "R44",
+  "productMassKg": 1000,
+  "liftingAccessoryAllowanceKg": 100,
+  "dynamicFactor": 1.25,
+  "designVerticalForceN": 13488.75,
+  "manualHoist": "KITO CB015 1.5 t, cadena de carga 6 m",
+  "trolley": "KITO TSP015 1.5 t, ala 82-153 mm",
+  "spreader": "Tigrip TTB 2.0/1320, envolvente comercial",
+  "mainBeam": "IPE 200",
+  "columns": "SHS 100x100x5",
+  "spanMm": 4300,
+  "bendingStressMPa": 77.243,
+  "beamDeflectionMm": 6.001,
+  "yieldMargin": 3.237,
+  "loadStation": [
+    5500,
+    -3000
+  ],
+  "dischargeStation": [
+    5500,
+    -1000
+  ],
+  "bagReferenceEnvelopeMm": [
+    1100,
+    1100,
+    1400
+  ],
+  "hopperExistingTopMm": 3800,
+  "upperPlatformMm": 3500,
+  "stairRisers": 20,
+  "stairRiseMm": 175,
+  "stairGoingMm": 260,
+  "nativeOriginalsPreserved": true,
+  "twoDimensionalIssued": false,
+  "approvedForFabrication": false,
+  "calculationScope": "Flexion global del carril, compresion preliminar; uniones, carro local, anclajes y conjunto no certificados por este calculo.",
+  "sources": [
+    "https://www.kitoamericas.com/download/2024/05/20/2mnp57uejv_CBM3_Owners_Manual_SPN.pdf",
+    "https://kito.co.in/wp-content/uploads/2022/08/Plain-troley-catalog.pdf",
+    "https://constructalia.arcelormittal.com/files/IPE--002252ae967625e833db2902be4103be.pdf",
+    "https://www.cmco.com/globalassets/catalogs--documents/emea/en/chapters-no5/04_cmco_no5_2024_04_wup_en-tigrip.pdf/download"
+  ],
+  "overallHeightMm": 6800,
+  "originalEquipment": "Dosificador R43 conservado íntegramente",
+  "release": "Modelo 3D para revision; no emitido para fabricacion",
+  "operation": [
+    "Recoger el saco en el vano exterior Y=-3000 mm",
+    "Izar hasta librar la boca, trasladar el carro a Y=-1000 mm",
+    "Conectar la manga propia del saco desde el acceso superior",
+    "Descargar sobre la tolva existente, sin cargas al pesaje"
+  ],
+  "lowerStair": {
+    "axis": "X",
+    "direction": -1,
+    "entry": [
+      8730,
+      -1270
+    ],
+    "deckHeightMm": 1200,
+    "riseMm": 171.42857142857142,
+    "treadMm": 260,
+    "risers": 7
+  },
+  "upperStairUnchanged": true,
+  "lowerUpperAngleDeg": 90,
+  "treadSeats": "Dos angulos L50x50x6 por peldaño",
+  "jointCheck": "147 uniones por extremos y 225 barrotes con doble apoyo"
+}
