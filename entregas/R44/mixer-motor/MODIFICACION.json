@@ -1,0 +1,20 @@
+{
+  "platformLengthMm": 5320,
+  "previousLengthMm": 3500,
+  "widthMm": 1100,
+  "floorHeightMm": 1300,
+  "motorSideOpenX": [
+    9690,
+    11450
+  ],
+  "outerEdgesGuarded": true,
+  "nativeAssembly": "ACCESO MOTOR MEZCLADORA.SLDASM",
+  "mixerOriginalUnchanged": true,
+  "originalStairPreserved": true,
+  "nativeParts": {
+    "AM02": 247,
+    "AM04": 69
+  },
+  "note": "Prolongacion lateral hacia motor y transmision. Sin cambio en el equipo ni su altura.",
+  "approvedForFabrication": false
+}

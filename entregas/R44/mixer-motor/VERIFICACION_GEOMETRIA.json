@@ -1,0 +1,3353 @@
+{
+  "toleranceMm": 0.5,
+  "modules": {
+    "AM02": 247,
+    "AM04": 69
+  },
+  "collisionCandidates": 0,
+  "collisions": [],
+  "extensionAgainstRetainedSolapements": [],
+  "floorPenetrations": [],
+  "connectedGroups": [
+    [
+      {
+        "id": "AM02:1",
+        "name": "Larguero de descanso"
+      },
+      {
+        "id": "AM02:2",
+        "name": "Larguero de descanso"
+      },
+      {
+        "id": "AM02:3",
+        "name": "Viga transversal"
+      },
+      {
+        "id": "AM02:4",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM02:5",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM02:6",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM02:7",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM02:8",
+        "name": "Viga transversal"
+      },
+      {
+        "id": "AM02:9",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM02:10",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM02:11",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM02:12",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM02:13",
+        "name": "Viga transversal"
+      },
+      {
+        "id": "AM02:14",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM02:15",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM02:16",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM02:17",
+        "name": "Columna de descanso"
+      },
+      {
+        "id": "AM02:18",
+        "name": "Arriostre longitudinal"
+      },
+      {
+        "id": "AM02:19",
+        "name": "Arriostre transversal"
+      },
+      {
+        "id": "AM02:20",
+        "name": "Arriostre transversal"
+      },
+      {
+        "id": "AM02:21",
+        "name": "Apoyo intermedio de rejilla"
+      },
+      {
+        "id": "AM02:22",
+        "name": "Apoyo intermedio de rejilla"
+      },
+      {
+        "id": "AM02:23",
+        "name": "Apoyo intermedio de rejilla"
+      },
+      {
+        "id": "AM02:24",
+        "name": "Piso de descanso portante 1"
+      },
+      {
+        "id": "AM02:25",
+        "name": "Piso de descanso portante 2"
+      },
+      {
+        "id": "AM02:26",
+        "name": "Piso de descanso portante 3"
+      },
+      {
+        "id": "AM02:27",
+        "name": "Piso de descanso portante 4"
+      },
+      {
+        "id": "AM02:28",
+        "name": "Piso de descanso portante 5"
+      },
+      {
+        "id": "AM02:29",
+        "name": "Piso de descanso portante 6"
+      },
+      {
+        "id": "AM02:30",
+        "name": "Piso de descanso portante 7"
+      },
+      {
+        "id": "AM02:31",
+        "name": "Piso de descanso portante 8"
+      },
+      {
+        "id": "AM02:32",
+        "name": "Piso de descanso portante 9"
+      },
+      {
+        "id": "AM02:33",
+        "name": "Piso de descanso portante 10"
+      },
+      {
+        "id": "AM02:34",
+        "name": "Piso de descanso portante 11"
+      },
+      {
+        "id": "AM02:35",
+        "name": "Piso de descanso portante 12"
+      },
+      {
+        "id": "AM02:36",
+        "name": "Piso de descanso portante 13"
+      },
+      {
+        "id": "AM02:37",
+        "name": "Piso de descanso portante 14"
+      },
+      {
+        "id": "AM02:38",
+        "name": "Piso de descanso portante 15"
+      },
+      {
+        "id": "AM02:39",
+        "name": "Piso de descanso portante 16"
+      },
+      {
+        "id": "AM02:40",
+        "name": "Piso de descanso portante 17"
+      },
+      {
+        "id": "AM02:41",
+        "name": "Piso de descanso portante 18"
+      },
+      {
+        "id": "AM02:42",
+        "name": "Piso de descanso portante 19"
+      },
+      {
+        "id": "AM02:43",
+        "name": "Piso de descanso portante 20"
+      },
+      {
+        "id": "AM02:44",
+        "name": "Piso de descanso portante 21"
+      },
+      {
+        "id": "AM02:45",
+        "name": "Piso de descanso portante 22"
+      },
+      {
+        "id": "AM02:46",
+        "name": "Piso de descanso portante 23"
+      },
+      {
+        "id": "AM02:47",
+        "name": "Piso de descanso portante 24"
+      },
+      {
+        "id": "AM02:48",
+        "name": "Piso de descanso portante 25"
+      },
+      {
+        "id": "AM02:49",
+        "name": "Piso de descanso portante 26"
+      },
+      {
+        "id": "AM02:50",
+        "name": "Piso de descanso portante 27"
+      },
+      {
+        "id": "AM02:51",
+        "name": "Piso de descanso portante 28"
+      },
+      {
+        "id": "AM02:52",
+        "name": "Piso de descanso portante 29"
+      },
+      {
+        "id": "AM02:53",
+        "name": "Piso de descanso portante 30"
+      },
+      {
+        "id": "AM02:54",
+        "name": "Piso de descanso portante 31"
+      },
+      {
+        "id": "AM02:55",
+        "name": "Piso de descanso portante 32"
+      },
+      {
+        "id": "AM02:56",
+        "name": "Piso de descanso portante 33"
+      },
+      {
+        "id": "AM02:57",
+        "name": "Piso de descanso portante 34"
+      },
+      {
+        "id": "AM02:58",
+        "name": "Piso de descanso portante 35"
+      },
+      {
+        "id": "AM02:59",
+        "name": "Piso de descanso portante 36"
+      },
+      {
+        "id": "AM02:60",
+        "name": "Piso de descanso transversal 1"
+      },
+      {
+        "id": "AM02:61",
+        "name": "Piso de descanso transversal 2"
+      },
+      {
+        "id": "AM02:62",
+        "name": "Piso de descanso transversal 3"
+      },
+      {
+        "id": "AM02:63",
+        "name": "Piso de descanso transversal 4"
+      },
+      {
+        "id": "AM02:64",
+        "name": "Piso de descanso transversal 5"
+      },
+      {
+        "id": "AM02:65",
+        "name": "Piso de descanso transversal 6"
+      },
+      {
+        "id": "AM02:66",
+        "name": "Piso de descanso transversal 7"
+      },
+      {
+        "id": "AM02:67",
+        "name": "Piso de descanso transversal 8"
+      },
+      {
+        "id": "AM02:68",
+        "name": "Piso de descanso transversal 9"
+      },
+      {
+        "id": "AM02:69",
+        "name": "Piso de descanso transversal 10"
+      },
+      {
+        "id": "AM02:70",
+        "name": "Piso de descanso transversal 11"
+      },
+      {
+        "id": "AM02:71",
+        "name": "Piso de descanso transversal 12"
+      },
+      {
+        "id": "AM02:72",
+        "name": "Piso de descanso transversal 13"
+      },
+      {
+        "id": "AM02:73",
+        "name": "Piso de descanso transversal 14"
+      },
+      {
+        "id": "AM02:74",
+        "name": "Piso de descanso transversal 15"
+      },
+      {
+        "id": "AM02:75",
+        "name": "Piso de descanso transversal 16"
+      },
+      {
+        "id": "AM02:76",
+        "name": "Piso de descanso transversal 17"
+      },
+      {
+        "id": "AM02:77",
+        "name": "Piso de descanso transversal 18"
+      },
+      {
+        "id": "AM02:78",
+        "name": "Piso de descanso transversal 19"
+      },
+      {
+        "id": "AM02:79",
+        "name": "Piso de descanso transversal 20"
+      },
+      {
+        "id": "AM02:80",
+        "name": "Piso de descanso transversal 21"
+      },
+      {
+        "id": "AM02:81",
+        "name": "Piso de descanso transversal 22"
+      },
+      {
+        "id": "AM02:82",
+        "name": "Piso de descanso transversal 23"
+      },
+      {
+        "id": "AM02:83",
+        "name": "Piso de descanso transversal 24"
+      },
+      {
+        "id": "AM02:84",
+        "name": "Zanca de escalera"
+      },
+      {
+        "id": "AM02:85",
+        "name": "Placa de pie escalera"
+      },
+      {
+        "id": "AM02:86",
+        "name": "Pie de zanca"
+      },
+      {
+        "id": "AM02:87",
+        "name": "Zanca de escalera"
+      },
+      {
+        "id": "AM02:88",
+        "name": "Placa de pie escalera"
+      },
+      {
+        "id": "AM02:89",
+        "name": "Pie de zanca"
+      },
+      {
+        "id": "AM02:90",
+        "name": "Peldaño 1 portante 1"
+      },
+      {
+        "id": "AM02:91",
+        "name": "Peldaño 1 portante 2"
+      },
+      {
+        "id": "AM02:92",
+        "name": "Peldaño 1 portante 3"
+      },
+      {
+        "id": "AM02:93",
+        "name": "Peldaño 1 portante 4"
+      },
+      {
+        "id": "AM02:94",
+        "name": "Peldaño 1 portante 5"
+      },
+      {
+        "id": "AM02:95",
+        "name": "Peldaño 1 portante 6"
+      },
+      {
+        "id": "AM02:96",
+        "name": "Peldaño 1 portante 7"
+      },
+      {
+        "id": "AM02:97",
+        "name": "Peldaño 1 portante 8"
+      },
+      {
+        "id": "AM02:98",
+        "name": "Peldaño 1 portante 9"
+      },
+      {
+        "id": "AM02:99",
+        "name": "Peldaño 1 transversal 1"
+      },
+      {
+        "id": "AM02:100",
+        "name": "Peldaño 1 transversal 2"
+      },
+      {
+        "id": "AM02:101",
+        "name": "Peldaño 1 transversal 3"
+      },
+      {
+        "id": "AM02:102",
+        "name": "Peldaño 1 transversal 4"
+      },
+      {
+        "id": "AM02:103",
+        "name": "Peldaño 1 transversal 5"
+      },
+      {
+        "id": "AM02:104",
+        "name": "Peldaño 1 transversal 6"
+      },
+      {
+        "id": "AM02:105",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM02:106",
+        "name": "Peldaño 2 portante 1"
+      },
+      {
+        "id": "AM02:107",
+        "name": "Peldaño 2 portante 2"
+      },
+      {
+        "id": "AM02:108",
+        "name": "Peldaño 2 portante 3"
+      },
+      {
+        "id": "AM02:109",
+        "name": "Peldaño 2 portante 4"
+      },
+      {
+        "id": "AM02:110",
+        "name": "Peldaño 2 portante 5"
+      },
+      {
+        "id": "AM02:111",
+        "name": "Peldaño 2 portante 6"
+      },
+      {
+        "id": "AM02:112",
+        "name": "Peldaño 2 portante 7"
+      },
+      {
+        "id": "AM02:113",
+        "name": "Peldaño 2 portante 8"
+      },
+      {
+        "id": "AM02:114",
+        "name": "Peldaño 2 portante 9"
+      },
+      {
+        "id": "AM02:115",
+        "name": "Peldaño 2 transversal 1"
+      },
+      {
+        "id": "AM02:116",
+        "name": "Peldaño 2 transversal 2"
+      },
+      {
+        "id": "AM02:117",
+        "name": "Peldaño 2 transversal 3"
+      },
+      {
+        "id": "AM02:118",
+        "name": "Peldaño 2 transversal 4"
+      },
+      {
+        "id": "AM02:119",
+        "name": "Peldaño 2 transversal 5"
+      },
+      {
+        "id": "AM02:120",
+        "name": "Peldaño 2 transversal 6"
+      },
+      {
+        "id": "AM02:121",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM02:122",
+        "name": "Peldaño 3 portante 1"
+      },
+      {
+        "id": "AM02:123",
+        "name": "Peldaño 3 portante 2"
+      },
+      {
+        "id": "AM02:124",
+        "name": "Peldaño 3 portante 3"
+      },
+      {
+        "id": "AM02:125",
+        "name": "Peldaño 3 portante 4"
+      },
+      {
+        "id": "AM02:126",
+        "name": "Peldaño 3 portante 5"
+      },
+      {
+        "id": "AM02:127",
+        "name": "Peldaño 3 portante 6"
+      },
+      {
+        "id": "AM02:128",
+        "name": "Peldaño 3 portante 7"
+      },
+      {
+        "id": "AM02:129",
+        "name": "Peldaño 3 portante 8"
+      },
+      {
+        "id": "AM02:130",
+        "name": "Peldaño 3 portante 9"
+      },
+      {
+        "id": "AM02:131",
+        "name": "Peldaño 3 transversal 1"
+      },
+      {
+        "id": "AM02:132",
+        "name": "Peldaño 3 transversal 2"
+      },
+      {
+        "id": "AM02:133",
+        "name": "Peldaño 3 transversal 3"
+      },
+      {
+        "id": "AM02:134",
+        "name": "Peldaño 3 transversal 4"
+      },
+      {
+        "id": "AM02:135",
+        "name": "Peldaño 3 transversal 5"
+      },
+      {
+        "id": "AM02:136",
+        "name": "Peldaño 3 transversal 6"
+      },
+      {
+        "id": "AM02:137",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM02:138",
+        "name": "Peldaño 4 portante 1"
+      },
+      {
+        "id": "AM02:139",
+        "name": "Peldaño 4 portante 2"
+      },
+      {
+        "id": "AM02:140",
+        "name": "Peldaño 4 portante 3"
+      },
+      {
+        "id": "AM02:141",
+        "name": "Peldaño 4 portante 4"
+      },
+      {
+        "id": "AM02:142",
+        "name": "Peldaño 4 portante 5"
+      },
+      {
+        "id": "AM02:143",
+        "name": "Peldaño 4 portante 6"
+      },
+      {
+        "id": "AM02:144",
+        "name": "Peldaño 4 portante 7"
+      },
+      {
+        "id": "AM02:145",
+        "name": "Peldaño 4 portante 8"
+      },
+      {
+        "id": "AM02:146",
+        "name": "Peldaño 4 portante 9"
+      },
+      {
+        "id": "AM02:147",
+        "name": "Peldaño 4 transversal 1"
+      },
+      {
+        "id": "AM02:148",
+        "name": "Peldaño 4 transversal 2"
+      },
+      {
+        "id": "AM02:149",
+        "name": "Peldaño 4 transversal 3"
+      },
+      {
+        "id": "AM02:150",
+        "name": "Peldaño 4 transversal 4"
+      },
+      {
+        "id": "AM02:151",
+        "name": "Peldaño 4 transversal 5"
+      },
+      {
+        "id": "AM02:152",
+        "name": "Peldaño 4 transversal 6"
+      },
+      {
+        "id": "AM02:153",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM02:154",
+        "name": "Peldaño 5 portante 1"
+      },
+      {
+        "id": "AM02:155",
+        "name": "Peldaño 5 portante 2"
+      },
+      {
+        "id": "AM02:156",
+        "name": "Peldaño 5 portante 3"
+      },
+      {
+        "id": "AM02:157",
+        "name": "Peldaño 5 portante 4"
+      },
+      {
+        "id": "AM02:158",
+        "name": "Peldaño 5 portante 5"
+      },
+      {
+        "id": "AM02:159",
+        "name": "Peldaño 5 portante 6"
+      },
+      {
+        "id": "AM02:160",
+        "name": "Peldaño 5 portante 7"
+      },
+      {
+        "id": "AM02:161",
+        "name": "Peldaño 5 portante 8"
+      },
+      {
+        "id": "AM02:162",
+        "name": "Peldaño 5 portante 9"
+      },
+      {
+        "id": "AM02:163",
+        "name": "Peldaño 5 transversal 1"
+      },
+      {
+        "id": "AM02:164",
+        "name": "Peldaño 5 transversal 2"
+      },
+      {
+        "id": "AM02:165",
+        "name": "Peldaño 5 transversal 3"
+      },
+      {
+        "id": "AM02:166",
+        "name": "Peldaño 5 transversal 4"
+      },
+      {
+        "id": "AM02:167",
+        "name": "Peldaño 5 transversal 5"
+      },
+      {
+        "id": "AM02:168",
+        "name": "Peldaño 5 transversal 6"
+      },
+      {
+        "id": "AM02:169",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM02:170",
+        "name": "Peldaño 6 portante 1"
+      },
+      {
+        "id": "AM02:171",
+        "name": "Peldaño 6 portante 2"
+      },
+      {
+        "id": "AM02:172",
+        "name": "Peldaño 6 portante 3"
+      },
+      {
+        "id": "AM02:173",
+        "name": "Peldaño 6 portante 4"
+      },
+      {
+        "id": "AM02:174",
+        "name": "Peldaño 6 portante 5"
+      },
+      {
+        "id": "AM02:175",
+        "name": "Peldaño 6 portante 6"
+      },
+      {
+        "id": "AM02:176",
+        "name": "Peldaño 6 portante 7"
+      },
+      {
+        "id": "AM02:177",
+        "name": "Peldaño 6 portante 8"
+      },
+      {
+        "id": "AM02:178",
+        "name": "Peldaño 6 portante 9"
+      },
+      {
+        "id": "AM02:179",
+        "name": "Peldaño 6 transversal 1"
+      },
+      {
+        "id": "AM02:180",
+        "name": "Peldaño 6 transversal 2"
+      },
+      {
+        "id": "AM02:181",
+        "name": "Peldaño 6 transversal 3"
+      },
+      {
+        "id": "AM02:182",
+        "name": "Peldaño 6 transversal 4"
+      },
+      {
+        "id": "AM02:183",
+        "name": "Peldaño 6 transversal 5"
+      },
+      {
+        "id": "AM02:184",
+        "name": "Peldaño 6 transversal 6"
+      },
+      {
+        "id": "AM02:185",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM02:186",
+        "name": "Peldaño 7 portante 1"
+      },
+      {
+        "id": "AM02:187",
+        "name": "Peldaño 7 portante 2"
+      },
+      {
+        "id": "AM02:188",
+        "name": "Peldaño 7 portante 3"
+      },
+      {
+        "id": "AM02:189",
+        "name": "Peldaño 7 portante 4"
+      },
+      {
+        "id": "AM02:190",
+        "name": "Peldaño 7 portante 5"
+      },
+      {
+        "id": "AM02:191",
+        "name": "Peldaño 7 portante 6"
+      },
+      {
+        "id": "AM02:192",
+        "name": "Peldaño 7 portante 7"
+      },
+      {
+        "id": "AM02:193",
+        "name": "Peldaño 7 portante 8"
+      },
+      {
+        "id": "AM02:194",
+        "name": "Peldaño 7 portante 9"
+      },
+      {
+        "id": "AM02:195",
+        "name": "Peldaño 7 transversal 1"
+      },
+      {
+        "id": "AM02:196",
+        "name": "Peldaño 7 transversal 2"
+      },
+      {
+        "id": "AM02:197",
+        "name": "Peldaño 7 transversal 3"
+      },
+      {
+        "id": "AM02:198",
+        "name": "Peldaño 7 transversal 4"
+      },
+      {
+        "id": "AM02:199",
+        "name": "Peldaño 7 transversal 5"
+      },
+      {
+        "id": "AM02:200",
+        "name": "Peldaño 7 transversal 6"
+      },
+      {
+        "id": "AM02:201",
+        "name": "Apoyo de peldaño"
+      },
+      {
+        "id": "AM02:202",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:203",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:204",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:205",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:206",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM02:207",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM02:208",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM02:209",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:210",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:211",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM02:212",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM02:213",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM02:214",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:215",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:216",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:217",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM02:218",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM02:219",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM02:220",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:221",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM02:222",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM02:223",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM02:224",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM02:230",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM02:231",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM02:232",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM02:233",
+        "name": "Protección de escalera"
+      },
+      {
+        "id": "AM02:234",
+        "name": "Pasamanos de escalera"
+      },
+      {
+        "id": "AM02:235",
+        "name": "Protección de escalera"
+      },
+      {
+        "id": "AM02:236",
+        "name": "Enlace baranda a descanso"
+      },
+      {
+        "id": "AM02:237",
+        "name": "Enlace baranda a descanso"
+      },
+      {
+        "id": "AM02:238",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM02:239",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM02:240",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "AM02:241",
+        "name": "Protección de escalera"
+      },
+      {
+        "id": "AM02:242",
+        "name": "Pasamanos de escalera"
+      },
+      {
+        "id": "AM02:243",
+        "name": "Protección de escalera"
+      },
+      {
+        "id": "AM02:244",
+        "name": "Enlace baranda a descanso"
+      },
+      {
+        "id": "AM02:245",
+        "name": "Enlace baranda a descanso"
+      },
+      {
+        "id": "AM02:246",
+        "name": "Extension de asiento peldaño 1"
+      },
+      {
+        "id": "AM02:247",
+        "name": "Extension de asiento peldaño 2"
+      },
+      {
+        "id": "AM02:248",
+        "name": "Extension de asiento peldaño 3"
+      },
+      {
+        "id": "AM02:249",
+        "name": "Extension de asiento peldaño 4"
+      },
+      {
+        "id": "AM02:250",
+        "name": "Extension de asiento peldaño 5"
+      },
+      {
+        "id": "AM02:251",
+        "name": "Extension de asiento peldaño 6"
+      },
+      {
+        "id": "AM02:252",
+        "name": "Extension de asiento peldaño 7"
+      },
+      {
+        "id": "AM04:1",
+        "name": "Larguero de extension"
+      },
+      {
+        "id": "AM04:2",
+        "name": "Larguero de extension"
+      },
+      {
+        "id": "AM04:3",
+        "name": "Travesaño de extension"
+      },
+      {
+        "id": "AM04:5",
+        "name": "Travesaño de extension"
+      },
+      {
+        "id": "AM04:6",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM04:7",
+        "name": "Columna de extension"
+      },
+      {
+        "id": "AM04:8",
+        "name": "Placa base 180x180x12"
+      },
+      {
+        "id": "AM04:9",
+        "name": "Columna de extension"
+      },
+      {
+        "id": "AM04:10",
+        "name": "Arriostre exterior"
+      },
+      {
+        "id": "AM04:11",
+        "name": "Arriostre de extremo"
+      },
+      {
+        "id": "AM04:12",
+        "name": "Piso de extension portante 1"
+      },
+      {
+        "id": "AM04:13",
+        "name": "Piso de extension portante 2"
+      },
+      {
+        "id": "AM04:14",
+        "name": "Piso de extension portante 3"
+      },
+      {
+        "id": "AM04:15",
+        "name": "Piso de extension portante 4"
+      },
+      {
+        "id": "AM04:16",
+        "name": "Piso de extension portante 5"
+      },
+      {
+        "id": "AM04:17",
+        "name": "Piso de extension portante 6"
+      },
+      {
+        "id": "AM04:18",
+        "name": "Piso de extension portante 7"
+      },
+      {
+        "id": "AM04:19",
+        "name": "Piso de extension portante 8"
+      },
+      {
+        "id": "AM04:20",
+        "name": "Piso de extension portante 9"
+      },
+      {
+        "id": "AM04:21",
+        "name": "Piso de extension portante 10"
+      },
+      {
+        "id": "AM04:22",
+        "name": "Piso de extension portante 11"
+      },
+      {
+        "id": "AM04:23",
+        "name": "Piso de extension portante 12"
+      },
+      {
+        "id": "AM04:24",
+        "name": "Piso de extension portante 13"
+      },
+      {
+        "id": "AM04:25",
+        "name": "Piso de extension portante 14"
+      },
+      {
+        "id": "AM04:26",
+        "name": "Piso de extension portante 15"
+      },
+      {
+        "id": "AM04:27",
+        "name": "Piso de extension portante 16"
+      },
+      {
+        "id": "AM04:28",
+        "name": "Piso de extension portante 17"
+      },
+      {
+        "id": "AM04:29",
+        "name": "Piso de extension portante 18"
+      },
+      {
+        "id": "AM04:30",
+        "name": "Piso de extension portante 19"
+      },
+      {
+        "id": "AM04:31",
+        "name": "Piso de extension portante 20"
+      },
+      {
+        "id": "AM04:32",
+        "name": "Piso de extension portante 21"
+      },
+      {
+        "id": "AM04:33",
+        "name": "Piso de extension portante 22"
+      },
+      {
+        "id": "AM04:34",
+        "name": "Piso de extension portante 23"
+      },
+      {
+        "id": "AM04:35",
+        "name": "Piso de extension portante 24"
+      },
+      {
+        "id": "AM04:36",
+        "name": "Piso de extension portante 25"
+      },
+      {
+        "id": "AM04:37",
+        "name": "Piso de extension portante 26"
+      },
+      {
+        "id": "AM04:38",
+        "name": "Piso de extension portante 27"
+      },
+      {
+        "id": "AM04:39",
+        "name": "Piso de extension portante 28"
+      },
+      {
+        "id": "AM04:40",
+        "name": "Piso de extension portante 29"
+      },
+      {
+        "id": "AM04:41",
+        "name": "Piso de extension portante 30"
+      },
+      {
+        "id": "AM04:42",
+        "name": "Piso de extension portante 31"
+      },
+      {
+        "id": "AM04:43",
+        "name": "Piso de extension portante 32"
+      },
+      {
+        "id": "AM04:44",
+        "name": "Piso de extension portante 33"
+      },
+      {
+        "id": "AM04:45",
+        "name": "Piso de extension portante 34"
+      },
+      {
+        "id": "AM04:46",
+        "name": "Piso de extension portante 35"
+      },
+      {
+        "id": "AM04:47",
+        "name": "Piso de extension portante 36"
+      },
+      {
+        "id": "AM04:48",
+        "name": "Piso de extension transversal 1"
+      },
+      {
+        "id": "AM04:49",
+        "name": "Piso de extension transversal 2"
+      },
+      {
+        "id": "AM04:50",
+        "name": "Piso de extension transversal 3"
+      },
+      {
+        "id": "AM04:51",
+        "name": "Piso de extension transversal 4"
+      },
+      {
+        "id": "AM04:52",
+        "name": "Piso de extension transversal 5"
+      },
+      {
+        "id": "AM04:53",
+        "name": "Piso de extension transversal 6"
+      },
+      {
+        "id": "AM04:54",
+        "name": "Piso de extension transversal 7"
+      },
+      {
+        "id": "AM04:55",
+        "name": "Piso de extension transversal 8"
+      },
+      {
+        "id": "AM04:56",
+        "name": "Piso de extension transversal 9"
+      },
+      {
+        "id": "AM04:57",
+        "name": "Piso de extension transversal 10"
+      },
+      {
+        "id": "AM04:58",
+        "name": "Piso de extension transversal 11"
+      },
+      {
+        "id": "AM04:59",
+        "name": "Piso de extension transversal 12"
+      },
+      {
+        "id": "AM04:60",
+        "name": "Piso de extension transversal 13"
+      },
+      {
+        "id": "AM04:61",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM04:62",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM04:64",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM04:65",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM04:66",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM04:67",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "AM04:69",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM04:70",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "AM04:71",
+        "name": "Rodapie"
+      },
+      {
+        "id": "AM04:72",
+        "name": "Travesaño de junta del piso"
+      }
+    ]
+  ],
+  "specificConnections": [
+    {
+      "check": "Columna a placa base",
+      "part": "AM04:7",
+      "contacts": [
+        {
+          "id": "AM04:6",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a larguero",
+      "part": "AM04:7",
+      "contacts": [
+        {
+          "id": "AM04:1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a placa base",
+      "part": "AM04:9",
+      "contacts": [
+        {
+          "id": "AM04:8",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Columna a larguero",
+      "part": "AM04:9",
+      "contacts": [
+        {
+          "id": "AM04:2",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Larguero nuevo a extremo del conservado",
+      "part": "AM04:1",
+      "contacts": [
+        {
+          "id": "AM02:1",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "Larguero nuevo a extremo del conservado",
+      "part": "AM04:2",
+      "contacts": [
+        {
+          "id": "AM02:2",
+          "distanceMm": 0.0
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "gratingEndSupports": [
+    {
+      "part": "AM04:12",
+      "supportStations": [
+        9700.0,
+        11520.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        -28.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:13",
+      "supportStations": [
+        9700.0,
+        11520.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        -28.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:14",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:15",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:16",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:17",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:18",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:19",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:20",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:21",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:22",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:23",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:24",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:25",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:26",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:27",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:28",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:29",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:30",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:31",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:32",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:33",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:34",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:35",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:36",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:37",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:38",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:39",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:40",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:41",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:42",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:43",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:44",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:45",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        42.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:46",
+      "supportStations": [
+        9700.0,
+        10680.0,
+        11450.0,
+        9700.0,
+        11520.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        -28.0
+      ],
+      "passed": true
+    },
+    {
+      "part": "AM04:47",
+      "supportStations": [
+        9700.0,
+        11520.0
+      ],
+      "endOverhangMm": [
+        28.0,
+        -29.632625906891917
+      ],
+      "passed": true
+    }
+  ],
+  "walkingSeam": [
+    {
+      "part": "AM04:12",
+      "adjacent": [
+        "AM02:24"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:13",
+      "adjacent": [
+        "AM02:25"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:14",
+      "adjacent": [
+        "AM02:26"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:15",
+      "adjacent": [
+        "AM02:27"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:16",
+      "adjacent": [
+        "AM02:28"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:17",
+      "adjacent": [
+        "AM02:29"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:18",
+      "adjacent": [
+        "AM02:30"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:19",
+      "adjacent": [
+        "AM02:31"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:20",
+      "adjacent": [
+        "AM02:32"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:21",
+      "adjacent": [
+        "AM02:33"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:22",
+      "adjacent": [
+        "AM02:34"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:23",
+      "adjacent": [
+        "AM02:35"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:24",
+      "adjacent": [
+        "AM02:36"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:25",
+      "adjacent": [
+        "AM02:37"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:26",
+      "adjacent": [
+        "AM02:38"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:27",
+      "adjacent": [
+        "AM02:39"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:28",
+      "adjacent": [
+        "AM02:40"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:29",
+      "adjacent": [
+        "AM02:41"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:30",
+      "adjacent": [
+        "AM02:42"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:31",
+      "adjacent": [
+        "AM02:43"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:32",
+      "adjacent": [
+        "AM02:44"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:33",
+      "adjacent": [
+        "AM02:45"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:34",
+      "adjacent": [
+        "AM02:46"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:35",
+      "adjacent": [
+        "AM02:47"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:36",
+      "adjacent": [
+        "AM02:48"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:37",
+      "adjacent": [
+        "AM02:49"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:38",
+      "adjacent": [
+        "AM02:50"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:39",
+      "adjacent": [
+        "AM02:51"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:40",
+      "adjacent": [
+        "AM02:52"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:41",
+      "adjacent": [
+        "AM02:53"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:42",
+      "adjacent": [
+        "AM02:54"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:43",
+      "adjacent": [
+        "AM02:55"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:44",
+      "adjacent": [
+        "AM02:56"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:45",
+      "adjacent": [
+        "AM02:57"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:46",
+      "adjacent": [
+        "AM02:58"
+      ],
+      "kind": "grating-to-grating",
+      "passed": true
+    },
+    {
+      "part": "AM04:47",
+      "adjacent": [
+        "AM02:214"
+      ],
+      "kind": "grating-notched-to-existing-post",
+      "passed": true
+    }
+  ],
+  "noRailOnMotorWorkingEdge": true,
+  "originalMixerUnchanged": true,
+  "originalStairPreserved": true,
+  "retainedNativeBodies": [
+    {
+      "id": "AM02:1",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:2",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:3",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:4",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:5",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:6",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:7",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:8",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:9",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:10",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:11",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:12",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:13",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:14",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:15",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:16",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:17",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:18",
+      "maximumBoundsErrorMm": 1.4517172530759126e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:19",
+      "maximumBoundsErrorMm": 1.3150611266610213e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:20",
+      "maximumBoundsErrorMm": 1.3150611266610213e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:21",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:22",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:23",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:24",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:25",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:26",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:27",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:28",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:29",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:30",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:31",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:32",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:33",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:34",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:35",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:36",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:37",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:38",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:39",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:40",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:41",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:42",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:43",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:44",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:45",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:46",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:47",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:48",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:49",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:50",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:51",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:52",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:53",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:54",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:55",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:56",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:57",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:58",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:59",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:60",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:61",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:62",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:63",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:64",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:65",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:66",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:67",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:68",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:69",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:70",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:71",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:72",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:73",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:74",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:75",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:76",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:77",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:78",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:79",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:80",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:81",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:82",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:83",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:84",
+      "maximumBoundsErrorMm": 4.883850976966642e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:85",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:86",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:87",
+      "maximumBoundsErrorMm": 4.883850976966642e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:88",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:89",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:90",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:91",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:92",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:93",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:94",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:95",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:96",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:97",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:98",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:99",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:100",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:101",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:102",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:103",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:104",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:105",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:106",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:107",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:108",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:109",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:110",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:111",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:112",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:113",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:114",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:115",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:116",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:117",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:118",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:119",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:120",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:121",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:122",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:123",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:124",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:125",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:126",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:127",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:128",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:129",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:130",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:131",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:132",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:133",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:134",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:135",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:136",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:137",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:138",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:139",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:140",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:141",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:142",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:143",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:144",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:145",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:146",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:147",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:148",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:149",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:150",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:151",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:152",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:153",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:154",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:155",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:156",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:157",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:158",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:159",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:160",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:161",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:162",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:163",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:164",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:165",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:166",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:167",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:168",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:169",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:170",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:171",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:172",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:173",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:174",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:175",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:176",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:177",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:178",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:179",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:180",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:181",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:182",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:183",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:184",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:185",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:186",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:187",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:188",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:189",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:190",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:191",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:192",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:193",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:194",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:195",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:196",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:197",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:198",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:199",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:200",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:201",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:202",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:203",
+      "maximumBoundsErrorMm": 3.3333526516798884e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:204",
+      "maximumBoundsErrorMm": 3.333334461785853e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:205",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:206",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:207",
+      "maximumBoundsErrorMm": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:208",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:209",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:210",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:211",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:212",
+      "maximumBoundsErrorMm": 0.0,
+      "passed": true
+    },
+    {
+      "id": "AM02:213",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:214",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:215",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:216",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:217",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:218",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:219",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:220",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:221",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:222",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:223",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:224",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:230",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:231",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:232",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:233",
+      "maximumBoundsErrorMm": 4.719327080238145e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:234",
+      "maximumBoundsErrorMm": 4.719327080238145e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:235",
+      "maximumBoundsErrorMm": 4.719327080238145e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:236",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:237",
+      "maximumBoundsErrorMm": 2.2737367544323206e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:238",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:239",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:240",
+      "maximumBoundsErrorMm": 4.547473508864641e-13,
+      "passed": true
+    },
+    {
+      "id": "AM02:241",
+      "maximumBoundsErrorMm": 4.719327080238145e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:242",
+      "maximumBoundsErrorMm": 4.719327080238145e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:243",
+      "maximumBoundsErrorMm": 4.719327080238145e-07,
+      "passed": true
+    },
+    {
+      "id": "AM02:244",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:245",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:246",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:247",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:248",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:249",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:250",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:251",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    },
+    {
+      "id": "AM02:252",
+      "maximumBoundsErrorMm": 1.8189894035458565e-12,
+      "passed": true
+    }
+  ],
+  "platform": {
+    "lengthMm": 5320,
+    "widthMm": 1100,
+    "floorHeightMm": 1300,
+    "extensionMm": 1820
+  },
+  "passed": true
+}

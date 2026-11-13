@@ -1,0 +1,41 @@
+{
+  "software": "SolidWorks 34.3.2",
+  "contacts": [
+    {
+      "part": "AM04:1",
+      "other": "AM02:1",
+      "distanceMm": 0.0,
+      "pointAmm": [
+        11520.0,
+        820.0,
+        1220.0
+      ],
+      "pointBmm": [
+        11520.0,
+        820.0,
+        1220.0
+      ]
+    },
+    {
+      "part": "AM04:2",
+      "other": "AM02:2",
+      "distanceMm": 0.0,
+      "pointAmm": [
+        11520.0,
+        1840.0,
+        1220.0
+      ],
+      "pointBmm": [
+        11520.0,
+        1840.0,
+        1220.0
+      ]
+    }
+  ],
+  "clashes": [],
+  "checkedBodies": {
+    "AM02": 247,
+    "AM04": 69
+  },
+  "passed": true
+}
