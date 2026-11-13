@@ -1,0 +1,21 @@
+{
+  "revision": "R45",
+  "productMassKg": 1000,
+  "loading": "Telehandler Manitou; deposicion en cuatro enganches fijos",
+  "hook": "4 RUD VABH-W 1.5 t Ref.7991208; envolvente de compra",
+  "noHoist": true,
+  "noCraneRail": true,
+  "levelsMm": [
+    1200,
+    4800
+  ],
+  "oneSharedStair": true,
+  "frameLongitudinalFootprintMm": 2000,
+  "frameTransverseFootprintMm": 2800,
+  "formerFrameTransverseFootprintMm": 4300,
+  "hopperAndWeighingUnchanged": true,
+  "newHangerIndependentFromWeighing": true,
+  "approvedForFabrication": false,
+  "purchasedEquipmentEnvelopes": true,
+  "source": "https://www.rud.com/fileadmin/rud.com/Produkte_PIM_Import/VABH-W_EN_8502223_V05_FG.pdf"
+}

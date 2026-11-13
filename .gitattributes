@@ -2,3 +2,4 @@
 *.zip -text
 /entregas/R44/bigbag/* -text
 /entregas/R44/mixer-motor/* -text
+/entregas/R45/* -text

@@ -1,0 +1,3489 @@
+{
+  "toleranceMm": 0.5,
+  "nativeBodies": {
+    "FD01": 29,
+    "FD02": 286,
+    "FD03": 10
+  },
+  "collisionCandidates": 58,
+  "collisions": [],
+  "floorPenetrations": [],
+  "structuralGroups": [
+    [
+      {
+        "id": "FD01:1",
+        "name": "Placa base 300x200x12 - 4 agujeros 18"
+      },
+      {
+        "id": "FD01:2",
+        "name": "Columna independiente del pesaje"
+      },
+      {
+        "id": "FD01:3",
+        "name": "Placa base 300x200x12 - 4 agujeros 18"
+      },
+      {
+        "id": "FD01:4",
+        "name": "Columna independiente del pesaje"
+      },
+      {
+        "id": "FD01:5",
+        "name": "Viga lateral soporte fijo"
+      },
+      {
+        "id": "FD01:6",
+        "name": "Arriostre lateral"
+      },
+      {
+        "id": "FD01:7",
+        "name": "Placa base 300x200x12 - 4 agujeros 18"
+      },
+      {
+        "id": "FD01:8",
+        "name": "Columna independiente del pesaje"
+      },
+      {
+        "id": "FD01:9",
+        "name": "Placa base 300x200x12 - 4 agujeros 18"
+      },
+      {
+        "id": "FD01:10",
+        "name": "Columna independiente del pesaje"
+      },
+      {
+        "id": "FD01:11",
+        "name": "Viga lateral soporte fijo"
+      },
+      {
+        "id": "FD01:12",
+        "name": "Arriostre lateral"
+      },
+      {
+        "id": "FD01:13",
+        "name": "Travesaño de colgado fijo"
+      },
+      {
+        "id": "FD01:14",
+        "name": "Poste corto de enganche"
+      },
+      {
+        "id": "FD01:15",
+        "name": "Placa de gancho 160x200x12"
+      },
+      {
+        "id": "FD01:16",
+        "name": "Poste corto de enganche"
+      },
+      {
+        "id": "FD01:17",
+        "name": "Placa de gancho 160x200x12"
+      },
+      {
+        "id": "FD01:18",
+        "name": "Travesaño de colgado fijo"
+      },
+      {
+        "id": "FD01:19",
+        "name": "Poste corto de enganche"
+      },
+      {
+        "id": "FD01:20",
+        "name": "Placa de gancho 160x200x12"
+      },
+      {
+        "id": "FD01:21",
+        "name": "Poste corto de enganche"
+      },
+      {
+        "id": "FD01:22",
+        "name": "Placa de gancho 160x200x12"
+      },
+      {
+        "id": "FD01:23",
+        "name": "Borde portante de plataforma superior"
+      },
+      {
+        "id": "FD01:24",
+        "name": "Borde portante de plataforma superior"
+      },
+      {
+        "id": "FD01:25",
+        "name": "Marco plataforma superior"
+      },
+      {
+        "id": "FD01:26",
+        "name": "Marco plataforma superior"
+      },
+      {
+        "id": "FD01:27",
+        "name": "Marco plataforma superior"
+      },
+      {
+        "id": "FD01:28",
+        "name": "Marco interior paso de saco"
+      },
+      {
+        "id": "FD01:29",
+        "name": "Marco interior paso de saco"
+      },
+      {
+        "id": "FD02:1",
+        "name": "Descanso comun larguero"
+      },
+      {
+        "id": "FD02:2",
+        "name": "Descanso comun larguero"
+      },
+      {
+        "id": "FD02:3",
+        "name": "Descanso comun transversal"
+      },
+      {
+        "id": "FD02:4",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:5",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:6",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:7",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:8",
+        "name": "Descanso comun transversal"
+      },
+      {
+        "id": "FD02:9",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:10",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:11",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:12",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:13",
+        "name": "Descanso comun rejilla comercial"
+      },
+      {
+        "id": "FD02:14",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:15",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:16",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:17",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:18",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:19",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:20",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:21",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:22",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:23",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:24",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:25",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:26",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:27",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:28",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:29",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:30",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:31",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:32",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:33",
+        "name": "Pasillo inferior larguero"
+      },
+      {
+        "id": "FD02:34",
+        "name": "Pasillo inferior larguero"
+      },
+      {
+        "id": "FD02:35",
+        "name": "Pasillo inferior transversal"
+      },
+      {
+        "id": "FD02:36",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:37",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:38",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:39",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:40",
+        "name": "Pasillo inferior transversal"
+      },
+      {
+        "id": "FD02:41",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:42",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:43",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:44",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:45",
+        "name": "Pasillo inferior rejilla comercial"
+      },
+      {
+        "id": "FD02:46",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:47",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:48",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:49",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:50",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:51",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:52",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:53",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:54",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:55",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:56",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:57",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:58",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:59",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:60",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:61",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:62",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:63",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:64",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:65",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:66",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:67",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:68",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:69",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:70",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:71",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:72",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:73",
+        "name": "Tramo inferior zanca"
+      },
+      {
+        "id": "FD02:74",
+        "name": "Pie de escalera"
+      },
+      {
+        "id": "FD02:75",
+        "name": "Asiento de zanca"
+      },
+      {
+        "id": "FD02:76",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:77",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:78",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:79",
+        "name": "Tramo inferior pasamanos"
+      },
+      {
+        "id": "FD02:80",
+        "name": "Tramo inferior pasamanos"
+      },
+      {
+        "id": "FD02:81",
+        "name": "Tramo inferior pasamanos"
+      },
+      {
+        "id": "FD02:82",
+        "name": "Tramo inferior zanca"
+      },
+      {
+        "id": "FD02:83",
+        "name": "Pie de escalera"
+      },
+      {
+        "id": "FD02:84",
+        "name": "Asiento de zanca"
+      },
+      {
+        "id": "FD02:85",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:86",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:87",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:88",
+        "name": "Tramo inferior pasamanos"
+      },
+      {
+        "id": "FD02:89",
+        "name": "Tramo inferior pasamanos"
+      },
+      {
+        "id": "FD02:90",
+        "name": "Tramo inferior pasamanos"
+      },
+      {
+        "id": "FD02:91",
+        "name": "Tramo inferior peldaño 1"
+      },
+      {
+        "id": "FD02:92",
+        "name": "Tramo inferior apoyo peldaño"
+      },
+      {
+        "id": "FD02:93",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:94",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:95",
+        "name": "Tramo inferior peldaño 2"
+      },
+      {
+        "id": "FD02:96",
+        "name": "Tramo inferior apoyo peldaño"
+      },
+      {
+        "id": "FD02:97",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:98",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:99",
+        "name": "Tramo inferior peldaño 3"
+      },
+      {
+        "id": "FD02:100",
+        "name": "Tramo inferior apoyo peldaño"
+      },
+      {
+        "id": "FD02:101",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:102",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:103",
+        "name": "Tramo inferior peldaño 4"
+      },
+      {
+        "id": "FD02:104",
+        "name": "Tramo inferior apoyo peldaño"
+      },
+      {
+        "id": "FD02:105",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:106",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:107",
+        "name": "Tramo inferior peldaño 5"
+      },
+      {
+        "id": "FD02:108",
+        "name": "Tramo inferior apoyo peldaño"
+      },
+      {
+        "id": "FD02:109",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:110",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:111",
+        "name": "Tramo inferior peldaño 6"
+      },
+      {
+        "id": "FD02:112",
+        "name": "Tramo inferior apoyo peldaño"
+      },
+      {
+        "id": "FD02:113",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:114",
+        "name": "Tramo inferior asiento lateral"
+      },
+      {
+        "id": "FD02:115",
+        "name": "Tramo superior zanca"
+      },
+      {
+        "id": "FD02:116",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:117",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:118",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:119",
+        "name": "Tramo superior pasamanos"
+      },
+      {
+        "id": "FD02:120",
+        "name": "Tramo superior pasamanos"
+      },
+      {
+        "id": "FD02:121",
+        "name": "Tramo superior pasamanos"
+      },
+      {
+        "id": "FD02:122",
+        "name": "Tramo superior zanca"
+      },
+      {
+        "id": "FD02:123",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:124",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:125",
+        "name": "Poste de escalera"
+      },
+      {
+        "id": "FD02:126",
+        "name": "Tramo superior pasamanos"
+      },
+      {
+        "id": "FD02:127",
+        "name": "Tramo superior pasamanos"
+      },
+      {
+        "id": "FD02:128",
+        "name": "Tramo superior pasamanos"
+      },
+      {
+        "id": "FD02:129",
+        "name": "Tramo superior peldaño 1"
+      },
+      {
+        "id": "FD02:130",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:131",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:132",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:133",
+        "name": "Tramo superior peldaño 2"
+      },
+      {
+        "id": "FD02:134",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:135",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:136",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:137",
+        "name": "Tramo superior peldaño 3"
+      },
+      {
+        "id": "FD02:138",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:139",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:140",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:141",
+        "name": "Tramo superior peldaño 4"
+      },
+      {
+        "id": "FD02:142",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:143",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:144",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:145",
+        "name": "Tramo superior peldaño 5"
+      },
+      {
+        "id": "FD02:146",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:147",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:148",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:149",
+        "name": "Tramo superior peldaño 6"
+      },
+      {
+        "id": "FD02:150",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:151",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:152",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:153",
+        "name": "Tramo superior peldaño 7"
+      },
+      {
+        "id": "FD02:154",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:155",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:156",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:157",
+        "name": "Tramo superior peldaño 8"
+      },
+      {
+        "id": "FD02:158",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:159",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:160",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:161",
+        "name": "Tramo superior peldaño 9"
+      },
+      {
+        "id": "FD02:162",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:163",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:164",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:165",
+        "name": "Tramo superior peldaño 10"
+      },
+      {
+        "id": "FD02:166",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:167",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:168",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:169",
+        "name": "Tramo superior peldaño 11"
+      },
+      {
+        "id": "FD02:170",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:171",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:172",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:173",
+        "name": "Tramo superior peldaño 12"
+      },
+      {
+        "id": "FD02:174",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:175",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:176",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:177",
+        "name": "Tramo superior peldaño 13"
+      },
+      {
+        "id": "FD02:178",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:179",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:180",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:181",
+        "name": "Tramo superior peldaño 14"
+      },
+      {
+        "id": "FD02:182",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:183",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:184",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:185",
+        "name": "Tramo superior peldaño 15"
+      },
+      {
+        "id": "FD02:186",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:187",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:188",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:189",
+        "name": "Tramo superior peldaño 16"
+      },
+      {
+        "id": "FD02:190",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:191",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:192",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:193",
+        "name": "Tramo superior peldaño 17"
+      },
+      {
+        "id": "FD02:194",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:195",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:196",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:197",
+        "name": "Tramo superior peldaño 18"
+      },
+      {
+        "id": "FD02:198",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:199",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:200",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:201",
+        "name": "Tramo superior peldaño 19"
+      },
+      {
+        "id": "FD02:202",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:203",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:204",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:205",
+        "name": "Tramo superior peldaño 20"
+      },
+      {
+        "id": "FD02:206",
+        "name": "Tramo superior apoyo peldaño"
+      },
+      {
+        "id": "FD02:207",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:208",
+        "name": "Tramo superior asiento lateral"
+      },
+      {
+        "id": "FD02:209",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:210",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:211",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:212",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:213",
+        "name": "Portico de escalera"
+      },
+      {
+        "id": "FD02:214",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:215",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:216",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:217",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:218",
+        "name": "Portico de escalera"
+      },
+      {
+        "id": "FD02:219",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:220",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:221",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:222",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:223",
+        "name": "Portico de escalera"
+      },
+      {
+        "id": "FD02:224",
+        "name": "Puente superior larguero"
+      },
+      {
+        "id": "FD02:225",
+        "name": "Puente superior larguero"
+      },
+      {
+        "id": "FD02:226",
+        "name": "Puente superior transversal"
+      },
+      {
+        "id": "FD02:229",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:230",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:231",
+        "name": "Puente superior transversal"
+      },
+      {
+        "id": "FD02:234",
+        "name": "Placa base 200x200x12"
+      },
+      {
+        "id": "FD02:235",
+        "name": "Columna de plataforma"
+      },
+      {
+        "id": "FD02:236",
+        "name": "Puente superior rejilla comercial"
+      },
+      {
+        "id": "FD02:237",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:238",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:239",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:240",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:241",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:242",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:243",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:244",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:245",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:246",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:247",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:248",
+        "name": "Rejilla lateral izquierda"
+      },
+      {
+        "id": "FD02:249",
+        "name": "Rejilla lateral derecha"
+      },
+      {
+        "id": "FD02:250",
+        "name": "Rejilla posterior"
+      },
+      {
+        "id": "FD02:251",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:252",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:253",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:254",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:255",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:256",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:257",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:258",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:259",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:260",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:261",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:262",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:263",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:264",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:265",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:266",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:267",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:268",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:269",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:270",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:271",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:272",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:273",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:274",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:275",
+        "name": "Rodapie"
+      },
+      {
+        "id": "FD02:276",
+        "name": "Borde de pozo de saco"
+      },
+      {
+        "id": "FD02:277",
+        "name": "Borde de pozo de saco"
+      },
+      {
+        "id": "FD02:278",
+        "name": "Poste de proteccion de pozo"
+      },
+      {
+        "id": "FD02:279",
+        "name": "Poste de proteccion de pozo"
+      },
+      {
+        "id": "FD02:280",
+        "name": "Baranda de pozo"
+      },
+      {
+        "id": "FD02:281",
+        "name": "Baranda de pozo"
+      },
+      {
+        "id": "FD02:282",
+        "name": "Poste de proteccion de pozo"
+      },
+      {
+        "id": "FD02:283",
+        "name": "Poste de proteccion de pozo"
+      },
+      {
+        "id": "FD02:284",
+        "name": "Baranda de pozo"
+      },
+      {
+        "id": "FD02:285",
+        "name": "Baranda de pozo"
+      },
+      {
+        "id": "FD02:286",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:287",
+        "name": "Poste de baranda"
+      },
+      {
+        "id": "FD02:288",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:289",
+        "name": "Baranda horizontal"
+      },
+      {
+        "id": "FD02:290",
+        "name": "Rodapie"
+      }
+    ]
+  ],
+  "contacts": [
+    {
+      "a": "FD01:2",
+      "b": "FD01:1",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:4",
+      "b": "FD01:3",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:5",
+      "b": "FD01:2",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD01:5",
+      "b": "FD01:4",
+      "distanceMm": 9.165725883006586e-13
+    },
+    {
+      "a": "FD01:6",
+      "b": "FD01:2",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:8",
+      "b": "FD01:7",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:10",
+      "b": "FD01:9",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:11",
+      "b": "FD01:8",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD01:11",
+      "b": "FD01:10",
+      "distanceMm": 9.165725883006586e-13
+    },
+    {
+      "a": "FD01:12",
+      "b": "FD01:8",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:13",
+      "b": "FD01:5",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:13",
+      "b": "FD01:11",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:14",
+      "b": "FD01:13",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD01:15",
+      "b": "FD01:14",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:16",
+      "b": "FD01:13",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD01:17",
+      "b": "FD01:16",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:18",
+      "b": "FD01:5",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:19",
+      "b": "FD01:18",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD01:20",
+      "b": "FD01:19",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:21",
+      "b": "FD01:18",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD01:22",
+      "b": "FD01:21",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:23",
+      "b": "FD01:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:24",
+      "b": "FD01:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:25",
+      "b": "FD01:5",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:26",
+      "b": "FD01:5",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:27",
+      "b": "FD01:23",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:28",
+      "b": "FD01:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD01:29",
+      "b": "FD01:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:3",
+      "b": "FD02:1",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:3",
+      "b": "FD02:2",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:5",
+      "b": "FD02:1",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:5",
+      "b": "FD02:4",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:7",
+      "b": "FD02:2",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:7",
+      "b": "FD02:6",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:8",
+      "b": "FD02:1",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:10",
+      "b": "FD02:1",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:10",
+      "b": "FD02:9",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:12",
+      "b": "FD02:2",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:12",
+      "b": "FD02:11",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:13",
+      "b": "FD02:1",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:14",
+      "b": "FD02:1",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:15",
+      "b": "FD02:1",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:16",
+      "b": "FD02:1",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:17",
+      "b": "FD02:14",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:18",
+      "b": "FD02:14",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:19",
+      "b": "FD02:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:20",
+      "b": "FD02:2",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:21",
+      "b": "FD02:14",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:22",
+      "b": "FD02:14",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:23",
+      "b": "FD02:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:24",
+      "b": "FD02:1",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:25",
+      "b": "FD02:16",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:26",
+      "b": "FD02:16",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:27",
+      "b": "FD02:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:28",
+      "b": "FD02:2",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:29",
+      "b": "FD02:2",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:30",
+      "b": "FD02:28",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:31",
+      "b": "FD02:28",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:32",
+      "b": "FD02:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:35",
+      "b": "FD02:33",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:35",
+      "b": "FD02:34",
+      "distanceMm": 4.547473508864641e-13
+    },
+    {
+      "a": "FD02:36",
+      "b": "FD02:6",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:37",
+      "b": "FD02:6",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:37",
+      "b": "FD02:33",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:39",
+      "b": "FD02:34",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:39",
+      "b": "FD02:38",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:40",
+      "b": "FD02:33",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:42",
+      "b": "FD02:33",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:42",
+      "b": "FD02:41",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:44",
+      "b": "FD02:34",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:44",
+      "b": "FD02:43",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:45",
+      "b": "FD02:33",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:46",
+      "b": "FD02:33",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:47",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:48",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:49",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:50",
+      "b": "FD02:46",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:51",
+      "b": "FD02:46",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:52",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:53",
+      "b": "FD02:33",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:54",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:55",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:56",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:57",
+      "b": "FD02:34",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:58",
+      "b": "FD02:53",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:59",
+      "b": "FD02:53",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:60",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:61",
+      "b": "FD02:34",
+      "distanceMm": 2.2737367544323206e-13
+    },
+    {
+      "a": "FD02:62",
+      "b": "FD02:57",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:63",
+      "b": "FD02:57",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:64",
+      "b": "FD02:45",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:66",
+      "b": "FD02:35",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:66",
+      "b": "FD02:65",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:68",
+      "b": "FD02:35",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:68",
+      "b": "FD02:67",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:70",
+      "b": "FD02:40",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:70",
+      "b": "FD02:69",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:72",
+      "b": "FD02:40",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:72",
+      "b": "FD02:71",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:75",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:75",
+      "b": "FD02:74",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:76",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:77",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:78",
+      "b": "FD02:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:79",
+      "b": "FD02:16",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:79",
+      "b": "FD02:76",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:80",
+      "b": "FD02:16",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:81",
+      "b": "FD02:16",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:84",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:84",
+      "b": "FD02:83",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:85",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:86",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:87",
+      "b": "FD02:13",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:88",
+      "b": "FD02:28",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:88",
+      "b": "FD02:85",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:89",
+      "b": "FD02:28",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:90",
+      "b": "FD02:28",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:92",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:92",
+      "b": "FD02:91",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:93",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:94",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:96",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:96",
+      "b": "FD02:95",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:97",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:98",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:100",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:100",
+      "b": "FD02:99",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:101",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:102",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:104",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:104",
+      "b": "FD02:103",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:105",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:106",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:108",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:108",
+      "b": "FD02:107",
+      "distanceMm": 1.1368683772161603e-13
+    },
+    {
+      "a": "FD02:109",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:110",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:112",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:112",
+      "b": "FD02:111",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:113",
+      "b": "FD02:73",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:114",
+      "b": "FD02:82",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:116",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:117",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:119",
+      "b": "FD02:116",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:119",
+      "b": "FD02:118",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:120",
+      "b": "FD02:116",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:121",
+      "b": "FD02:116",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:122",
+      "b": "FD02:28",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:123",
+      "b": "FD02:28",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:124",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:126",
+      "b": "FD02:87",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:126",
+      "b": "FD02:125",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:127",
+      "b": "FD02:87",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:128",
+      "b": "FD02:123",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:130",
+      "b": "FD02:28",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:130",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:130",
+      "b": "FD02:129",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:131",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:132",
+      "b": "FD02:87",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:134",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:134",
+      "b": "FD02:133",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:135",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:136",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:138",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:138",
+      "b": "FD02:137",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:139",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:140",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:142",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:142",
+      "b": "FD02:141",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:143",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:144",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:146",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:146",
+      "b": "FD02:145",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:147",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:148",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:150",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:150",
+      "b": "FD02:149",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:151",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:152",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:154",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:154",
+      "b": "FD02:153",
+      "distanceMm": 4.547473508864641e-13
+    },
+    {
+      "a": "FD02:155",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:156",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:158",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:158",
+      "b": "FD02:157",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:159",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:160",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:162",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:162",
+      "b": "FD02:161",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:163",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:164",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:166",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:166",
+      "b": "FD02:165",
+      "distanceMm": 4.547473508864641e-13
+    },
+    {
+      "a": "FD02:167",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:168",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:170",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:170",
+      "b": "FD02:169",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:171",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:172",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:174",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:174",
+      "b": "FD02:173",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:175",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:176",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:178",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:178",
+      "b": "FD02:177",
+      "distanceMm": 4.547473508864641e-13
+    },
+    {
+      "a": "FD02:179",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:180",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:182",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:182",
+      "b": "FD02:181",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:183",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:184",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:186",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:186",
+      "b": "FD02:185",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:187",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:188",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:190",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:190",
+      "b": "FD02:189",
+      "distanceMm": 4.547473508864641e-13
+    },
+    {
+      "a": "FD02:191",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:192",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:194",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:194",
+      "b": "FD02:193",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:195",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:196",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:198",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:198",
+      "b": "FD02:197",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:199",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:200",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:202",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:202",
+      "b": "FD02:201",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:203",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:204",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:206",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:206",
+      "b": "FD02:205",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:207",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:208",
+      "b": "FD02:122",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:210",
+      "b": "FD02:209",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:211",
+      "b": "FD02:11",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:212",
+      "b": "FD02:11",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:213",
+      "b": "FD02:210",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:213",
+      "b": "FD02:212",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:215",
+      "b": "FD02:167",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:215",
+      "b": "FD02:214",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:217",
+      "b": "FD02:168",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:217",
+      "b": "FD02:216",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:218",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:220",
+      "b": "FD02:219",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:222",
+      "b": "FD02:221",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:223",
+      "b": "FD02:220",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:223",
+      "b": "FD02:222",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:224",
+      "b": "FD01:11",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:224",
+      "b": "FD02:115",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:225",
+      "b": "FD01:24",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:225",
+      "b": "FD02:220",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:226",
+      "b": "FD01:24",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:230",
+      "b": "FD01:24",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:230",
+      "b": "FD02:229",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:231",
+      "b": "FD02:223",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:234",
+      "b": "FD02:221",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:235",
+      "b": "FD02:221",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:236",
+      "b": "FD01:11",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:237",
+      "b": "FD01:27",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:238",
+      "b": "FD01:24",
+      "distanceMm": 0.2709105535838068
+    },
+    {
+      "a": "FD02:239",
+      "b": "FD02:223",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:240",
+      "b": "FD02:223",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:241",
+      "b": "FD02:237",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:242",
+      "b": "FD02:237",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:243",
+      "b": "FD02:236",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:244",
+      "b": "FD02:125",
+      "distanceMm": 0.02640687119165256
+    },
+    {
+      "a": "FD02:245",
+      "b": "FD02:240",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:246",
+      "b": "FD02:240",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:247",
+      "b": "FD02:236",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:248",
+      "b": "FD01:5",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:249",
+      "b": "FD01:11",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:250",
+      "b": "FD01:26",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:251",
+      "b": "FD01:23",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:252",
+      "b": "FD01:23",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:253",
+      "b": "FD01:23",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:254",
+      "b": "FD01:23",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:255",
+      "b": "FD02:251",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:256",
+      "b": "FD02:251",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:257",
+      "b": "FD02:248",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:258",
+      "b": "FD01:27",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:259",
+      "b": "FD02:237",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:260",
+      "b": "FD02:237",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:261",
+      "b": "FD02:236",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:262",
+      "b": "FD01:25",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:263",
+      "b": "FD02:251",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:264",
+      "b": "FD02:251",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:265",
+      "b": "FD02:248",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:266",
+      "b": "FD01:25",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:267",
+      "b": "FD01:24",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:268",
+      "b": "FD02:266",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:269",
+      "b": "FD02:266",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:270",
+      "b": "FD02:249",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:271",
+      "b": "FD01:24",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:272",
+      "b": "FD01:24",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:273",
+      "b": "FD02:267",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:274",
+      "b": "FD02:267",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:275",
+      "b": "FD02:249",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:276",
+      "b": "FD01:14",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:277",
+      "b": "FD01:16",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:278",
+      "b": "FD01:25",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:279",
+      "b": "FD01:28",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:280",
+      "b": "FD01:14",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:281",
+      "b": "FD02:262",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:282",
+      "b": "FD01:25",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:283",
+      "b": "FD01:29",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:284",
+      "b": "FD01:16",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:285",
+      "b": "FD02:266",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:286",
+      "b": "FD01:28",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:287",
+      "b": "FD01:29",
+      "distanceMm": 9.094947017729282e-13
+    },
+    {
+      "a": "FD02:288",
+      "b": "FD02:279",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:289",
+      "b": "FD02:279",
+      "distanceMm": 0.0
+    },
+    {
+      "a": "FD02:290",
+      "b": "FD02:248",
+      "distanceMm": 0.0
+    }
+  ],
+  "treadTwoSideSupports": [
+    {
+      "part": "FD02:91",
+      "supports": [
+        "FD02:93",
+        "FD02:94"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:95",
+      "supports": [
+        "FD02:97",
+        "FD02:98"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:99",
+      "supports": [
+        "FD02:101",
+        "FD02:102"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:103",
+      "supports": [
+        "FD02:105",
+        "FD02:106"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:107",
+      "supports": [
+        "FD02:109",
+        "FD02:110"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:111",
+      "supports": [
+        "FD02:113",
+        "FD02:114"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:129",
+      "supports": [
+        "FD02:131",
+        "FD02:132"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:133",
+      "supports": [
+        "FD02:135",
+        "FD02:136"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:137",
+      "supports": [
+        "FD02:139",
+        "FD02:140"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:141",
+      "supports": [
+        "FD02:143",
+        "FD02:144"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:145",
+      "supports": [
+        "FD02:147",
+        "FD02:148"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:149",
+      "supports": [
+        "FD02:151",
+        "FD02:152"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:153",
+      "supports": [
+        "FD02:155",
+        "FD02:156"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:157",
+      "supports": [
+        "FD02:159",
+        "FD02:160"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:161",
+      "supports": [
+        "FD02:163",
+        "FD02:164"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:165",
+      "supports": [
+        "FD02:167",
+        "FD02:168"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:169",
+      "supports": [
+        "FD02:171",
+        "FD02:172"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:173",
+      "supports": [
+        "FD02:175",
+        "FD02:176"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:177",
+      "supports": [
+        "FD02:179",
+        "FD02:180"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:181",
+      "supports": [
+        "FD02:183",
+        "FD02:184"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:185",
+      "supports": [
+        "FD02:187",
+        "FD02:188"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:189",
+      "supports": [
+        "FD02:191",
+        "FD02:192"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:193",
+      "supports": [
+        "FD02:195",
+        "FD02:196"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:197",
+      "supports": [
+        "FD02:199",
+        "FD02:200"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:201",
+      "supports": [
+        "FD02:203",
+        "FD02:204"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:205",
+      "supports": [
+        "FD02:207",
+        "FD02:208"
+      ],
+      "passed": true
+    }
+  ],
+  "columnEndConnections": [
+    {
+      "part": "FD01:2",
+      "end": "bottom",
+      "contacts": [
+        "FD01:1"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD01:2",
+      "end": "top",
+      "contacts": [
+        "FD01:5"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD01:4",
+      "end": "bottom",
+      "contacts": [
+        "FD01:3"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD01:4",
+      "end": "top",
+      "contacts": [
+        "FD01:5"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD01:8",
+      "end": "bottom",
+      "contacts": [
+        "FD01:7"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD01:8",
+      "end": "top",
+      "contacts": [
+        "FD01:11"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD01:10",
+      "end": "bottom",
+      "contacts": [
+        "FD01:9"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD01:10",
+      "end": "top",
+      "contacts": [
+        "FD01:11"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:5",
+      "end": "bottom",
+      "contacts": [
+        "FD02:4"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:5",
+      "end": "top",
+      "contacts": [
+        "FD02:1",
+        "FD02:3"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:7",
+      "end": "bottom",
+      "contacts": [
+        "FD02:6",
+        "FD02:36",
+        "FD02:37"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:7",
+      "end": "top",
+      "contacts": [
+        "FD02:2",
+        "FD02:3",
+        "FD02:37"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:10",
+      "end": "bottom",
+      "contacts": [
+        "FD02:9"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:10",
+      "end": "top",
+      "contacts": [
+        "FD02:1",
+        "FD02:8"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:12",
+      "end": "bottom",
+      "contacts": [
+        "FD02:11",
+        "FD02:211"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:12",
+      "end": "top",
+      "contacts": [
+        "FD02:2",
+        "FD02:8"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:37",
+      "end": "bottom",
+      "contacts": [
+        "FD02:6",
+        "FD02:7",
+        "FD02:36"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:37",
+      "end": "top",
+      "contacts": [
+        "FD02:7",
+        "FD02:33",
+        "FD02:35"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:39",
+      "end": "bottom",
+      "contacts": [
+        "FD02:38"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:39",
+      "end": "top",
+      "contacts": [
+        "FD02:34",
+        "FD02:35"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:42",
+      "end": "bottom",
+      "contacts": [
+        "FD02:41"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:42",
+      "end": "top",
+      "contacts": [
+        "FD02:33",
+        "FD02:40"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:44",
+      "end": "bottom",
+      "contacts": [
+        "FD02:43"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:44",
+      "end": "top",
+      "contacts": [
+        "FD02:34",
+        "FD02:40"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:66",
+      "end": "bottom",
+      "contacts": [
+        "FD02:65"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:66",
+      "end": "top",
+      "contacts": [
+        "FD02:35"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:68",
+      "end": "bottom",
+      "contacts": [
+        "FD02:67"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:68",
+      "end": "top",
+      "contacts": [
+        "FD02:35"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:70",
+      "end": "bottom",
+      "contacts": [
+        "FD02:69"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:70",
+      "end": "top",
+      "contacts": [
+        "FD02:40"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:72",
+      "end": "bottom",
+      "contacts": [
+        "FD02:71"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:72",
+      "end": "top",
+      "contacts": [
+        "FD02:40"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:210",
+      "end": "bottom",
+      "contacts": [
+        "FD02:209"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:210",
+      "end": "top",
+      "contacts": [
+        "FD02:213"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:212",
+      "end": "bottom",
+      "contacts": [
+        "FD02:11",
+        "FD02:211"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:212",
+      "end": "top",
+      "contacts": [
+        "FD02:213"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:215",
+      "end": "bottom",
+      "contacts": [
+        "FD02:214"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:215",
+      "end": "top",
+      "contacts": [
+        "FD02:218"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:217",
+      "end": "bottom",
+      "contacts": [
+        "FD02:216"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:217",
+      "end": "top",
+      "contacts": [
+        "FD02:218"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:220",
+      "end": "bottom",
+      "contacts": [
+        "FD02:219"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:220",
+      "end": "top",
+      "contacts": [
+        "FD02:223",
+        "FD02:225"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:222",
+      "end": "bottom",
+      "contacts": [
+        "FD02:221",
+        "FD02:234"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:222",
+      "end": "top",
+      "contacts": [
+        "FD02:223"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:230",
+      "end": "bottom",
+      "contacts": [
+        "FD02:229"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:230",
+      "end": "top",
+      "contacts": [
+        "FD01:24",
+        "FD01:27",
+        "FD02:225",
+        "FD02:226"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:235",
+      "end": "bottom",
+      "contacts": [
+        "FD02:221",
+        "FD02:234"
+      ],
+      "passed": true
+    },
+    {
+      "part": "FD02:235",
+      "end": "top",
+      "contacts": [
+        "FD02:223",
+        "FD02:225",
+        "FD02:231"
+      ],
+      "passed": true
+    }
+  ],
+  "originalPlantPartsRetained": true,
+  "noHoist": true,
+  "noMonorail": true,
+  "levelsMm": [
+    1200,
+    4800
+  ],
+  "proxyBagAndHooksExcludedFromStructuralClashes": true,
+  "proxyBagEnvelope": {
+    "min": [
+      4550,
+      -1550,
+      4000
+    ],
+    "max": [
+      5650,
+      -450,
+      5400
+    ]
+  },
+  "fixedHookLevelMm": 5730,
+  "passed": true
+}
