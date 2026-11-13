@@ -1,0 +1,62 @@
+{
+  "revision": "R47",
+  "referenciaAnterior": "R46",
+  "cargaBigBagKg": 1000,
+  "carga": "Manipulador telescópico Manitou y cuatro enganches fijos",
+  "nivelesMm": [
+    1200,
+    3000,
+    4800
+  ],
+  "anchoAccesoR46Mm": 4880,
+  "anchoAccesoR47Mm": 3440,
+  "reduccionAnchoMm": 1440,
+  "alcance": "Verificación geométrica del conjunto 3D. Cálculo estructural pendiente.",
+  "tramos": [
+    {
+      "axis": "x",
+      "direction": -1,
+      "entry": [
+        8520,
+        -1120
+      ],
+      "startHeight": 0,
+      "height": 1200,
+      "risers": 6,
+      "rise": 200.0,
+      "going": 250,
+      "run": 1250,
+      "width": 900
+    },
+    {
+      "axis": "x",
+      "direction": 1,
+      "entry": [
+        7270,
+        -2150
+      ],
+      "startHeight": 1200,
+      "height": 3000,
+      "risers": 9,
+      "rise": 200.0,
+      "going": 250,
+      "run": 2000,
+      "width": 900
+    },
+    {
+      "axis": "x",
+      "direction": -1,
+      "entry": [
+        9270,
+        -1120
+      ],
+      "startHeight": 3000,
+      "height": 4800,
+      "risers": 9,
+      "rise": 200.0,
+      "going": 250,
+      "run": 2000,
+      "width": 900
+    }
+  ]
+}

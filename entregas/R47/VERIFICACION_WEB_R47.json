@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "nativeParts": 314,
+  "totalParts": 8671,
+  "nativeMaximumErrorMm": 1.1368683772161603e-13,
+  "originalEquipmentAndBeltsRetained": true,
+  "mixerAndPressAccessRetained": true,
+  "r43ThroughR46Preserved": true,
+  "obsoleteCraneAndStairsRemoved": true,
+  "jsonRoundtrip": true,
+  "toggleUndo": true,
+  "vertexReferences": true,
+  "followsDoserXYAndYaw": true,
+  "separateCompactAccessRevision": true
+}
