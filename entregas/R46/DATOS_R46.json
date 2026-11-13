@@ -1,0 +1,61 @@
+{
+  "revision": "R46",
+  "referenciaAnterior": "R45",
+  "cargaBigBagKg": 1000,
+  "carga": "Manipulador telescópico Manitou y cuatro enganches fijos",
+  "nivelesMm": [
+    1200,
+    3000,
+    4800
+  ],
+  "anchoAccesoR45Mm": 7220,
+  "anchoAccesoR46Mm": 4880,
+  "alcance": "Conjunto 3D para revisión geométrica",
+  "tramos": [
+    {
+      "axis": "x",
+      "direction": -1,
+      "entry": [
+        8830,
+        -2450
+      ],
+      "startHeight": 0,
+      "height": 1200,
+      "risers": 7,
+      "rise": 171.42857142857142,
+      "going": 260,
+      "run": 1560,
+      "width": 900
+    },
+    {
+      "axis": "y",
+      "direction": 1,
+      "entry": [
+        6750,
+        -1950
+      ],
+      "startHeight": 1200,
+      "height": 3000,
+      "risers": 11,
+      "rise": 163.63636363636363,
+      "going": 260,
+      "run": 2600,
+      "width": 900
+    },
+    {
+      "axis": "y",
+      "direction": -1,
+      "entry": [
+        7950,
+        650
+      ],
+      "startHeight": 3000,
+      "height": 4800,
+      "risers": 11,
+      "rise": 163.63636363636363,
+      "going": 260,
+      "run": 2600,
+      "width": 900
+    }
+  ]
+}
