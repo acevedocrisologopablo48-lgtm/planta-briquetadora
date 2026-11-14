@@ -1,0 +1,80 @@
+{
+  "revision": "R48",
+  "referenciaAnterior": "R47",
+  "cargaBigBagKg": 1000,
+  "carga": "Manipulador telescópico Manitou y cuatro enganches fijos",
+  "nivelesMm": [
+    1000,
+    3000,
+    4800
+  ],
+  "longitudAccesoR47Mm": 6621,
+  "longitudAccesoR48Mm": 5151,
+  "reduccionLongitudMm": 1470,
+  "anchoAccesoR47Mm": 3440,
+  "anchoAccesoR48Mm": 4460,
+  "superficiesCaminables": {
+    "previousR47": {
+      "projectedUnionM2": 11.992424,
+      "totalWalkingSurfacesM2": 14.625844
+    },
+    "currentR48": {
+      "projectedUnionM2": 15.756898,
+      "totalWalkingSurfacesM2": 17.853148
+    }
+  },
+  "entradaLocalMm": 885,
+  "pasoLocalBigBagMm": 580,
+  "accesoMotor": "El motor interior requiere acceso temporal con el equipo detenido. La plataforma sirve al tablero y al costado exterior de la cinta.",
+  "alcance": "Verificación geométrica del conjunto 3D. Cálculo estructural pendiente.",
+  "tramos": [
+    {
+      "name": "Ingreso al tablero",
+      "axis": "x",
+      "direction": 1,
+      "entry": [
+        4225,
+        -2740
+      ],
+      "startHeight": 0,
+      "height": 1000,
+      "risers": 5,
+      "going": 250,
+      "run": 1000,
+      "rise": 200.0,
+      "width": 900
+    },
+    {
+      "name": "Subida perpendicular",
+      "axis": "y",
+      "direction": 1,
+      "entry": [
+        7100,
+        -2510
+      ],
+      "startHeight": 1000,
+      "height": 3000,
+      "risers": 10,
+      "going": 240,
+      "run": 2160,
+      "rise": 200.0,
+      "width": 900
+    },
+    {
+      "name": "Llegada al Big Bag",
+      "axis": "y",
+      "direction": -1,
+      "entry": [
+        8150,
+        -350
+      ],
+      "startHeight": 3000,
+      "height": 4800,
+      "risers": 9,
+      "going": 240,
+      "run": 1920,
+      "rise": 200.0,
+      "width": 900
+    }
+  ]
+}
