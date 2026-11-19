@@ -73,12 +73,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Secador invertido y briquetadora transversal con retorno directo de finos a la mezcladora"
+    "note": "Bancada completada, accesos a los accionamientos y retorno directo de finos más corto y de menor pendiente"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-planta-cruzada-20261119",
+  "referenceRevision": "r55-planta-cruzada-20261119-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -371,13 +371,13 @@
       "id": "C07",
       "name": "Retorno directo de finos → mezcladora",
       "tail": [
-        25183.095257708945,
-        -2162.382331919005,
-        273
+        25202.161546458596,
+        -2161.1626518593193,
+        290
       ],
-      "length": 10000,
-      "pitch": 25.67438928663887,
-      "yaw": -176.9088527117626,
+      "length": 8937.659338995798,
+      "pitch": 14.467305651026164,
+      "yaw": -176.8199650022844,
       "radius": 50,
       "width": 350,
       "outer": 420,
@@ -387,10 +387,10 @@
       "motorL": 170,
       "motorD": 120,
       "class": "P",
-      "nominalExterior": 10100,
+      "nominalExterior": 9037.6593389958,
       "family": "finesReturn",
       "modules": 0,
-      "baseLength": 10000,
+      "baseLength": 8937.659338995798,
       "headRadius": 50,
       "tailRadius": 50,
       "modulePitch": 980,
@@ -401,7 +401,7 @@
         460,
         2850,
         5250,
-        7500
+        7487.659338995798
       ],
       "headSupportWidth": 470,
       "tailDepth": 160,
@@ -801,7 +801,7 @@
         "feature": "station",
         "local": [
           140,
-          -1.127986593019159e-13,
+          1.412203687323199e-13,
           53
         ]
       },
@@ -823,7 +823,7 @@
         "owner": "C07",
         "feature": "station",
         "local": [
-          10045.9,
+          8983.559338995798,
           0,
           26.5
         ]
@@ -833,7 +833,7 @@
         "feature": "station",
         "local": [
           3250,
-          -180,
+          -430,
           1200
         ]
       },
@@ -910,16 +910,16 @@
     },
     {
       "id": "dosificador-servicio",
-      "name": "Acceso exterior dosificador · 1000 mm",
+      "name": "Plataforma compacta del dosificador",
       "owner": "dosificador",
       "offset": [
-        -1000,
-        4100,
-        0
+        -2550,
+        1510,
+        -200
       ],
       "size": [
-        3600,
-        1000,
+        2425,
+        1040,
         60
       ],
       "class": "P",
@@ -927,15 +927,15 @@
     },
     {
       "id": "mezcladora-servicio",
-      "name": "Acceso lateral mezcladora · 1000 mm",
+      "name": "Acceso al motor y reductor de la mezcladora",
       "owner": "mezcladora",
       "offset": [
-        0,
-        2500,
-        0
+        -150,
+        -1730,
+        50
       ],
       "size": [
-        6200,
+        1600,
         1000,
         60
       ],
@@ -944,15 +944,15 @@
     },
     {
       "id": "briquetadora-servicio",
-      "name": "Acceso lateral briquetadora · 1000 mm",
+      "name": "Acceso al motor de la briquetadora",
       "owner": "briquetadora",
       "offset": [
-        -1000,
-        2800,
-        0
+        1850,
+        -2510,
+        1100
       ],
       "size": [
-        5000,
+        1000,
         1000,
         60
       ],
