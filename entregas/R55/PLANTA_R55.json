@@ -146,7 +146,7 @@
       "name": "Acceso lateral del dosificador",
       "anchors": {
         "bounds-min": [
-          4191.936919076961,
+          4191.951765746423,
           -5607.135890172629,
           0
         ],
@@ -208,12 +208,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Plataforma del dosificador corregida y frentes de mantenimiento de ambos motorreductores despejados"
+    "note": "Diseño unificado de cintas"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-planta-cruzada-20261119-accesos-mejoras",
+  "referenceRevision": "r55-planta-cruzada-20261119-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
