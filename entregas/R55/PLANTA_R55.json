@@ -208,18 +208,18 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Diseño unificado de cintas"
+    "note": "Cintas de retorno y carga, viga de briquetadora y tolva de antracita de 200 mm"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-planta-cruzada-20261119-cintas-accesos-mejoras",
+  "referenceRevision": "r55-planta-cruzada-20261120-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
     {
       "id": "tolva",
-      "name": "Tolva de carbón",
+      "name": "Tolva de antracita · 200 mm",
       "x": 1213.7448132453928,
       "y": -522.1358901726294,
       "base": 0,
@@ -628,7 +628,7 @@
     },
     {
       "id": "tolva-C10",
-      "label": "Tolva de carbón → C10",
+      "label": "Tolva de antracita → C10",
       "from": {
         "owner": "tolva",
         "feature": "outlet",
@@ -648,10 +648,10 @@
         ]
       },
       "width": 300,
-      "topWidth": 800,
+      "topWidth": 1200,
       "bottomWidth": 300,
       "depth": 450,
-      "topDepth": 1200,
+      "topDepth": 800,
       "bottomDepth": 450,
       "fromOrientation": "horizontal",
       "toOrientation": "beltSurface",
