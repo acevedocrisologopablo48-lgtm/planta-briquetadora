@@ -143,36 +143,46 @@
     },
     {
       "id": "ACCESS_FD02",
-      "name": "Acceso lateral del dosificador",
+      "name": "Acceso perimetral del dosificador",
       "anchors": {
         "bounds-min": [
-          4191.951765746423,
-          -5607.135890172629,
+          5793.744813245393,
+          -4936.135890172629,
           0
         ],
         "bounds-max": [
-          10413.744813245394,
-          -975.9358901726293,
-          5471.2
+          9118.744813245394,
+          -557.1358901726294,
+          5450
         ],
-        "lower-landing": [
-          7273.744813245393,
-          -3387.1358901726294,
-          550
-        ],
-        "upper-landing": [
-          9793.744813245394,
-          -3957.1358901726294,
+        "landing": [
+          8266.244813245394,
+          -1062.1358901726294,
           4350
         ],
-        "floor-entry": [
-          6338.744813245393,
-          -3387.1358901726294,
+        "floor": [
+          5793.744813245393,
+          -4427.135890172629,
           0
         ],
-        "upper-floor-entry": [
-          4253.744813245393,
-          -5057.135890172629,
+        "floor-entry": [
+          5793.744813245393,
+          -4427.135890172629,
+          0
+        ],
+        "middle-landing": [
+          8653.744813245394,
+          -4427.135890172629,
+          2175
+        ],
+        "upper-landing": [
+          7868.744813245393,
+          -1062.1358901726294,
+          4350
+        ],
+        "tablero-servicio": [
+          7283.744813245393,
+          -3367.1358901726294,
           0
         ]
       }
@@ -208,12 +218,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Cintas de retorno y carga con sección C01/C02 y viga continua de briquetadora"
+    "note": "Acceso en L al Big Bag y frente de tablero a nivel de piso"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-planta-cruzada-20261120-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-planta-cruzada-20261120-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -1043,17 +1053,17 @@
     },
     {
       "id": "dosificador-servicio",
-      "name": "Plataforma compacta del dosificador",
+      "name": "Frente del tablero a nivel de piso",
       "owner": "dosificador",
       "offset": [
-        -2550,
-        1510,
-        -200
+        -831.2551867546072,
+        1222.8641098273706,
+        -750
       ],
       "size": [
-        2425,
-        1040,
-        60
+        585,
+        1050,
+        2050
       ],
       "class": "P",
       "pendingReason": "Reserva de acceso; comprobar apertura de resguardos y retirada de componentes con fabricante."
