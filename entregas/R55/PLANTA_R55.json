@@ -146,13 +146,13 @@
       "name": "Acceso perimetral del dosificador",
       "anchors": {
         "bounds-min": [
-          5793.744813245393,
+          5363.744813245393,
           -4936.135890172629,
           0
         ],
         "bounds-max": [
           9118.744813245394,
-          -557.1358901726294,
+          -102.13589017262939,
           5450
         ],
         "landing": [
@@ -184,6 +184,16 @@
           7283.744813245393,
           -3367.1358901726294,
           0
+        ],
+        "platform-front": [
+          6391.244813245393,
+          -3734.6358901726294,
+          4350
+        ],
+        "platform-rear": [
+          6391.244813245393,
+          -554.6358901726294,
+          4350
         ]
       }
     },
@@ -218,12 +228,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Acceso en L al Big Bag y frente de tablero a nivel de piso"
+    "note": "Plataformas del dosificador y detalles de la briquetadora"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-planta-cruzada-20261120-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-planta-cruzada-20261120-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
