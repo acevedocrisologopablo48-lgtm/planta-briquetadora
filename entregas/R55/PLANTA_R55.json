@@ -42,14 +42,14 @@
       "name": "Carga al minidumper de 13 t",
       "anchors": {
         "inlet": [
-          25156.754000546283,
-          -2897.927241010514,
-          450
+          25129.05420717555,
+          -3101.4614736628773,
+          449.99999999999994
         ],
         "outlet": [
-          29806.800090302688,
-          -3634.422188419884,
-          1800
+          29806.825015988074,
+          -3634.4261362606117,
+          1800.0072364175803
         ],
         "boxLoad": [
           30723.898910921434,
@@ -208,12 +208,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Cintas de retorno y carga, viga de briquetadora y tolva de antracita de 200 mm"
+    "note": "Cintas de retorno y carga con sección C01/C02 y viga continua de briquetadora"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-planta-cruzada-20261120-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-planta-cruzada-20261120-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -506,41 +506,39 @@
       "id": "C07",
       "name": "Retorno directo de finos → mezcladora",
       "tail": [
-        25202.161546458596,
-        -2161.1626518593193,
-        290
+        25042.160108507833,
+        -2021.158169810201,
+        196
       ],
-      "length": 8937.659338995798,
-      "pitch": 14.467305651026164,
-      "yaw": -176.8199650022844,
-      "radius": 50,
-      "width": 350,
-      "outer": 420,
-      "depth": 160,
+      "length": 8551.673266510907,
+      "pitch": 15.977971929137183,
+      "yaw": -169.06996892781146,
+      "radius": 180,
+      "width": 500,
+      "outer": 900,
+      "depth": 250,
       "spacing": 2700,
-      "post": 60,
-      "motorL": 170,
-      "motorD": 120,
+      "post": 80,
+      "motorL": 480,
+      "motorD": 260,
       "class": "P",
-      "nominalExterior": 9037.6593389958,
-      "family": "finesReturn",
+      "family": "reference45",
       "modules": 0,
-      "baseLength": 8937.659338995798,
-      "headRadius": 50,
-      "tailRadius": 50,
+      "baseLength": 8551.673266510907,
+      "headRadius": 180,
+      "tailRadius": 196.2,
       "modulePitch": 980,
       "framePitch": 1200,
-      "supportWidth": 470,
+      "supportWidth": 900,
       "supportProfile": "H",
       "supportStations": [
-        460,
-        2850,
-        5250,
-        7487.659338995798
+        510,
+        3200,
+        5400,
+        7101.673266510907
       ],
-      "headSupportWidth": 470,
-      "tailDepth": 160,
-      "returnProfile": "trough35"
+      "headSupportWidth": 900,
+      "tailDepth": 140
     },
     {
       "id": "C10",
@@ -861,9 +859,9 @@
         "owner": "BANDEJA_RETIRO_PRENSA",
         "feature": "inlet",
         "local": [
-          25156.754000546283,
-          -2897.927241010514,
-          450
+          25129.05420717555,
+          -3101.4614736628773,
+          449.99999999999994
         ]
       },
       "width": 100,
@@ -935,17 +933,17 @@
         "owner": "C07",
         "feature": "station",
         "local": [
-          140,
-          1.412203687323199e-13,
-          53
+          75,
+          151.30768544478988,
+          207.40945585522417
         ]
       },
       "width": 180,
       "depth": 180,
       "topWidth": 300,
       "topDepth": 300,
-      "bottomWidth": 180,
-      "bottomDepth": 180,
+      "bottomWidth": 110,
+      "bottomDepth": 96,
       "toOrientation": "beltSurface",
       "class": "P",
       "kind": "direct",
@@ -958,17 +956,17 @@
         "owner": "C07",
         "feature": "station",
         "local": [
-          8983.559338995798,
+          8737.673266510907,
           0,
-          26.5
+          0
         ]
       },
       "to": {
         "owner": "mezcladora",
         "feature": "station",
         "local": [
-          3250,
-          -430,
+          2260,
+          -390,
           1200
         ]
       },
