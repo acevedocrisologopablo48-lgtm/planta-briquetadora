@@ -57,6 +57,141 @@
           880
         ]
       }
+    },
+    {
+      "id": "ACCESS_mezcladora",
+      "name": "Plataforma del motor y reductor de la mezcladora",
+      "anchors": {
+        "bounds-min": [
+          16625.65733725453,
+          -7629,
+          0
+        ],
+        "bounds-max": [
+          17746.15733725453,
+          -4450,
+          2270
+        ],
+        "landing": [
+          17203.65733725453,
+          -5250,
+          1150
+        ],
+        "floor": [
+          17203.65733725453,
+          -7610,
+          0
+        ],
+        "motor-work": [
+          16773.65733725453,
+          -5150,
+          1150
+        ]
+      }
+    },
+    {
+      "id": "ACCESS_briquetadora",
+      "name": "Plataforma del motor de la briquetadora",
+      "anchors": {
+        "bounds-min": [
+          20608.887894069558,
+          -2207.307186864969,
+          0
+        ],
+        "bounds-max": [
+          23567.23432941973,
+          -895.8170214063897,
+          2220
+        ],
+        "landing": [
+          22469.560282598668,
+          -1487.0867389611667,
+          1100
+        ],
+        "floor": [
+          20679.420870935777,
+          -1675.2379728429428,
+          0
+        ],
+        "motor-work": [
+          22914.720722675986,
+          -1560.95948488393,
+          1100
+        ],
+        "reductor-servicio": [
+          23532.56621704812,
+          1409.8976212529592,
+          0
+        ]
+      }
+    },
+    {
+      "id": "ACCESS_FD01",
+      "name": "Soporte fijo de Big Bag 1 t",
+      "anchors": {
+        "bounds-min": [
+          5262.744813245393,
+          -2947.1358901726294,
+          0
+        ],
+        "bounds-max": [
+          8164.744813245393,
+          702.8641098273706,
+          5380
+        ]
+      }
+    },
+    {
+      "id": "ACCESS_FD02",
+      "name": "Acceso lateral del dosificador",
+      "anchors": {
+        "bounds-min": [
+          4191.936919076961,
+          -5607.135890172629,
+          0
+        ],
+        "bounds-max": [
+          10413.744813245394,
+          -975.9358901726293,
+          5471.2
+        ],
+        "lower-landing": [
+          7273.744813245393,
+          -3387.1358901726294,
+          550
+        ],
+        "upper-landing": [
+          9793.744813245394,
+          -3957.1358901726294,
+          4350
+        ],
+        "floor-entry": [
+          6338.744813245393,
+          -3387.1358901726294,
+          0
+        ],
+        "upper-floor-entry": [
+          4253.744813245393,
+          -5057.135890172629,
+          0
+        ]
+      }
+    },
+    {
+      "id": "ACCESS_FD03",
+      "name": "Big Bag y cuatro enganches fijos",
+      "anchors": {
+        "bounds-min": [
+          6125.744813245393,
+          -2252.6358901726294,
+          3300
+        ],
+        "bounds-max": [
+          7301.744813245393,
+          -1041.6358901726294,
+          5365
+        ]
+      }
     }
   ],
   "flowRevision": "r35",
@@ -73,12 +208,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Bancada completada, accesos a los accionamientos y retorno directo de finos más corto y de menor pendiente"
+    "note": "Plataforma del dosificador corregida y frentes de mantenimiento de ambos motorreductores despejados"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-planta-cruzada-20261119-mejoras",
+  "referenceRevision": "r55-planta-cruzada-20261119-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -1008,6 +1143,22 @@
       ],
       "class": "P",
       "pendingReason": "Reserva de acceso; comprobar apertura de resguardos y retirada de componentes con fabricante."
+    },
+    {
+      "id": "briquetadora-reductor-piso",
+      "name": "Acceso al reductor de la briquetadora desde piso",
+      "owner": "briquetadora",
+      "offset": [
+        -1700,
+        -1250,
+        0
+      ],
+      "size": [
+        1673,
+        1000,
+        60
+      ],
+      "class": "P"
     }
   ],
   "conveyorSupportProfile": {
