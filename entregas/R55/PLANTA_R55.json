@@ -91,37 +91,42 @@
     },
     {
       "id": "ACCESS_briquetadora",
-      "name": "Plataforma del motor de la briquetadora",
+      "name": "Acceso lateral al motor de la briquetadora",
       "anchors": {
         "bounds-min": [
-          20608.887894069558,
-          -2207.307186864969,
+          23073.530352475344,
+          -4186.303534742652,
           0
         ],
         "bounds-max": [
-          23567.23432941973,
-          -895.8170214063897,
+          24667.27205169468,
+          -1445.9517245311729,
           2220
         ],
         "landing": [
-          22469.560282598668,
-          -1487.0867389611667,
+          23856.768177204853,
+          -2296.5181796294146,
           1100
         ],
         "floor": [
-          20679.420870935777,
-          -1675.2379728429428,
+          24139.398991146612,
+          -4076.7273872818796,
           0
         ],
         "motor-work": [
-          22914.720722675986,
-          -1560.95948488393,
+          23954.951298308973,
+          -2034.82164787889,
           1100
         ],
         "reductor-servicio": [
           23532.56621704812,
           1409.8976212529592,
           0
+        ],
+        "frente-guarda": [
+          23169.279000968036,
+          -2117.3991338603364,
+          1100
         ]
       }
     },
@@ -147,12 +152,12 @@
       "anchors": {
         "bounds-min": [
           5113.744813245393,
-          -4936.135890172629,
+          -2820.1358901726294,
           0
         ],
         "bounds-max": [
-          9118.744813245394,
-          -98.63589017262939,
+          9533.744813245394,
+          2721.8641098273706,
           5450
         ],
         "landing": [
@@ -161,23 +166,23 @@
           4350
         ],
         "floor": [
-          5793.744813245393,
-          -4427.135890172629,
+          8613.744813245394,
+          2212.8641098273706,
           0
         ],
         "floor-entry": [
-          5793.744813245393,
-          -4427.135890172629,
+          8613.744813245394,
+          2212.8641098273706,
           0
         ],
         "middle-landing": [
-          8653.744813245394,
-          -4427.135890172629,
+          5753.744813245393,
+          1752.8641098273706,
           2175
         ],
         "upper-landing": [
-          7868.744813245393,
-          -1062.1358901726294,
+          9073.744813245394,
+          1292.8641098273706,
           4350
         ],
         "tablero-servicio": [
@@ -228,12 +233,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Plataforma lateral de acceso al Big Bag"
+    "note": "Reubicación de los accesos al dosificador y a la briquetadora"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-20261120-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-20261121-giro-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -1100,13 +1105,13 @@
       "name": "Acceso al motor de la briquetadora",
       "owner": "briquetadora",
       "offset": [
-        1850,
-        -2510,
+        2800,
+        -1450,
         1100
       ],
       "size": [
         1000,
-        1000,
+        1470,
         60
       ],
       "class": "P",
