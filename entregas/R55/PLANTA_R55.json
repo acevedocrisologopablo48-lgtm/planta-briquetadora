@@ -91,41 +91,36 @@
     },
     {
       "id": "ACCESS_briquetadora",
-      "name": "Acceso lateral al motor de la briquetadora",
+      "name": "Acceso por el reductor de la briquetadora",
       "anchors": {
         "bounds-min": [
-          23073.530352475344,
-          -4186.303534742652,
+          21711.489671316416,
+          461.0296539231171,
           0
         ],
         "bounds-max": [
-          24667.27205169468,
-          -1445.9517245311729,
+          26186.25191925611,
+          2317.7952846801395,
           2220
         ],
         "landing": [
-          23856.768177204853,
-          -2296.5181796294146,
+          23742.087886649948,
+          1545.038917558943,
           1100
         ],
         "floor": [
-          24139.398991146612,
-          -4076.7273872818796,
+          26076.728036026972,
+          1790.4194850797594,
           0
         ],
         "motor-work": [
-          23954.951298308973,
-          -2034.82164787889,
+          23213.51272464088,
+          1240.6201301835786,
           1100
         ],
-        "reductor-servicio": [
-          23532.56621704812,
-          1409.8976212529592,
-          0
-        ],
         "frente-guarda": [
-          23169.279000968036,
-          -2117.3991338603364,
+          22373.096678224923,
+          865.7189846444238,
           1100
         ]
       }
@@ -238,7 +233,7 @@
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-20261121-giro-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-giro-verde-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -1105,13 +1100,13 @@
       "name": "Acceso al motor de la briquetadora",
       "owner": "briquetadora",
       "offset": [
-        2800,
-        -1450,
+        -1030,
+        -1475,
         1100
       ],
       "size": [
-        1000,
-        1470,
+        995,
+        2095,
         60
       ],
       "class": "P",
