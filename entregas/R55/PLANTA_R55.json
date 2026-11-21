@@ -94,33 +94,28 @@
       "name": "Acceso por el reductor de la briquetadora",
       "anchors": {
         "bounds-min": [
-          21711.489671316416,
-          461.0296539231171,
+          22606.55937714786,
+          940.7707093403599,
           0
         ],
         "bounds-max": [
-          26186.25191925611,
-          2317.7952846801395,
+          25589.538782035146,
+          2255.0782067195473,
           2220
         ],
         "landing": [
-          23742.087886649948,
-          1545.038917558943,
+          23443.731318039467,
+          1513.680378578647,
           1100
         ],
         "floor": [
-          26076.728036026972,
-          1790.4194850797594,
+          25480.014898806006,
+          1727.7024071191674,
           0
         ],
         "motor-work": [
           23213.51272464088,
           1240.6201301835786,
-          1100
-        ],
-        "frente-guarda": [
-          22373.096678224923,
-          865.7189846444238,
           1100
         ]
       }
@@ -185,6 +180,11 @@
           -3367.1358901726294,
           0
         ],
+        "platform-bag-service": [
+          7876.244813245393,
+          -1817.1358901726294,
+          4350
+        ],
         "platform-side": [
           5563.744813245393,
           -1913.6358901726294,
@@ -228,12 +228,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Reubicación de los accesos al dosificador y a la briquetadora"
+    "note": "Ajuste de las plataformas del dosificador y la briquetadora"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-giro-verde-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-giro-verde-aj-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -1097,7 +1097,7 @@
     },
     {
       "id": "briquetadora-servicio",
-      "name": "Acceso al motor de la briquetadora",
+      "name": "Plataforma del reductor de la briquetadora",
       "owner": "briquetadora",
       "offset": [
         -1030,
@@ -1106,7 +1106,7 @@
       ],
       "size": [
         995,
-        2095,
+        1495,
         60
       ],
       "class": "P",
