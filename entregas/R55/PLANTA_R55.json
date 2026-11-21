@@ -94,13 +94,13 @@
       "name": "Acceso por el reductor de la briquetadora",
       "anchors": {
         "bounds-min": [
-          22606.55937714786,
+          22526.577660955718,
           940.7707093403599,
           0
         ],
         "bounds-max": [
-          25589.538782035146,
-          2255.0782067195473,
+          24274.631551135015,
+          3385.5614806214853,
           2220
         ],
         "landing": [
@@ -109,13 +109,18 @@
           1100
         ],
         "floor": [
-          25480.014898806006,
-          1727.7024071191674,
+          23034.56028359642,
+          3278.075902426065,
           0
         ],
         "motor-work": [
           23213.51272464088,
           1240.6201301835786,
+          1100
+        ],
+        "stair-landing": [
+          23170.44728584437,
+          1985.19743844731,
           1100
         ]
       }
@@ -228,12 +233,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Ajuste de las plataformas del dosificador y la briquetadora"
+    "note": "Escalera frontal de la plataforma de la briquetadora"
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-giro-verde-aj-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-giro-verde-aj-f-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
