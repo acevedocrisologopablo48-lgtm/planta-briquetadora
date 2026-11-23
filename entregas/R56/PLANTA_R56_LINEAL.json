@@ -238,12 +238,12 @@
     "revision": "R56",
     "status": "Propuesta de implantación",
     "approvedForFabrication": false,
-    "note": "Giro de briquetadora y acceso a la transmisión. Retorno de finos a C02."
+    "note": "Acceso a la transmisión y asientos de arriostramiento."
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r56-lineal-giro-f-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r56-lineal-giro-n-f-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
