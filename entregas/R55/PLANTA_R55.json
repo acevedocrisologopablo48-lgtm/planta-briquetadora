@@ -27,19 +27,19 @@
       "anchors": {
         "inlet": [
           -3492.844553861578,
-          6020.000000000004,
+          -13479.999999999996,
           694.0584654039696
         ],
         "outlet": [
           -3492.844553861578,
-          6020.000000000004,
+          -13479.999999999996,
           706.0584654039696
         ]
       }
     },
     {
       "id": "BANDEJA_RETIRO_PRENSA",
-      "name": "Carga al minidumper de 13 t",
+      "name": "C08 · Descarga de briquetas",
       "anchors": {
         "inlet": [
           25129.05420717555,
@@ -64,13 +64,13 @@
       "anchors": {
         "bounds-min": [
           16625.65733725453,
-          -7629,
+          -7610,
           0
         ],
         "bounds-max": [
           17746.15733725453,
-          -4450,
-          2270
+          -4446,
+          2272.4751395617795
         ],
         "landing": [
           17203.65733725453,
@@ -101,7 +101,7 @@
         "bounds-max": [
           24274.631551135015,
           3385.5614806214853,
-          2220
+          2242.639494163186
         ],
         "landing": [
           23443.731318039467,
@@ -146,8 +146,8 @@
       "name": "Acceso perimetral del dosificador",
       "anchors": {
         "bounds-min": [
-          5113.744813245393,
-          -2820.1358901726294,
+          5112.744813245393,
+          -2821.1358901726294,
           0
         ],
         "bounds-max": [
@@ -233,12 +233,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Escalera frontal de la plataforma de la briquetadora"
+    "note": "Rejillas, barandas tubulares y apoyos. Implantación respecto de la tolva."
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-giro-verde-aj-f-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-giro-verde-aj-f-sit-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -310,7 +310,7 @@
       "id": "secador",
       "name": "Secador de malla GX-20×6",
       "x": 8038.866123328611,
-      "y": 6000.000000000004,
+      "y": -13499.999999999996,
       "base": 0,
       "yaw": 0,
       "width": 2800,
@@ -464,7 +464,7 @@
       "name": "Carga propia del secador · malla inoxidable",
       "tail": [
         -3626.844553861578,
-        6000.000000000004,
+        -13499.999999999996,
         561
       ],
       "length": 11800,
@@ -502,7 +502,7 @@
       "name": "Descarga del secador · horizontal + elevación",
       "tail": [
         28638.86612332861,
-        6000.000000000004,
+        -13499.999999999996,
         400
       ],
       "length": 4302.229236513628,
@@ -870,7 +870,7 @@
     },
     {
       "id": "grizzly-retirada",
-      "label": "Grizzly → cinta de carga al minidumper",
+      "label": "Grizzly → C08 descarga de briquetas",
       "from": {
         "owner": "CHUTE_GRIZZLY_SEPARADOR",
         "feature": "outlet",
@@ -902,7 +902,7 @@
         "feature": "outlet",
         "local": [
           -3492.844553861578,
-          6020.000000000004,
+          -13479.999999999996,
           706.0584654039696
         ]
       },
@@ -1156,7 +1156,7 @@
       "name": "Carga de lotes oreados",
       "offset": [
         -9922.267753342778,
-        4400.000000000004,
+        -15099.999999999996,
         0
       ],
       "size": [
