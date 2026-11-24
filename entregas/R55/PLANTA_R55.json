@@ -233,12 +233,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Secado independiente al final del recorrido y perpendicular a la línea."
+    "note": "Holguras de cintas y ajuste de apoyos y transiciones."
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-giro-verde-aj-f-sit-sec-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-giro-verde-aj-f-sit-sec-libre-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
