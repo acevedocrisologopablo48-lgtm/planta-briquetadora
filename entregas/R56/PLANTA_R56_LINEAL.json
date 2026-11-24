@@ -17,7 +17,7 @@
         "fines": [
           29419.97553535414,
           1685.8122796375726,
-          491
+          516
         ]
       }
     },
@@ -27,19 +27,19 @@
       "anchors": {
         "inlet": [
           37338.669863314266,
-          7363.908917760331,
-          694.0584654039696
+          -636.091082239669,
+          694.0584654039698
         ],
         "outlet": [
           37338.669863314266,
-          7363.908917760331,
-          706.0584654039696
+          -636.091082239669,
+          706.0584654039698
         ]
       }
     },
     {
       "id": "BANDEJA_RETIRO_PRENSA",
-      "name": "Carga al minidumper de 13 t",
+      "name": "C08 · Descarga de briquetas",
       "anchors": {
         "inlet": [
           29514.023149763863,
@@ -63,14 +63,14 @@
       "name": "Plataforma del motor y reductor de la mezcladora",
       "anchors": {
         "bounds-min": [
-          13144.528002478508,
+          13163.528002478508,
           -2294.635890172629,
           0
         ],
         "bounds-max": [
-          16323.528002478508,
+          16327.528002478508,
           -1174.135890172629,
-          2270
+          2272.4751395617795
         ],
         "landing": [
           15523.528002478508,
@@ -100,8 +100,8 @@
         ],
         "bounds-max": [
           32818.669863314266,
-          1416.3032623308748,
-          2220
+          1419.6004134067828,
+          2242.639494163186
         ],
         "landing": [
           31056.274325822505,
@@ -151,8 +151,8 @@
       "name": "Acceso perimetral del dosificador",
       "anchors": {
         "bounds-min": [
-          5113.744813245393,
-          -2820.1358901726294,
+          5112.744813245393,
+          -2821.1358901726294,
           0
         ],
         "bounds-max": [
@@ -238,12 +238,12 @@
     "revision": "R56",
     "status": "Propuesta de implantación",
     "approvedForFabrication": false,
-    "note": "Acceso a la transmisión y asientos de arriostramiento."
+    "note": "Implantación lineal con briquetadora girada. Holguras, accesos tubulares y alimentación nominal."
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r56-lineal-giro-n-f-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r56-lineal-giro-n-final-f-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -315,7 +315,7 @@
       "id": "secador",
       "name": "Secador de malla GX-20×6",
       "x": 37318.669863314266,
-      "y": -4167.801759429858,
+      "y": -12167.801759429858,
       "base": 0,
       "yaw": -90,
       "width": 2800,
@@ -469,7 +469,7 @@
       "name": "Carga propia del secador · malla inoxidable",
       "tail": [
         37318.669863314266,
-        7497.908917760331,
+        -502.09108223966905,
         561
       ],
       "length": 11800,
@@ -507,7 +507,7 @@
       "name": "Descarga del secador · horizontal + elevación",
       "tail": [
         37318.669863314266,
-        -24767.801759429858,
+        -32767.801759429858,
         400
       ],
       "length": 4302.229236513628,
@@ -875,7 +875,7 @@
     },
     {
       "id": "grizzly-retirada",
-      "label": "Grizzly → cinta de carga al minidumper",
+      "label": "Grizzly → C08 descarga de briquetas",
       "from": {
         "owner": "CHUTE_GRIZZLY_SEPARADOR",
         "feature": "outlet",
@@ -907,8 +907,8 @@
         "feature": "outlet",
         "local": [
           37338.669863314266,
-          7363.908917760331,
-          706.0584654039696
+          -636.091082239669,
+          706.0584654039698
         ]
       },
       "to": {
@@ -917,7 +917,7 @@
         "local": [
           160.18912327514437,
           20,
-          100
+          100.00000000000001
         ]
       },
       "width": 100,
@@ -1025,7 +1025,7 @@
       "binderMaxPercent": 4,
       "status": "P"
     },
-    "binderForm": "undetermined",
+    "binderForm": "solid",
     "binderPreview": "solidBelt",
     "coalTargetTph": 15,
     "binderPercent": 3,
@@ -1034,13 +1034,27 @@
     "transferOpeningsConfirmed": false,
     "structuralValidationConfirmed": false,
     "maintenanceValidationConfirmed": false,
-    "manufacturerNotes": "Tolva y dosificador → C10 horizontal de 800 mm → C01 → mezcladora → C02 → prensa. Briquetas al minidumper de 13 t. Retorno de finos C06 → C07 → C02. Tras 24 h de oreo, secador independiente con C03 y C04 propias.",
+    "manufacturerNotes": "Tolva principal: 15 t nominales y 10,537 m³ hasta el borde según BRIQ-TOL-200. Dosificador B500: 1,2 m³. Los finos regresan a C02 por C07. Secado por lotes tras 24 h de oreo.",
     "water": {
       "mode": "continuous",
       "batchLitres": null,
       "continuousLpm": 10,
       "pulsesPerLitre": null,
       "notes": "Base de diseño: carbón seco15t/h; agua4%=600L/h. Banda de receta3–5%=450–750L/h; no acredita producción."
+    },
+    "binderMaterial": {
+      "moistureWetBasisPercent": 8,
+      "bulkDensityKgM3": 840,
+      "sieveMesh": 200
+    },
+    "nominalFeed": {
+      "hopper": {
+        "chargeKg": 15000,
+        "volumeM3": 10.537
+      },
+      "doser": {
+        "volumeM3": 1.2
+      }
     }
   },
   "recycling": {
@@ -1162,7 +1176,7 @@
       "name": "Carga de lotes oreados",
       "offset": [
         35718.669863314266,
-        7593.332117241531,
+        -406.6678827584692,
         0
       ],
       "size": [
