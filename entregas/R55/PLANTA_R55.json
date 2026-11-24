@@ -26,13 +26,13 @@
       "name": "Bandeja/Tolva receptora en cola C03",
       "anchors": {
         "inlet": [
-          -3492.844553861578,
-          -13479.999999999996,
+          38420,
+          -607.1554461384221,
           694.0584654039696
         ],
         "outlet": [
-          -3492.844553861578,
-          -13479.999999999996,
+          38420,
+          -607.1554461384221,
           706.0584654039696
         ]
       }
@@ -233,12 +233,12 @@
     "revision": "R55",
     "status": "Modelo 3D",
     "approvedForFabrication": false,
-    "note": "Rejillas, barandas tubulares y apoyos. Implantación respecto de la tolva."
+    "note": "Secado independiente al final del recorrido y perpendicular a la línea."
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r55-giro-verde-aj-f-sit-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r55-giro-verde-aj-f-sit-sec-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -309,10 +309,10 @@
     {
       "id": "secador",
       "name": "Secador de malla GX-20×6",
-      "x": 8038.866123328611,
-      "y": -13499.999999999996,
+      "x": 38400,
+      "y": -12138.866123328611,
       "base": 0,
-      "yaw": 0,
+      "yaw": -90,
       "width": 2800,
       "structure": {
         "width": 2800,
@@ -463,13 +463,13 @@
       "id": "C03",
       "name": "Carga propia del secador · malla inoxidable",
       "tail": [
-        -3626.844553861578,
-        -13499.999999999996,
+        38400,
+        -473.1554461384221,
         561
       ],
       "length": 11800,
       "pitch": 12.823029324612786,
-      "yaw": 0,
+      "yaw": -90,
       "radius": 94,
       "width": 2500,
       "outer": 3000,
@@ -501,13 +501,13 @@
       "id": "C04",
       "name": "Descarga del secador · horizontal + elevación",
       "tail": [
-        28638.86612332861,
-        -13499.999999999996,
+        38400,
+        -32738.86612332861,
         400
       ],
       "length": 4302.229236513628,
       "pitch": 14.983179812564643,
-      "yaw": 0,
+      "yaw": -90,
       "radius": 75,
       "width": 450,
       "outer": 500,
@@ -901,8 +901,8 @@
         "owner": "BANDEJA_TOLVA_RECEPCION_C03",
         "feature": "outlet",
         "local": [
-          -3492.844553861578,
-          -13479.999999999996,
+          38420,
+          -607.1554461384221,
           706.0584654039696
         ]
       },
@@ -1019,7 +1019,7 @@
       "binderMaxPercent": 4,
       "status": "P"
     },
-    "binderForm": "undetermined",
+    "binderForm": "solid",
     "binderPreview": "solidBelt",
     "coalTargetTph": 15,
     "binderPercent": 3,
@@ -1028,13 +1028,27 @@
     "transferOpeningsConfirmed": false,
     "structuralValidationConfirmed": false,
     "maintenanceValidationConfirmed": false,
-    "manufacturerNotes": "Tolva y dosificador → C10 horizontal de 800 mm → C01 → mezcladora → C02 → prensa. Briquetas al minidumper de 13 t. Retorno de finos C06 → C07 → C02. Tras 24 h de oreo, secador independiente con C03 y C04 propias.",
+    "manufacturerNotes": "Base nominal de proyecto de 15 t/h. Tolva de antracita de 15 t según lista maestra y 10,537 m³ hasta el borde de carga según plano BRIQ-TOL-200. Dosificador B500 de 1,2 m³ según ficha. Retorno C07 a la mezcladora. Tramo de secado independiente al final de la línea. C03 recibe lotes tras 24 h de oreo y C04 descarga por el extremo opuesto.",
     "water": {
       "mode": "continuous",
       "batchLitres": null,
       "continuousLpm": 10,
       "pulsesPerLitre": null,
       "notes": "Base de diseño: carbón seco15t/h; agua4%=600L/h. Banda de receta3–5%=450–750L/h; no acredita producción."
+    },
+    "binderMaterial": {
+      "moistureWetBasisPercent": 8,
+      "bulkDensityKgM3": 840,
+      "sieveMesh": 200
+    },
+    "nominalFeed": {
+      "hopper": {
+        "chargeKg": 15000,
+        "volumeM3": 10.537
+      },
+      "doser": {
+        "volumeM3": 1.2
+      }
     }
   },
   "recycling": {
@@ -1155,13 +1169,13 @@
       "id": "C03-carga",
       "name": "Carga de lotes oreados",
       "offset": [
-        -9922.267753342778,
-        -15099.999999999996,
+        36800,
+        -377.7322466572223,
         0
       ],
       "size": [
-        6200,
         1000,
+        6200,
         60
       ],
       "class": "P",
