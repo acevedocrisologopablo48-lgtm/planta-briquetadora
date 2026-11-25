@@ -238,12 +238,12 @@
     "revision": "R56",
     "status": "Propuesta de implantación",
     "approvedForFabrication": false,
-    "note": "Revisión de apoyos y uniones de las estructuras fabricadas aparte."
+    "note": "Columnas de perfil H y templadores de ángulo."
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r56-lineal-giro-n-final-uniones-f-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r56-lineal-giro-n-final-uniones-hl-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
