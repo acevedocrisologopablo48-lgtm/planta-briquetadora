@@ -238,12 +238,12 @@
     "revision": "R56",
     "status": "Propuesta de implantación",
     "approvedForFabrication": false,
-    "note": "Columnas de perfil H y templadores de ángulo."
+    "note": "C07 descarga los finos directamente a la artesa por una guía corta."
   },
   "schemaVersion": 2,
   "catalogVersion": "r30-3d-v1",
   "name": "PLANTA BRIQUETADORA",
-  "referenceRevision": "r56-lineal-giro-n-final-uniones-hl-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
+  "referenceRevision": "r56-lineal-giro-n-final-uniones-hlr-lateral-fotos-acceso-l-copia-tolva200-cintas-accesos-mejoras",
   "reserve": 72000,
   "limit": 75000,
   "equipment": [
@@ -534,15 +534,15 @@
     },
     {
       "id": "C07",
-      "name": "Retorno de finos del Grizzly a C02",
+      "name": "Retorno de finos → mezcladora",
       "tail": [
-        29453.921885676464,
-        1542.8319644709607,
+        29461.531383539677,
+        1546.175997485851,
         225
       ],
       "length": 8551.673266510907,
-      "pitch": 14,
-      "yaw": 184,
+      "pitch": 16.6,
+      "yaw": 191,
       "radius": 180,
       "width": 500,
       "outer": 900,
@@ -965,7 +965,7 @@
         "local": [
           75,
           -145,
-          202.05828509774898
+          202.05828509774912
         ]
       },
       "width": 180,
@@ -980,8 +980,8 @@
       "status": "proposed"
     },
     {
-      "id": "fines-r56-C07-C02",
-      "label": "C07 → C02 · retorno de finos",
+      "id": "fines-r56-C07-mix",
+      "label": "C07 → artesa de la mezcladora",
       "from": {
         "owner": "C07",
         "feature": "station",
@@ -992,23 +992,22 @@
         ]
       },
       "to": {
-        "owner": "C02",
+        "owner": "mezcladora",
         "feature": "station",
         "local": [
-          603.8612041568837,
-          0,
-          201.1133756485993
+          5860,
+          480,
+          1200
         ]
       },
-      "width": 220,
-      "depth": 220,
+      "width": 150,
+      "depth": 150,
       "topWidth": 240,
       "topDepth": 240,
-      "bottomWidth": 220,
-      "bottomDepth": 220,
+      "bottomWidth": 150,
+      "bottomDepth": 150,
       "class": "P",
-      "kind": "direct",
-      "toOrientation": "beltSurface"
+      "kind": "direct"
     }
   ],
   "process": {
